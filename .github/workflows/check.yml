@@ -1,0 +1,41 @@
+name: check
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    tags-ignore: ["**"]
+  pull_request:
+  schedule:
+    - cron: "0 8 * * *"
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: tox env ${{ matrix.tox_env }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        tox_env:
+          - dev
+    steps:
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v2
+        with:
+          enable-cache: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+      - name: setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: git config --global init.defaultBranch main
+      - name: install tox
+        run: uv pip install tox tox-uv --system
+      - name: Setup test suite
+        run: tox -vv --notest --skip-missing-interpreters false -e ${{ matrix.tox_env }}
+      - name: Run test suite
+        run: tox --skip-pkg-install -e ${{ matrix.tox_env }}

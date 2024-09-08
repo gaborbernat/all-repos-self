@@ -1,0 +1,11 @@
+{
+  "output_dir": "repos",
+  "source": "all_repos.source.json_file",
+  "source_settings": { "filename": "repos.json" },
+  "push": "all_repos.push.github_pull_request",
+  "push_settings": {
+    "api_key_env": "GITHUB_TOKEN",
+    "username": "bgabor8",
+    "fork": true
+  }
+}
