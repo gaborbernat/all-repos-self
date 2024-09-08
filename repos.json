@@ -1,0 +1,21 @@
+{
+  "platformdirs": "git@github.com:tox-dev/platformdirs",
+  "filelock": "git@github.com:tox-dev/filelock",
+  "virtualenv": "git@github.com:pypa/virtualenv",
+  "tox": "git@github.com:tox-dev/tox",
+  "pyproject-api": "git@github.com:tox-dev/pyproject-api",
+  "pytest-env": "git@github.com:pytest-dev/pytest-env",
+  "pipdeptree": "git@github.com:tox-dev/pipdeptree",
+  "sphinx-autodoc-typehints": "git@github.com:tox-dev/sphinx-autodoc-typehints",
+  "tox-uv": "git@github.com:tox-dev/tox-uv",
+  "pytest-print": "git@github.com:pytest-dev/pytest-print",
+  "pyproject-fmt ": "git@github.com:tox-dev/pyproject-fmt",
+  "pyproject-fmt-rust ": "git@github.com:tox-dev/pyproject-fmt-rust",
+  "tox-gh": "git@github.com:tox-dev/tox-gh",
+  "sphinx-argparse-cli": "git@github.com:tox-dev/sphinx-argparse-cli",
+  "devpi-process": "git@github.com:tox-dev/devpi-process",
+  "tox-ini-fmt": "git@github.com:tox-dev/tox-ini-fmt",
+  "pre-commit-uv": "git@github.com:tox-dev/pre-commit-uv",
+  "bump-deps-index": "git@github.com:gaborbernat/bump-deps-index",
+  "pypi-changes": "git@github.com:gaborbernat/pypi-changes"
+}
