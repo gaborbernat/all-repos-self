@@ -6,17 +6,20 @@ lint.select = [
   "ALL",
 ]
 lint.ignore = [
-  "ANN101", # Missing type annotation for `self` in method
-  "ANN102", # Missing type annotation for `cls` in classmethod
-  "COM812", # conflict with formatter
-  "CPY",    # No copyright header
-  "D",      # No documentation
-  "D203",   # one-blank-line-before-class conflicts with D211
-  "D213",   # multi-line-summary-first-line conflicts with D212
-  "INP001", #  no package here
-  "ISC001", # conflict with formatter
-  "S",      # no security concerns
+  "ANN101",  # Missing type annotation for `self` in method
+  "ANN102",  # Missing type annotation for `cls` in classmethod
+  "COM812",  # conflict with formatter
+  "CPY",     # No copyright header
+  "D",       # No documentation
+  "D203",    # one-blank-line-before-class conflicts with D211
+  "D213",    # multi-line-summary-first-line conflicts with D212
+  "INP001",  #  no package here
+  "ISC001",  # conflict with formatter
+  "PLR6301", # no force static
+  "S",       # no security concerns
+  "T201",    # print is fine
 ]
+
 lint.isort = { known-first-party = [  ], required-imports = [
   "from __future__ import annotations",
 ] }

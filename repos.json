@@ -17,5 +17,10 @@
   "tox-ini-fmt": "git@github.com:tox-dev/tox-ini-fmt",
   "pre-commit-uv": "git@github.com:tox-dev/pre-commit-uv",
   "bump-deps-index": "git@github.com:gaborbernat/bump-deps-index",
-  "pypi-changes": "git@github.com:gaborbernat/pypi-changes"
+  "PyVenvManage": "git@github.com:tox-dev/PyVenvManage",
+  "pypi-changes": "git@github.com:gaborbernat/pypi-changes",
+  "bernat-tech": "git@github.com:gaborbernat/bernat-tech",
+  "cv": "git@github.com:gaborbernat/cv",
+  "gaborbernat": "git@github.com:gaborbernat/gaborbernat",
+  "all-repos-self": "git@github.com:gaborbernat/all-repos-self"
 }
