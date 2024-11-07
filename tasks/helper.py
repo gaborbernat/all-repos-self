@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import contextlib
 import json
 import os
 import subprocess
@@ -12,7 +13,7 @@ from functools import cached_property
 from pathlib import Path
 from typing import TYPE_CHECKING, Generic, TypeVar
 
-from github import Auth, Github, PullRequest, Repository
+from github import Auth, Github, GithubException, PullRequest, Repository
 from rich.align import Align
 from rich.console import Console
 from rich.table import Table
@@ -81,19 +82,21 @@ class BaseCmd(ABC, Generic[T]):
         raise NotImplementedError
 
 
-class OpenPRsOption(CmdNamespace):
+class PRsOption(CmdNamespace):
     open: bool
+    merge_green_bots: bool
 
 
-class OpenPRs(BaseCmd[OpenPRsOption]):
+class PRs(BaseCmd[PRsOption]):
     @staticmethod
     def parser_name_alias_help() -> tuple[str, str, str]:
         return "pr", "p", "show open PRs"
 
     def define_args(self, parser: ArgumentParser) -> None:
         parser.add_argument("-o", "--open", action="store_true")
+        parser.add_argument("-m", "--merge-green-bots", action="store_true")
 
-    def run(self, opts: OpenPRsOption, github: GH) -> None:
+    def run(self, opts: PRsOption, github: GH) -> None:
         prefix = os.path.commonprefix([pr.updated_at.isoformat() for _, pr in github.open_prs])
         table = Table(title=f"Pull requests @ {prefix}")
         for header in ["Date", "Org", "Repo", Align("Title", align="center")]:
@@ -103,7 +106,27 @@ class OpenPRs(BaseCmd[OpenPRsOption]):
             key=lambda d: (d[0].owner.login, d[0].name, d[1].updated_at.isoformat()),
             reverse=True,
         ):
-            if opts.open:
+            open_url = opts.open
+            if opts.merge_green_bots and pr.user.login in {"pre-commit-ci[bot]", "dependabot[bot]"}:
+                error = ""
+                try:
+                    checks = pr.get_commits().reversed[0].get_check_runs()
+                    with contextlib.suppress(GithubException):
+                        pr.enable_automerge(merge_method="SQUASH")
+                    if all(
+                        i.conclusion in {"success", "skipped"}
+                        for i in checks
+                        if i.app.url not in {"/apps/dependabot", "/apps/azure-pipelines"}
+                    ):
+                        pr.create_review(event="APPROVE", body="LGTM!")
+                        open_url = False
+                    else:
+                        error = f"checks {'\t'.join(f'{c.app.url}: {c.conclusion}' for c in checks)}"
+                except GithubException as exc:
+                    error = repr(exc)
+                if error:
+                    print(f"{pr.html_url}: {error}")
+            if open_url:
                 subprocess.check_call(["open", pr.html_url])
             table.add_row(
                 pr.updated_at.isoformat()[len(prefix) :],
@@ -150,7 +173,7 @@ def main() -> int:
 
     commands: list[BaseCmd] = []
     cmd_classes: list[type[BaseCmd]] = [
-        OpenPRs,
+        PRs,
         Open,
     ]
     for cmd_class in cmd_classes:

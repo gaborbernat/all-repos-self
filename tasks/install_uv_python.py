@@ -22,13 +22,13 @@ def run() -> None:
                 "-s",
                 "-f",
                 src / f"{impl}-{version}-macos-aarch64-none" / "bin" / "python",
-                dest / f"{"python" if impl == "cpython" else "pypy"}{minor}",
+                dest / f"{'python' if impl == 'cpython' else 'pypy'}{minor}",
             ])
     check_call([
         "ln",
         "-s",
         "-f",
-        src / f"cpython-{py["cpython"][-1]}-macos-aarch64-none" / "bin" / "python",
+        src / f"cpython-{py['cpython'][-1]}-macos-aarch64-none" / "bin" / "python",
         dest / "python",
     ])
 
