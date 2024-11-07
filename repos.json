@@ -10,7 +10,7 @@
   "tox-uv": "git@github.com:tox-dev/tox-uv",
   "pytest-print": "git@github.com:pytest-dev/pytest-print",
   "pyproject-fmt ": "git@github.com:tox-dev/pyproject-fmt",
-  "pyproject-fmt-rust ": "git@github.com:tox-dev/pyproject-fmt-rust",
+  "toml-fmt ": "git@github.com:tox-dev/toml-fmt",
   "tox-gh": "git@github.com:tox-dev/tox-gh",
   "sphinx-argparse-cli": "git@github.com:tox-dev/sphinx-argparse-cli",
   "devpi-process": "git@github.com:tox-dev/devpi-process",
