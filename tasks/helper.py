@@ -11,12 +11,15 @@ from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser, Namespace
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import cached_property
 from pathlib import Path
-from typing import TYPE_CHECKING, Generic, TypeVar
+from typing import TYPE_CHECKING, TypeVar
 
+import truststore
 from github import Auth, Github, GithubException, PullRequest, Repository
 from rich.align import Align
 from rich.console import Console
 from rich.table import Table
+
+truststore.inject_into_ssl()
 
 if TYPE_CHECKING:
     from collections.abc import Callable, Iterable, Iterator
@@ -63,7 +66,7 @@ class CmdNamespace(Namespace):
 T = TypeVar("T", bound=CmdNamespace)
 
 
-class BaseCmd(ABC, Generic[T]):
+class BaseCmd[T: CmdNamespace](ABC):
     @staticmethod
     @abstractmethod
     def parser_name_alias_help() -> tuple[str, str, str]:
