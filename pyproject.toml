@@ -6,8 +6,6 @@ lint.select = [
   "ALL",
 ]
 lint.ignore = [
-  "ANN101",  # Missing type annotation for `self` in method
-  "ANN102",  # Missing type annotation for `cls` in classmethod
   "COM812",  # conflict with formatter
   "CPY",     # No copyright header
   "D",       # No documentation
