@@ -9,7 +9,7 @@
   "sphinx-autodoc-typehints": "git@github.com:tox-dev/sphinx-autodoc-typehints",
   "tox-uv": "git@github.com:tox-dev/tox-uv",
   "pytest-print": "git@github.com:pytest-dev/pytest-print",
-  "pyproject-fmt ": "git@github.com:tox-dev/pyproject-fmt",
+  "pyproject-fmt": "git@github.com:tox-dev/pyproject-fmt",
   "toml-fmt": "git@github.com:tox-dev/toml-fmt",
   "toml-fmt-common": "git@github.com:tox-dev/toml-fmt-common",
   "tox-gh": "git@github.com:tox-dev/tox-gh",
@@ -23,5 +23,9 @@
   "bernat-tech": "git@github.com:gaborbernat/bernat-tech",
   "cv": "git@github.com:gaborbernat/cv",
   "gaborbernat": "git@github.com:gaborbernat/gaborbernat",
+  "action-pre-commit-uv": "git@github.com:tox-dev/action-pre-commit-uv",
+  "mdformat-hugo": "git@github.com:gaborbernat/mdformat-hugo",
+  "xml-fmt": "git@github.com:tox-dev/xml-fmt",
+  "jetbrains-fish": "git@github.com:tox-dev/jetbrains-fish",
   "all-repos-self": "git@github.com:gaborbernat/all-repos-self"
 }
