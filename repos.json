@@ -27,5 +27,6 @@
   "mdformat-hugo": "git@github.com:gaborbernat/mdformat-hugo",
   "xml-fmt": "git@github.com:tox-dev/xml-fmt",
   "jetbrains-fish": "git@github.com:tox-dev/jetbrains-fish",
-  "all-repos-self": "git@github.com:gaborbernat/all-repos-self"
+  "all-repos-self": "git@github.com:gaborbernat/all-repos-self",
+  "python-discovery": "git@github.com:tox-dev/python-discovery"
 }
