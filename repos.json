@@ -11,7 +11,6 @@
   "pytest-print": "git@github.com:pytest-dev/pytest-print",
   "pyproject-fmt": "git@github.com:tox-dev/pyproject-fmt",
   "toml-fmt": "git@github.com:tox-dev/toml-fmt",
-  "toml-fmt-common": "git@github.com:tox-dev/toml-fmt-common",
   "tox-gh": "git@github.com:tox-dev/tox-gh",
   "sphinx-argparse-cli": "git@github.com:tox-dev/sphinx-argparse-cli",
   "devpi-process": "git@github.com:tox-dev/devpi-process",
@@ -28,5 +27,14 @@
   "xml-fmt": "git@github.com:tox-dev/xml-fmt",
   "jetbrains-fish": "git@github.com:tox-dev/jetbrains-fish",
   "all-repos-self": "git@github.com:gaborbernat/all-repos-self",
-  "python-discovery": "git@github.com:tox-dev/python-discovery"
+  "python-discovery": "git@github.com:tox-dev/python-discovery",
+  "get-virtualenv": "git@github.com:pypa/get-virtualenv",
+  "datamodel-code-generator": "git@github.com:koxudaxi/datamodel-code-generator",
+  "build": "git@github.com:pypa/build",
+  "pipx": "git@github.com:pypa/pipx",
+  "pytest-memray": "git@github.com:bloomberg/pytest-memray",
+  "ipydatagrid": "git@github.com:jupyter-widgets/ipydatagrid",
+  "attrs-strict": "git@github.com:bloomberg/attrs-strict",
+  "dotfiles": "git@github.com:gaborbernat/dotfiles",
+  "ropi_jegyzet_latex": "git@github.com:gaborbernat/ropi_jegyzet_latex"
 }
