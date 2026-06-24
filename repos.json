@@ -35,7 +35,6 @@
   "build": "git@github.com:pypa/build",
   "pipx": "git@github.com:pypa/pipx",
   "pytest-memray": "git@github.com:bloomberg/pytest-memray",
-  "ipydatagrid": "git@github.com:jupyter-widgets/ipydatagrid",
   "attrs-strict": "git@github.com:bloomberg/attrs-strict",
   "dotfiles": "git@github.com:gaborbernat/dotfiles",
   "ropi_jegyzet_latex": "git@github.com:gaborbernat/ropi_jegyzet_latex"
