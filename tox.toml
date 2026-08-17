@@ -1,17 +1,17 @@
-requires = [ "tox>=4.25" ]
+requires = [ "tox>=4.61.2" ]
 env_list = [ "fix", "helper" ]
 
 [env.fix]
 description = "run static analysis and style check"
 skip_install = true
-deps = [ "pre-commit-uv>=4.1.4" ]
+deps = [ "pre-commit-uv>=4.3" ]
 pass_env = [ "NPM_CONFIG_REGISTRY" ]
 commands = [ [ "pre-commit", "run", "--all-files", "--show-diff-on-failure" ] ]
 
 [env.helper]
 description = "helper methods"
 skip_install = true
-deps = [ "pygithub>=2.6.1", "rich>=14", "truststore>=0.10.1" ]
+deps = [ "pygithub>=2.10", "rich>=15", "truststore>=0.10.4" ]
 pass_env = [ "GITHUB_TOKEN", "REQUESTS_CA_BUNDLE" ]
 commands = [ [ "python", "tasks/helper.py", { replace = "posargs", extend = true } ] ]
 
@@ -21,8 +21,8 @@ skip_install = true
 deps = [
   { replace = "ref", of = [ "env.fix", "deps" ], extend = true },
   { replace = "ref", of = [ "env.helper", "deps" ], extend = true },
-  "all-repos>=1.29",
-  "bump-deps-index>=1.6",
+  "all-repos>=1.33",
+  "bump-deps-index>=1.15",
 ]
 commands = [
   [ "chmod", "600", "all-repos.json" ],
