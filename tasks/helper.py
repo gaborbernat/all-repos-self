@@ -10,6 +10,7 @@ from abc import ABC, abstractmethod
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser, Namespace
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import cached_property
+from os.path import commonpath
 from pathlib import Path
 from typing import TYPE_CHECKING, TypeVar
 
@@ -100,7 +101,7 @@ class PRs(BaseCmd[PRsOption]):
         parser.add_argument("-m", "--merge-green-bots", action="store_true")
 
     def run(self, opts: PRsOption, github: GH) -> None:
-        prefix = os.path.commonprefix([pr.updated_at.isoformat() for _, pr in github.open_prs])
+        prefix = commonpath([pr.updated_at.isoformat() for _, pr in github.open_prs])
         table = Table(title=f"Pull requests @ {prefix}")
         for header in ["Date", "Org", "Repo", Align("Title", align="center")]:
             table.add_column(header)

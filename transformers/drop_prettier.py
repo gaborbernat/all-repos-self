@@ -72,7 +72,7 @@ def apply_fix() -> None:
         autofix_lib.run(PC, "run", "--all-files", check=False)
 
 
-def check_fix(**kwargs: Any) -> None:  # noqa: ARG001,ANN401
+def check_fix(**kwargs: Any) -> None:  # ruff: ignore[unused-function-argument, any-type]
     return None  # create the PR even when the reformat leaves the tree dirty
 
 
