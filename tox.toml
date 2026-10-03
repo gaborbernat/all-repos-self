@@ -1,4 +1,4 @@
-requires = [ "tox>=4.61.2" ]
+requires = [ "tox>=4.64.7" ]
 env_list = [ "fix", "helper" ]
 
 [env.fix]

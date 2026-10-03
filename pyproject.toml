@@ -17,8 +17,7 @@ lint.ignore = [
   "S",       # no security concerns
   "T201",    # print is fine
 ]
-
-lint.isort = { known-first-party = [  ], required-imports = [
+lint.isort = { known-first-party = [], required-imports = [
   "from __future__ import annotations",
 ] }
 lint.preview = true
