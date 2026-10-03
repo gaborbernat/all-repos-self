@@ -10,6 +10,7 @@ from abc import ABC, abstractmethod
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser, Namespace
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import cached_property
+from os.path import commonpath
 from pathlib import Path
 from typing import TYPE_CHECKING, TypeVar
 
@@ -100,7 +101,7 @@ class PRs(BaseCmd[PRsOption]):
         parser.add_argument("-m", "--merge-green-bots", action="store_true")
 
     def run(self, opts: PRsOption, github: GH) -> None:
-        prefix = os.path.commonprefix([pr.updated_at.isoformat() for _, pr in github.open_prs])
+        prefix = commonpath([pr.updated_at.isoformat() for _, pr in github.open_prs])
         table = Table(title=f"Pull requests @ {prefix}")
         for header in ["Date", "Org", "Repo", Align("Title", align="center")]:
             table.add_column(header)
@@ -111,24 +112,10 @@ class PRs(BaseCmd[PRsOption]):
         ):
             open_url = opts.open
             if opts.merge_green_bots and pr.user.login in {"pre-commit-ci[bot]", "dependabot[bot]"}:
-                error = ""
-                try:
-                    checks = pr.get_commits().reversed[0].get_check_runs()
-                    with contextlib.suppress(GithubException):
-                        pr.enable_automerge(merge_method="SQUASH")
-                    if all(
-                        i.conclusion in {"success", "skipped"}
-                        for i in checks
-                        if i.app.url not in {"/apps/dependabot", "/apps/azure-pipelines"}
-                    ):
-                        pr.create_review(event="APPROVE", body="LGTM!")
-                        open_url = False
-                    else:
-                        error = f"checks {'\t'.join(f'{c.app.url}: {c.conclusion}' for c in checks)}"
-                except GithubException as exc:
-                    error = repr(exc)
-                if error:
+                if error := self._approve_if_green(pr):
                     print(f"{pr.html_url}: {error}")
+                else:
+                    open_url = False
             if open_url:
                 subprocess.check_call(["open", pr.html_url])
             table.add_row(
@@ -138,6 +125,27 @@ class PRs(BaseCmd[PRsOption]):
                 f'[link="{pr.html_url}"]{pr.title.strip()}[/link]',
             )
         Console().print(table)
+
+    @staticmethod
+    def _approve_if_green(pr: PullRequest) -> str:
+        try:
+            checks = list(pr.get_commits().reversed[0].get_check_runs())
+            with contextlib.suppress(GithubException):
+                pr.enable_automerge(merge_method="SQUASH")
+            green = all(
+                i.conclusion in {"success", "skipped"}
+                for i in checks
+                if i.app.url not in {"/apps/dependabot", "/apps/azure-pipelines"}
+            )
+        except GithubException as exc:
+            return repr(exc)
+        if not green:
+            return f"checks {'\t'.join(f'{c.app.url}: {c.conclusion}' for c in checks)}"
+        try:
+            pr.create_review(event="APPROVE", body="LGTM!")
+        except GithubException as exc:
+            return repr(exc)
+        return ""
 
 
 class OpensOption(CmdNamespace):
