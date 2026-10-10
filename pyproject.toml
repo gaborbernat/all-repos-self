@@ -6,16 +6,16 @@ lint.select = [
   "ALL",
 ]
 lint.ignore = [
-  "COM812",  # conflict with formatter
-  "CPY",     # No copyright header
-  "D",       # No documentation
-  "D203",    # one-blank-line-before-class conflicts with D211
-  "D213",    # multi-line-summary-first-line conflicts with D212
-  "INP001",  #  no package here
-  "ISC001",  # conflict with formatter
-  "PLR6301", # no force static
-  "S",       # no security concerns
-  "T201",    # print is fine
+  "CPY",                                       # No copyright header
+  "D",                                         # No documentation
+  "implicit-namespace-package",                #  no package here
+  "incorrect-blank-line-before-class",         # one-blank-line-before-class conflicts with D211
+  "missing-trailing-comma",                    # conflict with formatter
+  "multi-line-summary-second-line",            # multi-line-summary-first-line conflicts with D212
+  "no-self-use",                               # no force static
+  "print",                                     # print is fine
+  "S",                                         # no security concerns
+  "single-line-implicit-string-concatenation", # conflict with formatter
 ]
 lint.isort = { known-first-party = [], required-imports = [
   "from __future__ import annotations",
