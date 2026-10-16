@@ -27,12 +27,15 @@
   "mdformat-hugo": "git@github.com:gaborbernat/mdformat-hugo",
   "xml-fmt": "git@github.com:tox-dev/xml-fmt",
   "turbohtml": "git@github.com:tox-dev/turbohtml",
+  "peryx": "git@github.com:tox-dev/peryx",
+  "mdformat-zola": "git@github.com:tox-dev/mdformat-zola",
   "jetbrains-fish": "git@github.com:tox-dev/jetbrains-fish",
   "all-repos-self": "git@github.com:gaborbernat/all-repos-self",
   "python-discovery": "git@github.com:tox-dev/python-discovery",
   "get-virtualenv": "git@github.com:pypa/get-virtualenv",
   "build": "git@github.com:pypa/build",
   "pipx": "git@github.com:pypa/pipx",
+  "token-menu-bar-macos": "git@github.com:tox-dev/token-menu-bar-macos",
   "dotfiles": "git@github.com:gaborbernat/dotfiles",
   "ropi_jegyzet_latex": "git@github.com:gaborbernat/ropi_jegyzet_latex"
 }
