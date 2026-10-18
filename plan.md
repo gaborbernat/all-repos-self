@@ -201,7 +201,10 @@ Next: [bump-deps-index PR #269](https://github.com/gaborbernat/bump-deps-index/p
 
 1. Pilot `gaborbernat/mdformat-hugo` with [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35): code, App, key, environment, rulesets, and the published `0.3.1` release are verified.
 2. Finish the personal repositories first. The Apps, rulesets, and first releases are verified for `mdformat-hugo`, `pypi-changes`, and `bump-deps-index`. Validate the newly merged GitHub Release automation in `mdformat-hugo` and `pypi-changes` with another release before moving to the next repository.
+
 3. Migrate the six definite PAT users: filelock, platformdirs, pipdeptree, python-discovery, tox, and turbohtml. Audit `GH_RELEASE_TOKEN` in pipx and GitHub-write `RELEASE_TOKEN` in PyVenvManage, jetbrains-fish, and toml-fmt; GitHub does not reveal secret types.
 4. Preserve each publisher's special behavior. Backfill changelogs in repositories that lack them.
 5. Migrate PyPA and pytest-dev repositories last with their organization admins; we cannot create Apps in those organizations ourselves.
+
+[pypi-changes PR #269](https://github.com/gaborbernat/pypi-changes/pull/269) links GitHub Releases from the README and supplies the documentation fragment for `1.7.2`. Merge after the replacement CI run passes, then dispatch `1.7.2` and verify its PyPI and GitHub releases.
 6. Re-audit all 29 repositories against the common contract and update the checkboxes with links to the relevant commits, rulesets, and verification runs.
