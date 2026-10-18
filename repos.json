@@ -35,6 +35,7 @@
   "get-virtualenv": "git@github.com:pypa/get-virtualenv",
   "build": "git@github.com:pypa/build",
   "pipx": "git@github.com:pypa/pipx",
+  "quotaline": "git@github.com:quotaline/quotaline",
   "token-menu-bar-macos": "git@github.com:tox-dev/token-menu-bar-macos",
   "dotfiles": "git@github.com:gaborbernat/dotfiles",
   "ropi_jegyzet_latex": "git@github.com:gaborbernat/ropi_jegyzet_latex"
