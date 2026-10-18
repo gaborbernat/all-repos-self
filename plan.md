@@ -96,6 +96,8 @@ Pipx PR #2161 and turbohtml PR #1538 now reject `misc` fragments in their naming
 
 The ruleset audit found that `pypa/virtualenv` currently requires one approving review. Set it to zero. Many existing branch rulesets also set `require_extra_approval_for_unattributed_changes=true`; disable it while retaining the admin bypass and replacing matrix check lists with the aggregate. These are settings changes after all code PRs are ready.
 
+Pipx and quotaline still use classic branch protection. Create the replacement branch ruleset with the aggregate and admin/App bypass before removing classic protection. Preserve pipx's linear-history rule and block its currently allowed force pushes; retain quotaline's required external checks.
+
 
 ## Released repositories
 
