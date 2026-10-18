@@ -50,7 +50,7 @@ The fragment tool may differ by project, but its PR check must enforce the same 
 
 ## Code PRs
 
-Prepare and verify the code PRs before changing App installations, secrets, or rulesets. These links track code work; the release checklist below remains open until the repository's complete release path is verified.
+Complete one repository at a time: verify its code PR, configure its repository-only App and GitHub settings, then hand the PR to Bernát to merge. These links track code work; the release checklist below remains open until the repository's complete release path is verified.
 
 - [ ] `tox-dev/sphinx-autodoc-typehints`: [PR #1091](https://github.com/tox-dev/sphinx-autodoc-typehints/pull/1091) separates Towncrier from the credentialed release push and checks the patch before minting the App token.
 - [x] `tox-dev/peryx`: [PR #2375](https://github.com/tox-dev/peryx/pull/2375) requires a change file and guards the published version.
@@ -176,9 +176,9 @@ These remain in the maintenance inventory. Do not create release changelogs mere
 
 ## Rollout order
 
-1. Prepare all code PRs for repository-only Apps and wait for their checks before changing GitHub settings. Prove the design on one tox-dev PAT-backed repository without publishing a real release. Plan PyPA App changes with an organization admin rather than assuming we can make them ourselves.
-2. Migrate the six definite PAT users: filelock, platformdirs, pipdeptree, python-discovery, tox, and turbohtml. Audit `GH_RELEASE_TOKEN` in pipx and GitHub-write `RELEASE_TOKEN` in PyVenvManage, jetbrains-fish, and toml-fmt; GitHub does not reveal secret types.
-3. Finish repositories with an existing changelog or App, preserving each publisher's special behavior.
-4. Backfill and migrate the thirteen non-pytest-dev repositories without historical changelogs.
-5. Migrate `pytest-dev/pytest-env` and `pytest-dev/pytest-print` last, with an organization admin involved if the App design is chosen.
+1. Pilot `gaborbernat/mdformat-hugo` with [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35): verify the PR, create a repository-only App and back up its key in Insync, configure `release-auth`, require the aggregate check, protect release tags, and allow admin and release-App bypass. Require zero reviews and disable extra approval. Bernát merges the PR; then verify the release path without publishing a real release.
+2. Repeat that sequence for each repository with a ready PR. Set up its App and GitHub settings before handing its PR to Bernát, and verify it after merge before moving to the next repository.
+3. Migrate the six definite PAT users: filelock, platformdirs, pipdeptree, python-discovery, tox, and turbohtml. Audit `GH_RELEASE_TOKEN` in pipx and GitHub-write `RELEASE_TOKEN` in PyVenvManage, jetbrains-fish, and toml-fmt; GitHub does not reveal secret types.
+4. Preserve each publisher's special behavior. Backfill changelogs in repositories that lack them.
+5. Migrate PyPA and pytest-dev repositories last with their organization admins; we cannot create Apps in those organizations ourselves.
 6. Re-audit all 29 repositories against the common contract and update the checkboxes with links to the relevant commits, rulesets, and verification runs.
