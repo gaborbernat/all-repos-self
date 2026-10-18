@@ -72,6 +72,7 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `tox-dev/pre-commit-uv`: [PR #186](https://github.com/tox-dev/pre-commit-uv/pull/186) backfills all 15 tags and adds fragment, aggregate, preparation, and publish checks.
 - [ ] `tox-dev/tox-uv`: [PR #386](https://github.com/tox-dev/tox-uv/pull/386) backfills all 75 tags and adds fragment, aggregate, preparation, and publish checks for its two distributions.
 - [ ] `tox-dev/action-pre-commit-uv`: [PR #39](https://github.com/tox-dev/action-pre-commit-uv/pull/39) backfills seven versioned releases and adds fragment, aggregate, App-backed preparation, and GitHub Release checks while retaining floating action tags.
+- [ ] `tox-dev/jetbrains-fish`: [PR #144](https://github.com/tox-dev/jetbrains-fish/pull/144) backfills missing and placeholder changelog sections, adds fragment and aggregate checks, prepares releases with a repository App, and separates the post-release PR from Marketplace secrets.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
