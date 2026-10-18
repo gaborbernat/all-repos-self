@@ -193,6 +193,8 @@ These remain in the maintenance inventory. Do not create release changelogs mere
 
 Use the tracked versioned changelog as the source when it exists, link the published ecosystem version, and link the comparison with the previous version tag. For the first tag, link its commit history. Preserve release assets, draft/prerelease state, and the Latest designation. Create a missing GitHub Release only for a verified published tag; if that tag has no release-specific changelog text, include the ecosystem and comparison links without inventing notes. Existing Releases without an ecosystem publication get no ecosystem link. A completed row covers the repository's existing tagged versions; future releases still depend on the open workflow PRs. Untagged ecosystem versions remain listed as gaps.
 
+The 2026-10-18 API audit found 1,695 GitHub Releases across the 28 repositories with release history; `quotaline/quotaline` has none. No body retains GitHub's generated-notes comment. Every versioned Release has a comparison or first-tag commits link. The floating `v1` Release in `tox-dev/action-pre-commit-uv` points to versioned releases instead of carrying a static comparison.
+
 - [x] `gaborbernat/bump-deps-index`: 31 release bodies updated; [PR #272](https://github.com/gaborbernat/bump-deps-index/pull/272) adds future comparison links.
 - [x] `gaborbernat/pypi-changes`: 16 versions covered, including the missing `1.6.0` GitHub Release; [PR #269](https://github.com/gaborbernat/pypi-changes/pull/269) adds future comparison links.
 - [x] `gaborbernat/mdformat-hugo`: four versions covered, including the missing `0.2.0` GitHub Release; [PR #40](https://github.com/gaborbernat/mdformat-hugo/pull/40) adds future comparison links.
