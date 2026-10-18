@@ -218,7 +218,7 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [ ] `pypa/pipx`
 - [ ] `pypa/virtualenv`
 - [x] `tox-dev/tox-uv`: all 75 published tags now have GitHub Releases, including the missing `1.36.1`; [PR #388](https://github.com/tox-dev/tox-uv/pull/388) adds future comparison links. Historical notes link `tox-uv-bare` from its first published version, `1.32.0`.
-- [ ] `quotaline/quotaline`
+- [x] `quotaline/quotaline`: no existing repository tags or GitHub Releases to backfill. [PR #9](https://github.com/quotaline/quotaline/pull/9) carries the future release model; verify its first tagged release after merge.
 - [x] `tox-dev/toml-fmt`: 84 existing release bodies updated and two missing GitHub Releases created. All 86 workspace tags now link their package's PyPI version and previous tag; [PR #484](https://github.com/tox-dev/toml-fmt/pull/484) adds those links to future releases. Older PyPI versions predate this workspace and have no tags here.
 - [ ] `pytest-dev/pytest-env`
 - [ ] `pytest-dev/pytest-print`
