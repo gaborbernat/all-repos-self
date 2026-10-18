@@ -201,6 +201,10 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [x] `tox-dev/xml-fmt`: five versions covered, including the missing `1.1.0` GitHub Release; [PR #125](https://github.com/tox-dev/xml-fmt/pull/125) adds future comparison links.
 - [x] `tox-dev/sphinx-argparse-cli`: 40 versions covered, including the missing `1.22.0` GitHub Release; [PR #374](https://github.com/tox-dev/sphinx-argparse-cli/pull/374) restores three omitted changelog sections and adds future comparison links.
 - [x] `tox-dev/pre-commit-uv`: 15 tagged versions covered, including the missing `4.3.0` GitHub Release; [PR #188](https://github.com/tox-dev/pre-commit-uv/pull/188) adds future comparison links. Four older PyPI versions predate this repository's `4.0.0` fork and have no tags in this repository.
+- [x] `tox-dev/tox-gh`: 23 release bodies updated; [PR #308](https://github.com/tox-dev/tox-gh/pull/308) adds future comparison links.
+- [x] `tox-dev/tox-ini-fmt`: 26 versions covered, including the missing `0.1.0` GitHub Release; [PR #382](https://github.com/tox-dev/tox-ini-fmt/pull/382) adds future comparison links.
+- [x] `tox-dev/pyproject-api`: 34 release bodies updated from the tracked RST changelog; [PR #324](https://github.com/tox-dev/pyproject-api/pull/324) adds future PyPI and comparison links.
+- [x] `tox-dev/python-discovery`: 24 release bodies updated; [PR #153](https://github.com/tox-dev/python-discovery/pull/153) restores missing `1.5.2` and `1.6.3` changelog sections, removes already-shipped fragments, and adds future PyPI and comparison links.
 - [ ] `tox-dev/sphinx-autodoc-typehints`
 - [ ] `tox-dev/peryx`
 - [ ] `tox-dev/filelock`
@@ -210,10 +214,6 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [ ] `tox-dev/turbohtml`
 - [ ] `pypa/pipx`
 - [ ] `pypa/virtualenv`
-- [ ] `tox-dev/python-discovery`
-- [ ] `tox-dev/tox-ini-fmt`
-- [ ] `tox-dev/tox-gh`
-- [ ] `tox-dev/pyproject-api`
 - [ ] `tox-dev/tox-uv`
 - [ ] `tox-dev/action-pre-commit-uv`
 - [ ] `tox-dev/jetbrains-fish`
