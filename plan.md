@@ -84,7 +84,9 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 
 ### Adversarial review
 
-Review the complete diff, release script, workflow permissions, changelog policy, and CI for every rollout PR. Keep findings in that repository's existing PR. Completed review fixes: filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Each replaced a GitHub write PAT with a repository App token. Tox and turbohtml also stopped force pushing release refs. The internal fragments on those seven PRs were removed and `skip news` was applied. Twelve new preparation workflows now resolve the App bot identity from their installation tokens. A later review separated untrusted Towncrier execution from App token creation in 14 code PRs and the reference PR #1091. Recheck the new CI runs before marking any PR ready.
+Review the full diff, release path, permissions, changelog policy, and CI for every rollout PR. Keep fixes in that repository's PR. The first pass replaced GitHub write PATs in filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Tox and turbohtml also stopped force pushing release refs. Those seven PRs use `skip news` for their internal changes. Twelve new workflows resolve the bot identity from the App token.
+
+A later pass separated Towncrier from the App token in 14 code PRs and reference PR #1091. It made the same split for Knope in peryx and release tooling in pipx, pipdeptree, python-discovery, tox, and turbohtml. Reference PR #1091 now reruns its changelog check when `skip news` changes. Recheck CI before marking any PR ready.
 
 
 ## Released repositories
