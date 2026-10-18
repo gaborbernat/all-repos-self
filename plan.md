@@ -68,6 +68,7 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `gaborbernat/pypi-changes`: [PR #266](https://github.com/gaborbernat/pypi-changes/pull/266) backfills all 15 tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/pyproject-api`: [PR #324](https://github.com/tox-dev/pyproject-api/pull/324) restores all 34 tagged versions, adds fragment and aggregate checks, and prepares releases with a repository-only App.
 - [ ] `gaborbernat/bump-deps-index`: [PR #269](https://github.com/gaborbernat/bump-deps-index/pull/269) imports the notes for all 30 releases into the docs and adds fragment, aggregate, preparation, and publish checks.
+- [ ] `tox-dev/pre-commit-uv`: [PR #186](https://github.com/tox-dev/pre-commit-uv/pull/186) backfills all 15 tags and adds fragment, aggregate, preparation, and publish checks.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
