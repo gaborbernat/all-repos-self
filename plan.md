@@ -211,7 +211,7 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [x] `tox-dev/PyVenvManage`: 25 release bodies updated with Marketplace and comparison links, preserving assets; [PR #270](https://github.com/tox-dev/PyVenvManage/pull/270) adds future links.
 - [ ] `tox-dev/sphinx-autodoc-typehints`
 - [ ] `tox-dev/filelock`
-- [ ] `tox-dev/platformdirs`
+- [x] `tox-dev/platformdirs`: 88 existing release bodies updated; four missing GitHub Releases created for published versions (`v2.0.0a1`–`v2.0.0a3` and `2.0.2`). [PR #628](https://github.com/tox-dev/platformdirs/pull/628) adds future PyPI and comparison links. Old `appdirs` tags and unpublished platformdirs tags were excluded.
 - [ ] `tox-dev/pipdeptree`
 - [ ] `tox-dev/tox`
 - [x] `tox-dev/turbohtml`: 28 release bodies updated from the tracked changelog; [PR #1538](https://github.com/tox-dev/turbohtml/pull/1538) adds future PyPI and comparison links. The unpublished `0.1.0` changelog entry has no tag or PyPI release.
