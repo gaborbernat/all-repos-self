@@ -217,7 +217,7 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [x] `tox-dev/turbohtml`: 28 release bodies updated from the tracked changelog; [PR #1538](https://github.com/tox-dev/turbohtml/pull/1538) adds future PyPI and comparison links. The unpublished `0.1.0` changelog entry has no tag or PyPI release.
 - [ ] `pypa/pipx`
 - [ ] `pypa/virtualenv`
-- [ ] `tox-dev/tox-uv`
+- [x] `tox-dev/tox-uv`: all 75 published tags now have GitHub Releases, including the missing `1.36.1`; [PR #388](https://github.com/tox-dev/tox-uv/pull/388) adds future comparison links. Historical notes link `tox-uv-bare` from its first published version, `1.32.0`.
 - [ ] `quotaline/quotaline`
 - [ ] `tox-dev/toml-fmt`
 - [ ] `pytest-dev/pytest-env`
