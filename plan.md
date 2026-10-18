@@ -58,6 +58,8 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `pypa/pipx`: [PR #2161](https://github.com/pypa/pipx/pull/2161) requires news fragments, adds an aggregate, and guards publication.
 - [ ] `pypa/virtualenv`: [PR #3445](https://github.com/pypa/virtualenv/pull/3445) requires news fragments in its aggregate and guards publication.
 - [ ] `tox-dev/python-discovery`: [PR #151](https://github.com/tox-dev/python-discovery/pull/151) requires news fragments, adds an aggregate, guards publication, and replaces force pushes with fast-forward release refs.
+- [ ] `tox-dev/mdformat-zola`: [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) backfills its first release and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
+- [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 
 `peryx` PR #2375 currently fails its `source` job on RustSec advisories in locked dependencies; resolve those before treating it as green.
 
