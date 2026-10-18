@@ -21,6 +21,8 @@ The security-first baseline is a repository-only App, as used by `tox-dev/peryx`
 
 **PyPA access constraint:** we are not PyPA organization admins and cannot create a PyPA-owned App. The App route for `pypa/pipx` needs a PyPA owner to provision or approve it. `pypa/virtualenv` already uses a PyPA App, but changes to that App or its installation also need owner coordination. If PyPA does not provision an App, assess a repository-only write deploy key against the repository's permissions and rulesets before choosing it.
 
+**pytest-dev access constraint:** we are not pytest-dev organization admins and cannot create pytest-dev-owned Apps. Leave `pytest-env` and `pytest-print` until the other migrations are complete, then coordinate App setup with a pytest-dev owner or assess repository-only deploy keys against their rulesets.
+
 ## Common release contract
 
 - [ ] Preserve or backfill a versioned changelog through the latest release.
@@ -72,8 +74,8 @@ Backfill from existing tags and GitHub Releases before requiring new fragments. 
 - [ ] `gaborbernat/bump-deps-index`
 - [ ] `gaborbernat/mdformat-hugo`
 - [ ] `gaborbernat/pypi-changes`
-- [ ] `pytest-dev/pytest-env`
-- [ ] `pytest-dev/pytest-print`
+- [ ] `pytest-dev/pytest-env`: migrate last; App setup needs a pytest-dev organization admin.
+- [ ] `pytest-dev/pytest-print`: migrate last; App setup needs a pytest-dev organization admin.
 - [ ] `tox-dev/action-pre-commit-uv`: preserve the GitHub Release event and floating Action tag updates, or adapt the trigger without losing them.
 - [ ] `tox-dev/mdformat-zola`
 - [ ] `tox-dev/pre-commit-uv`
@@ -108,5 +110,6 @@ These remain in the maintenance inventory. Do not create release changelogs mere
 1. Settle the credential design and prove it on one of the tox-dev PAT-backed repositories without publishing a real release. Plan PyPA App changes with an organization admin rather than assuming we can make them ourselves.
 2. Migrate the six definite PAT users: filelock, platformdirs, pipdeptree, python-discovery, tox, and turbohtml. Audit `GH_RELEASE_TOKEN` in pipx and GitHub-write `RELEASE_TOKEN` in PyVenvManage, jetbrains-fish, and toml-fmt; GitHub does not reveal secret types.
 3. Finish repositories with an existing changelog or App, preserving each publisher's special behavior.
-4. Backfill the fifteen histories and migrate those repositories.
-5. Re-audit all 29 repositories against the common contract and update the checkboxes with links to the relevant commits, rulesets, and verification runs.
+4. Backfill and migrate the thirteen non-pytest-dev repositories without historical changelogs.
+5. Migrate `pytest-dev/pytest-env` and `pytest-dev/pytest-print` last, with an organization admin involved if the App design is chosen.
+6. Re-audit all 29 repositories against the common contract and update the checkboxes with links to the relevant commits, rulesets, and verification runs.
