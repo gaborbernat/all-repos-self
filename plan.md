@@ -71,12 +71,13 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `gaborbernat/bump-deps-index`: [PR #269](https://github.com/gaborbernat/bump-deps-index/pull/269) imports the notes for all 30 releases into the docs and adds fragment, aggregate, preparation, and publish checks.
 - [ ] `tox-dev/pre-commit-uv`: [PR #186](https://github.com/tox-dev/pre-commit-uv/pull/186) backfills all 15 tags and adds fragment, aggregate, preparation, and publish checks.
 - [ ] `tox-dev/tox-uv`: [PR #386](https://github.com/tox-dev/tox-uv/pull/386) backfills all 75 tags and adds fragment, aggregate, preparation, and publish checks for its two distributions.
+- [ ] `tox-dev/action-pre-commit-uv`: [PR #39](https://github.com/tox-dev/action-pre-commit-uv/pull/39) backfills seven versioned releases and adds fragment, aggregate, App-backed preparation, and GitHub Release checks while retaining floating action tags.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
 ### Adversarial review
 
-Review the complete diff, release script, workflow permissions, changelog policy, and CI for every rollout PR. Keep findings in that repository's existing PR. Completed review fixes: filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Each replaced a GitHub write PAT with a repository App token. Tox and turbohtml also stopped force pushing release refs. The internal fragments on those seven PRs were removed and `skip news` was applied. Recheck their new CI runs before marking any PR ready.
+Review the complete diff, release script, workflow permissions, changelog policy, and CI for every rollout PR. Keep findings in that repository's existing PR. Completed review fixes: filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Each replaced a GitHub write PAT with a repository App token. Tox and turbohtml also stopped force pushing release refs. The internal fragments on those seven PRs were removed and `skip news` was applied. Twelve new preparation workflows now resolve the App bot identity from their installation tokens. Recheck the new CI runs before marking any PR ready.
 
 
 ## Released repositories
