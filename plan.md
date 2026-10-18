@@ -28,8 +28,9 @@ Use the repository-only App pattern already established by `tox-dev/peryx`. Do n
 - [ ] Preserve or backfill a versioned changelog through the latest release.
 - [ ] Require a user-facing PR news fragment, with only explicit `skip news` exceptions. Do not offer a `misc` category for internal changes. The `skip news` label may be added after a PR opens; the fragment job must rerun on label changes, and the aggregate must accept a skipped job only for that exception.
 - [ ] Add one required aggregate check that runs with `always()` and collects all CI matrix jobs and the applicable fragment job. Keep external checks such as pre-commit.ci required separately where used.
-- [ ] Protect the default branch with a ruleset requiring the aggregate and allowing admin and the chosen release actor to bypass.
+- [ ] Protect the default branch with a ruleset requiring the aggregate and allowing admin and the chosen release actor to bypass. Do not require PR review approval to merge; these repositories have one maintainer.
 - [ ] Protect release tags against creation, update, and deletion except for admin and the release actor.
+- [ ] Apply the relevant Actions safeguards from [the Secure Open Source Fund notes](https://gist.github.com/gaborbernat/bc6795c27533d9d8dcc3cc2dd1ffeaa4): pin third-party actions to commit SHAs, give PR jobs read-only permissions and no release secrets, avoid shared caches in privileged release jobs, keep GitHub write permissions narrow, and avoid direct untrusted expressions in scripts.
 - [ ] Limit the prepare job to the default branch and a protected release environment. Build the changelog, commit it to `main`, then push the tag using the release actor.
 - [ ] Make the tag start the release workflow. Verify that the changelog contains the released version before publishing. Use PyPI Trusted Publishing where applicable; keep other registry credentials separate from GitHub write credentials.
 - [ ] Prove a fragment-free PR is blocked, verify the aggregate and bypass, exercise a non-publishing release path, and retire the old credential only after the replacement works.
@@ -50,14 +51,14 @@ The fragment tool may differ by project, but its PR check must enforce the same 
 Prepare and verify the code PRs before changing App installations, secrets, or rulesets. These links track code work; the release checklist below remains open until the repository's complete release path is verified.
 
 - [ ] `tox-dev/peryx`: [PR #2375](https://github.com/tox-dev/peryx/pull/2375) requires a change file and guards the published version.
-- [ ] `tox-dev/filelock`: [PR #857](https://github.com/tox-dev/filelock/pull/857) collects tests and the news check in one CI gate.
-- [ ] `tox-dev/platformdirs`: [PR #628](https://github.com/tox-dev/platformdirs/pull/628) collects tests and the news check in one CI gate.
-- [ ] `tox-dev/pipdeptree`: [PR #735](https://github.com/tox-dev/pipdeptree/pull/735) requires news fragments, includes them in the aggregate, and guards publication.
-- [ ] `tox-dev/tox`: [PR #4175](https://github.com/tox-dev/tox/pull/4175) requires news fragments, adds an aggregate, and guards publication.
-- [ ] `tox-dev/turbohtml`: [PR #1538](https://github.com/tox-dev/turbohtml/pull/1538) requires news fragments, adds an aggregate, and guards publication.
-- [ ] `pypa/pipx`: [PR #2161](https://github.com/pypa/pipx/pull/2161) requires news fragments, adds an aggregate, and guards publication.
+- [ ] `tox-dev/filelock`: [PR #857](https://github.com/tox-dev/filelock/pull/857) collects tests and the news check in one CI gate and replaces the release PAT with a repository App token.
+- [ ] `tox-dev/platformdirs`: [PR #628](https://github.com/tox-dev/platformdirs/pull/628) collects tests and the news check in one CI gate and replaces the release PAT with a repository App token.
+- [ ] `tox-dev/pipdeptree`: [PR #735](https://github.com/tox-dev/pipdeptree/pull/735) requires news fragments, includes them in the aggregate, guards publication, and replaces the release PAT with a repository App token.
+- [ ] `tox-dev/tox`: [PR #4175](https://github.com/tox-dev/tox/pull/4175) requires news fragments, adds an aggregate, guards publication, replaces the release PAT, and removes force pushes from preparation.
+- [ ] `tox-dev/turbohtml`: [PR #1538](https://github.com/tox-dev/turbohtml/pull/1538) requires news fragments, adds an aggregate, guards publication, replaces the release PAT, and removes force pushes from preparation.
+- [ ] `pypa/pipx`: [PR #2161](https://github.com/pypa/pipx/pull/2161) requires news fragments, adds an aggregate, guards publication, and replaces the GitHub write token with a repository App token. PyPA admin setup remains.
 - [ ] `pypa/virtualenv`: [PR #3445](https://github.com/pypa/virtualenv/pull/3445) requires news fragments in its aggregate and guards publication.
-- [ ] `tox-dev/python-discovery`: [PR #151](https://github.com/tox-dev/python-discovery/pull/151) requires news fragments, adds an aggregate, guards publication, and replaces force pushes with fast-forward release refs.
+- [ ] `tox-dev/python-discovery`: [PR #151](https://github.com/tox-dev/python-discovery/pull/151) requires news fragments, adds an aggregate, guards publication, replaces force pushes with fast-forward release refs, and replaces the release PAT with a repository App token.
 - [ ] `tox-dev/mdformat-zola`: [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) backfills its first release and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/devpi-process`: [PR #287](https://github.com/tox-dev/devpi-process/pull/287) backfills versions 0.3.1 through 1.3.0 and adds fragment, aggregate, publish, and App-backed preparation workflows.
@@ -72,6 +73,10 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `tox-dev/tox-uv`: [PR #386](https://github.com/tox-dev/tox-uv/pull/386) backfills all 75 tags and adds fragment, aggregate, preparation, and publish checks for its two distributions.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
+
+### Adversarial review
+
+Review the complete diff, release script, workflow permissions, changelog policy, and CI for every rollout PR. Keep findings in that repository's existing PR. Completed review fixes: filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Each replaced a GitHub write PAT with a repository App token. Tox and turbohtml also stopped force pushing release refs. The internal fragments on those seven PRs were removed and `skip news` was applied. Recheck their new CI runs before marking any PR ready.
 
 
 ## Released repositories
