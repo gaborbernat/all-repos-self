@@ -19,6 +19,8 @@ The prepare job builds a changelog, commits it to protected `main`, and pushes a
 
 Use the repository-only App pattern already established by `tox-dev/peryx`. Do not copy a shared App private key into every repository. Use common workflow credential names across repositories.
 
+Grant Contents write to each release App. `tox-dev/PyVenvManage`, `tox-dev/jetbrains-fish`, `tox-dev/toml-fmt`, and `quotaline/quotaline` also need Pull requests and Issues write for maintenance or cask PRs. Install each App on its named repository only, disable webhooks, and store `RELEASE_APP_CLIENT_ID` and `RELEASE_APP_PRIVATE_KEY` in that repository's `release-auth` environment. Keep the existing `release` environment for `tox-dev/sphinx-autodoc-typehints`.
+
 **PyPA access constraint:** we are not PyPA organization admins and cannot create a PyPA-owned App. The App route for `pypa/pipx` needs a PyPA owner to provision or approve it. `pypa/virtualenv` already uses a PyPA App, but changes to that App or its installation also need owner coordination. If PyPA does not provision an App, assess a repository-only write deploy key against the repository's permissions and rulesets before choosing it.
 
 **pytest-dev access constraint:** we are not pytest-dev organization admins and cannot create pytest-dev-owned Apps. Leave `pytest-env` and `pytest-print` until the other migrations are complete, then coordinate App setup with a pytest-dev owner or assess repository-only deploy keys against their rulesets.
