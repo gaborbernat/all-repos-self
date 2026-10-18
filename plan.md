@@ -214,7 +214,7 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [ ] `tox-dev/platformdirs`
 - [ ] `tox-dev/pipdeptree`
 - [ ] `tox-dev/tox`
-- [ ] `tox-dev/turbohtml`
+- [x] `tox-dev/turbohtml`: 28 release bodies updated from the tracked changelog; [PR #1538](https://github.com/tox-dev/turbohtml/pull/1538) adds future PyPI and comparison links. The unpublished `0.1.0` changelog entry has no tag or PyPI release.
 - [ ] `pypa/pipx`
 - [ ] `pypa/virtualenv`
 - [ ] `tox-dev/tox-uv`
