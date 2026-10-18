@@ -26,7 +26,7 @@ Use the repository-only App pattern already established by `tox-dev/peryx`. Do n
 ## Common release contract
 
 - [ ] Preserve or backfill a versioned changelog through the latest release.
-- [ ] Require a PR news fragment, with only explicit `skip news` exceptions. A skipped fragment job must be accepted by the aggregate only when the exception applies.
+- [ ] Require a user-facing PR news fragment, with only explicit `skip news` exceptions. Do not offer a `misc` category for internal changes. The `skip news` label may be added after a PR opens; the fragment job must rerun on label changes, and the aggregate must accept a skipped job only for that exception.
 - [ ] Add one required aggregate check that runs with `always()` and collects all CI matrix jobs and the applicable fragment job. Keep external checks such as pre-commit.ci required separately where used.
 - [ ] Protect the default branch with a ruleset requiring the aggregate and allowing admin and the chosen release actor to bypass.
 - [ ] Protect release tags against creation, update, and deletion except for admin and the release actor.
