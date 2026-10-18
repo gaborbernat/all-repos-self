@@ -34,6 +34,17 @@ The security-first baseline is a repository-only App, as used by `tox-dev/peryx`
 - [ ] Make the tag start the release workflow. Verify that the changelog contains the released version before publishing. Use PyPI Trusted Publishing where applicable; keep other registry credentials separate from GitHub write credentials.
 - [ ] Prove a fragment-free PR is blocked, verify the aggregate and bypass, exercise a non-publishing release path, and retire the old credential only after the replacement works.
 
+## Changelog location and documentation
+
+A documentation site is not a prerequisite for the release model. Every independently released repository needs a tracked, readable changelog. The PR fragment check and release-time version check apply whether that file is under `docs/` or at the repository root.
+
+- Repositories with a docs changelog already: `pypa/pipx`, `pypa/virtualenv`, `tox-dev/filelock`, `tox-dev/pipdeptree`, `tox-dev/platformdirs`, `tox-dev/python-discovery`, `tox-dev/sphinx-autodoc-typehints`, `tox-dev/tox`, and `tox-dev/turbohtml`. Keep the changelog in the docs navigation.
+- Repositories with docs but no tracked changelog: `gaborbernat/bump-deps-index` and `tox-dev/pyproject-api`. Backfill a changelog in the existing docs tree and link it from the docs index.
+- Repositories with a root `CHANGELOG.md`: `tox-dev/PyVenvManage`, `tox-dev/devpi-process`, `tox-dev/jetbrains-fish`, `tox-dev/peryx`, and `tox-dev/sphinx-argparse-cli`. Keep that location. Retain peryx's link from its site.
+- Repositories with neither docs nor a tracked changelog: `gaborbernat/mdformat-hugo`, `gaborbernat/pypi-changes`, `pytest-dev/pytest-env`, `pytest-dev/pytest-print`, `quotaline/quotaline`, `tox-dev/action-pre-commit-uv`, `tox-dev/mdformat-zola`, `tox-dev/pre-commit-uv`, `tox-dev/toml-fmt`, `tox-dev/tox-gh`, `tox-dev/tox-ini-fmt`, `tox-dev/tox-uv`, and `tox-dev/xml-fmt`. Backfill a root `CHANGELOG.md`, link it from `README.md`, and keep incoming fragments in a tracked directory such as `changelog.d/` or the project's existing changeset directory. Do not create a docs site solely for the changelog.
+
+The fragment tool may differ by project, but its PR check must enforce the same policy and its prepare job must fold fragments into the versioned changelog. For `toml-fmt`, make the two package histories identifiable in that root changelog.
+
 ## Released repositories
 
 Each unchecked row represents the remaining work for that repository. Existing pieces noted after the dash should be retained and verified.
