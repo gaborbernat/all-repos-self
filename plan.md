@@ -189,6 +189,40 @@ These remain in the maintenance inventory. Do not create release changelogs mere
 
 `repos.json` also contains `token-menu-bar-macos`, which is not on the OSS page. Its URL redirects to the archived `quotaline/token-menu-bar-macos` repository. Track that inventory drift separately; it is not counted among the 39 OSS listings or 29 release migrations.
 
+## Historical GitHub Release notes
+
+Use the tracked versioned changelog as the source, link the published ecosystem version, and link the comparison with the previous version tag. For the first tag, link its commit history. Preserve release assets, draft/prerelease state, and the Latest designation. Create a missing GitHub Release only when the matching published tag and changelog section are verified. A completed row covers the existing tagged versions; future releases still depend on the open workflow PRs.
+
+- [x] `gaborbernat/bump-deps-index`: 31 release bodies updated; [PR #272](https://github.com/gaborbernat/bump-deps-index/pull/272) adds future comparison links.
+- [x] `gaborbernat/pypi-changes`: 16 versions covered, including the missing `1.6.0` GitHub Release; [PR #269](https://github.com/gaborbernat/pypi-changes/pull/269) adds future comparison links.
+- [x] `gaborbernat/mdformat-hugo`: four versions covered, including the missing `0.2.0` GitHub Release; [PR #40](https://github.com/gaborbernat/mdformat-hugo/pull/40) adds future comparison links.
+- [x] `tox-dev/mdformat-zola`: its `1.0.0` GitHub Release updated; [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) adds future comparison links.
+- [x] `tox-dev/devpi-process`: 11 release bodies updated; [PR #289](https://github.com/tox-dev/devpi-process/pull/289) adds future comparison links.
+- [x] `tox-dev/xml-fmt`: five versions covered, including the missing `1.1.0` GitHub Release; [PR #125](https://github.com/tox-dev/xml-fmt/pull/125) adds future comparison links.
+- [x] `tox-dev/sphinx-argparse-cli`: 40 versions covered, including the missing `1.22.0` GitHub Release; [PR #374](https://github.com/tox-dev/sphinx-argparse-cli/pull/374) restores three omitted changelog sections and adds future comparison links.
+- [x] `tox-dev/pre-commit-uv`: 15 tagged versions covered, including the missing `4.3.0` GitHub Release; [PR #188](https://github.com/tox-dev/pre-commit-uv/pull/188) adds future comparison links. Four older PyPI versions predate this repository's `4.0.0` fork and have no tags in this repository.
+- [ ] `tox-dev/sphinx-autodoc-typehints`
+- [ ] `tox-dev/peryx`
+- [ ] `tox-dev/filelock`
+- [ ] `tox-dev/platformdirs`
+- [ ] `tox-dev/pipdeptree`
+- [ ] `tox-dev/tox`
+- [ ] `tox-dev/turbohtml`
+- [ ] `pypa/pipx`
+- [ ] `pypa/virtualenv`
+- [ ] `tox-dev/python-discovery`
+- [ ] `tox-dev/tox-ini-fmt`
+- [ ] `tox-dev/tox-gh`
+- [ ] `tox-dev/pyproject-api`
+- [ ] `tox-dev/tox-uv`
+- [ ] `tox-dev/action-pre-commit-uv`
+- [ ] `tox-dev/jetbrains-fish`
+- [ ] `tox-dev/PyVenvManage`
+- [ ] `quotaline/quotaline`
+- [ ] `tox-dev/toml-fmt`
+- [ ] `pytest-dev/pytest-env`
+- [ ] `pytest-dev/pytest-print`
+
 ## Rollout order
 
 Pilot status on 2026-10-18: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) was merged; the [main check run](https://github.com/gaborbernat/mdformat-hugo/actions/runs/39142427294) passed. `release-auth` (environment 24639454821) accepts `main` only and holds the App client ID and private key. [gaborbernat-mdformat-hugo-release](https://github.com/settings/installations/172746597) (App 5370155) has Contents write and Metadata read, is installed only on `gaborbernat/mdformat-hugo`, and has no webhook. Its private key is backed up in Insync; a signed App request minted a token scoped to that repository with the expected permissions. The [branch ruleset](https://github.com/gaborbernat/mdformat-hugo/rules/13275985) requires `Required checks pass`, keeps zero reviews, and allows admin and App bypass. The [tag ruleset](https://github.com/gaborbernat/mdformat-hugo/rules/25348004) blocks tag creation, updates, and deletion except by admins and the App. [PR #37](https://github.com/gaborbernat/mdformat-hugo/pull/37) merged the `0.3.1` fragment. The [first prepare run](https://github.com/gaborbernat/mdformat-hugo/actions/runs/39143333836) failed because Dependabot PR #36 moved `main` before the protected push; it created no tag. [PR #38](https://github.com/gaborbernat/mdformat-hugo/pull/38) merged the race fix and Dependabot labels. The [retry](https://github.com/gaborbernat/mdformat-hugo/actions/runs/39144321245) pushed tag `0.3.1`; the [tag workflow](https://github.com/gaborbernat/mdformat-hugo/actions/runs/39144353734) published the wheel and source archive to [PyPI](https://pypi.org/project/mdformat-hugo/0.3.1/). The tag's changelog contains the versioned notes.
