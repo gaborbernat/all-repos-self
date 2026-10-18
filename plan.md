@@ -45,6 +45,14 @@ A documentation site is not a prerequisite for the release model. Every independ
 
 The fragment tool may differ by project, but its PR check must enforce the same policy and its prepare job must fold fragments into the versioned changelog. For `toml-fmt`, make the two package histories identifiable in that root changelog.
 
+## Code PRs
+
+Prepare and verify the code PRs before changing App installations, secrets, or rulesets. These links track code work; the release checklist below remains open until the repository's complete release path is verified.
+
+- [ ] `tox-dev/peryx`: [PR #2375](https://github.com/tox-dev/peryx/pull/2375) requires a change file and guards the published version.
+- [ ] `tox-dev/filelock`: [PR #857](https://github.com/tox-dev/filelock/pull/857) collects tests and the news check in one CI gate.
+- [ ] `tox-dev/platformdirs`: [PR #628](https://github.com/tox-dev/platformdirs/pull/628) collects tests and the news check in one CI gate.
+
 ## Released repositories
 
 Each unchecked row represents the remaining work for that repository. Existing pieces noted after the dash should be retained and verified.
