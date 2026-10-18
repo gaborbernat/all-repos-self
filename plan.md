@@ -58,14 +58,14 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `pypa/pipx`: [PR #2161](https://github.com/pypa/pipx/pull/2161) requires news fragments, adds an aggregate, and guards publication.
 - [ ] `pypa/virtualenv`: [PR #3445](https://github.com/pypa/virtualenv/pull/3445) requires news fragments in its aggregate and guards publication.
 - [ ] `tox-dev/python-discovery`: [PR #151](https://github.com/tox-dev/python-discovery/pull/151) requires news fragments, adds an aggregate, guards publication, and replaces force pushes with fast-forward release refs.
-- [ ] `tox-dev/mdformat-zola`: [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) backfills its first release and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `tox-dev/devpi-process`: [PR #287](https://github.com/tox-dev/devpi-process/pull/287) backfills versions 0.3.1 through 1.3.0 and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `tox-dev/sphinx-argparse-cli`: [PR #372](https://github.com/tox-dev/sphinx-argparse-cli/pull/372) moves released changes out of `Unreleased` and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `tox-dev/xml-fmt`: [PR #123](https://github.com/tox-dev/xml-fmt/pull/123) backfills five releases and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `tox-dev/tox-ini-fmt`: [PR #380](https://github.com/tox-dev/tox-ini-fmt/pull/380) restores the early changelog, backfills all 26 tags, and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `tox-dev/tox-gh`: [PR #308](https://github.com/tox-dev/tox-gh/pull/308) backfills all 23 tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
-- [ ] `gaborbernat/pypi-changes`: [PR #266](https://github.com/gaborbernat/pypi-changes/pull/266) backfills all 15 tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
+- [ ] `tox-dev/mdformat-zola`: [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) backfills its first release and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `tox-dev/devpi-process`: [PR #287](https://github.com/tox-dev/devpi-process/pull/287) backfills versions 0.3.1 through 1.3.0 and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `tox-dev/sphinx-argparse-cli`: [PR #372](https://github.com/tox-dev/sphinx-argparse-cli/pull/372) moves released changes out of `Unreleased` and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `tox-dev/xml-fmt`: [PR #123](https://github.com/tox-dev/xml-fmt/pull/123) backfills five releases and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `tox-dev/tox-ini-fmt`: [PR #380](https://github.com/tox-dev/tox-ini-fmt/pull/380) restores the early changelog, backfills all 26 tags, and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `tox-dev/tox-gh`: [PR #308](https://github.com/tox-dev/tox-gh/pull/308) backfills all 23 tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [ ] `gaborbernat/pypi-changes`: [PR #266](https://github.com/gaborbernat/pypi-changes/pull/266) backfills all 15 tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/pyproject-api`: [PR #324](https://github.com/tox-dev/pyproject-api/pull/324) restores all 34 tagged versions, adds fragment and aggregate checks, and prepares releases with a repository-only App.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
