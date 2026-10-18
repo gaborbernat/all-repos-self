@@ -66,6 +66,7 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `tox-dev/tox-ini-fmt`: [PR #380](https://github.com/tox-dev/tox-ini-fmt/pull/380) restores the early changelog, backfills all 26 tags, and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 - [ ] `tox-dev/tox-gh`: [PR #308](https://github.com/tox-dev/tox-gh/pull/308) backfills all 23 tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 - [ ] `gaborbernat/pypi-changes`: [PR #266](https://github.com/gaborbernat/pypi-changes/pull/266) backfills all 15 tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
+- [ ] `tox-dev/pyproject-api`: [PR #324](https://github.com/tox-dev/pyproject-api/pull/324) restores all 34 tagged versions, adds fragment and aggregate checks, and prepares releases with a repository-only App.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
