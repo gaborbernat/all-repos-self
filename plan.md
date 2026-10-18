@@ -62,6 +62,8 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 - [ ] `tox-dev/devpi-process`: [PR #287](https://github.com/tox-dev/devpi-process/pull/287) backfills versions 0.3.1 through 1.3.0 and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 - [ ] `tox-dev/sphinx-argparse-cli`: [PR #372](https://github.com/tox-dev/sphinx-argparse-cli/pull/372) moves released changes out of `Unreleased` and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
+- [ ] `tox-dev/xml-fmt`: [PR #123](https://github.com/tox-dev/xml-fmt/pull/123) backfills five releases and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
+- [ ] `tox-dev/tox-ini-fmt`: [PR #380](https://github.com/tox-dev/tox-ini-fmt/pull/380) restores the early changelog, backfills all 26 tags, and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
