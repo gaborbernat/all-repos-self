@@ -19,7 +19,7 @@ The prepare job builds a changelog, commits it to protected `main`, and pushes a
 
 Use the repository-only App pattern already established by `tox-dev/peryx`. Do not copy a shared App private key into every repository. Use common workflow credential names across repositories.
 
-Grant Contents write to each release App. `tox-dev/PyVenvManage`, `tox-dev/jetbrains-fish`, `tox-dev/toml-fmt`, and `quotaline/quotaline` also need Pull requests and Issues write for maintenance or cask PRs. Install each App on its named repository only, disable webhooks, and store `RELEASE_APP_CLIENT_ID` and `RELEASE_APP_PRIVATE_KEY` in that repository's `release-auth` environment. Restrict that environment to `main` and, where a tag-triggered App job needs it, the repository's release tag pattern. Keep the existing `release` environment for `tox-dev/sphinx-autodoc-typehints`.
+Grant Contents write to each release App. `tox-dev/PyVenvManage`, `tox-dev/jetbrains-fish`, `tox-dev/toml-fmt`, and `quotaline/quotaline` also need Pull requests and Issues write for maintenance or cask PRs. Install each App on its named repository only, disable webhooks, and store the `RELEASE_APP_CLIENT_ID` variable and `RELEASE_APP_PRIVATE_KEY` secret in that repository's `release-auth` environment. Restrict that environment to `main` and, where a tag-triggered App job needs it, the repository's release tag pattern. Keep the existing `release` environment for `tox-dev/sphinx-autodoc-typehints`.
 
 **PyPA access constraint:** we are not PyPA organization admins and cannot create a PyPA-owned App. The App route for `pypa/pipx` needs a PyPA owner to provision or approve it. `pypa/virtualenv` already uses a PyPA App, but changes to that App or its installation also need owner coordination. If PyPA does not provision an App, assess a repository-only write deploy key against the repository's permissions and rulesets before choosing it.
 
@@ -96,7 +96,7 @@ A final release review replaced separate commit and tag pushes with an atomic pu
 
 Pipx PR #2161 and turbohtml PR #1538 now reject `misc` fragments in their naming hooks, PR checks, and release preparation. Both repositories' Towncrier configs omit that category, so allowing its filename would silently discard the entry. Commits `57f9c9a` and `f7c1ffe1`; rerun CI after these pushes.
 
-The ruleset audit found that `pypa/virtualenv` currently requires one approving review and approval of the last push. Set the review count to zero and disable `require_last_push_approval`. Every active review ruleset sets `require_extra_approval_for_unattributed_changes=true`; disable it while retaining the admin bypass and replacing matrix check lists with the aggregate. These are settings changes after all code PRs are ready.
+The ruleset audit found that `pypa/virtualenv` currently requires one approving review and approval of the last push. Set the review count to zero and disable `require_last_push_approval`. Every active review ruleset sets `require_extra_approval_for_unattributed_changes=true`; disable it while retaining the admin bypass and replacing matrix check lists with the aggregate. Make these changes as each repository reaches its rollout turn.
 
 Peryx already requires `ci-gate`, `conformance-gate`, and `codspeed-gate`; remove its separate `coverage` requirement because `ci-gate` collects it. Pipx and quotaline still use classic branch protection. Create the replacement branch ruleset with the aggregate and admin/App bypass before removing classic protection. Preserve pipx's linear-history rule and block its currently allowed force pushes; retain quotaline's required external checks.
 
@@ -175,6 +175,8 @@ These remain in the maintenance inventory. Do not create release changelogs mere
 `repos.json` also contains `token-menu-bar-macos`, which is not on the OSS page. Its URL redirects to the archived `quotaline/token-menu-bar-macos` repository. Track that inventory drift separately; it is not counted among the 39 OSS listings or 29 release migrations.
 
 ## Rollout order
+
+Pilot status on 2026-10-18: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) is green. `release-auth` (environment 24639454821) accepts `main` only. The [branch ruleset](https://github.com/gaborbernat/mdformat-hugo/rules/13275985) requires `Required checks pass`, keeps admin bypass and zero reviews, and disables extra approval. The [tag ruleset](https://github.com/gaborbernat/mdformat-hugo/rules/25348004) blocks tag creation, updates, and deletion except by an admin. App registration, installation, key backup, environment credentials, App bypass, and post-merge verification remain open.
 
 1. Pilot `gaborbernat/mdformat-hugo` with [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35): verify the PR, create a repository-only App and back up its key in Insync, configure `release-auth`, require the aggregate check, protect release tags, and allow admin and release-App bypass. Require zero reviews and disable extra approval. Bernát merges the PR; then verify the release path without publishing a real release.
 2. Repeat that sequence for each repository with a ready PR. Set up its App and GitHub settings before handing its PR to Bernát, and verify it after merge before moving to the next repository.
