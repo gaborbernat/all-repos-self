@@ -8,7 +8,7 @@ This file tracks the rollout. Check a repository only after its workflow, creden
 
 The prepare job builds a changelog, commits it to protected `main`, and pushes a release tag that starts the publishing workflow. `GITHUB_TOKEN` cannot perform that unattended protected-branch push under the intended ruleset. The release actor needs a branch and tag bypass.
 
-**Decision pending:** choose the credential design before migrating more repositories. A credential exposed to one repository should not authorize writes to another. Avoid one App registration per repository if that boundary can be preserved without operating a large service.
+**Decision:** use one GitHub App per repository, installed only on that repository. Store its private key in the repository's protected release environment and back it up in Insync. A credential exposed to one repository must not authorize writes to another. A shared App would require a separately operated OIDC token broker, which is outside this rollout.
 
 | Design | Boundary | Cost |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ The prepare job builds a changelog, commits it to protected `main`, and pushes a
 | One App with a central OIDC-verified token broker | Repository workflows receive scoped, short-lived tokens; the broker retains a key covering the installation. | One App plus a service and access policy to operate |
 | One write deploy key per repository | Git write access is limited to that repository. | One nonexpiring key per repository; `DeployKey` ruleset bypass names the actor type, not an individual key |
 
-The security-first baseline is a repository-only App, as used by `tox-dev/peryx`. A write deploy key is the simpler no-App fallback when its broader repository authority and rotation burden are acceptable. A broker is the way to keep one shared App without putting its broad private key in repository workflows. Do not copy a shared App private key into every repository. Use a common workflow shape and credential names whichever design is selected.
+Use the repository-only App pattern already established by `tox-dev/peryx`. Do not copy a shared App private key into every repository. Use common workflow credential names across repositories.
 
 **PyPA access constraint:** we are not PyPA organization admins and cannot create a PyPA-owned App. The App route for `pypa/pipx` needs a PyPA owner to provision or approve it. `pypa/virtualenv` already uses a PyPA App, but changes to that App or its installation also need owner coordination. If PyPA does not provision an App, assess a repository-only write deploy key against the repository's permissions and rulesets before choosing it.
 
@@ -143,7 +143,7 @@ These remain in the maintenance inventory. Do not create release changelogs mere
 
 ## Rollout order
 
-1. Settle the credential design and prove it on one of the tox-dev PAT-backed repositories without publishing a real release. Plan PyPA App changes with an organization admin rather than assuming we can make them ourselves.
+1. Prepare all code PRs for repository-only Apps and wait for their checks before changing GitHub settings. Prove the design on one tox-dev PAT-backed repository without publishing a real release. Plan PyPA App changes with an organization admin rather than assuming we can make them ourselves.
 2. Migrate the six definite PAT users: filelock, platformdirs, pipdeptree, python-discovery, tox, and turbohtml. Audit `GH_RELEASE_TOKEN` in pipx and GitHub-write `RELEASE_TOKEN` in PyVenvManage, jetbrains-fish, and toml-fmt; GitHub does not reveal secret types.
 3. Finish repositories with an existing changelog or App, preserving each publisher's special behavior.
 4. Backfill and migrate the thirteen non-pytest-dev repositories without historical changelogs.
