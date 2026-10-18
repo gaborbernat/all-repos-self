@@ -220,8 +220,8 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [x] `tox-dev/tox-uv`: all 75 published tags now have GitHub Releases, including the missing `1.36.1`; [PR #388](https://github.com/tox-dev/tox-uv/pull/388) adds future comparison links. Historical notes link `tox-uv-bare` from its first published version, `1.32.0`.
 - [x] `quotaline/quotaline`: no existing repository tags or GitHub Releases to backfill. [PR #9](https://github.com/quotaline/quotaline/pull/9) carries the future release model; verify its first tagged release after merge.
 - [x] `tox-dev/toml-fmt`: 84 existing release bodies updated and two missing GitHub Releases created. All 86 workspace tags now link their package's PyPI version and previous tag; [PR #484](https://github.com/tox-dev/toml-fmt/pull/484) adds those links to future releases. Older PyPI versions predate this workspace and have no tags here.
-- [ ] `pytest-dev/pytest-env`
-- [ ] `pytest-dev/pytest-print`
+- [ ] `pytest-dev/pytest-env`: all 25 existing release bodies updated; [PR #280](https://github.com/pytest-dev/pytest-env/pull/280) adds future GitHub Releases with PyPI and comparison links. Four older PyPI versions (`0.5`, `0.5.1`, `0.6.0`, and `0.6.1`) have no repository tag. The merged release gate still needs a pytest-dev organization admin to provision its repository App.
+- [x] `pytest-dev/pytest-print`: 15 existing release bodies updated and four missing GitHub Releases created; [PR #273](https://github.com/pytest-dev/pytest-print/pull/273) adds future PyPI and comparison links. The merged release gate still needs a pytest-dev organization admin to provision its repository App.
 
 ## Rollout order
 
