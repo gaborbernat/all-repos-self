@@ -118,6 +118,7 @@ Each unchecked row represents the remaining work for that repository. Existing p
 
 - [ ] `pypa/virtualenv`: coordinate with a PyPA organization admin to verify that its release App installation and stored key are limited to this repository; add missing PR and publish gates, aggregate, and tag protection as needed.
 - [x] `tox-dev/peryx`: its `peryx-release` App is installed only on peryx. Keep it; the proposed migration to the shared App was cancelled without changing its secret or rulesets.
+- [ ] `tox-dev/peryx`: rotate the existing App key into `release-auth` and save a separate backup in Insync; the current secret cannot be read back and no peryx key backup was found.
 - [ ] `tox-dev/peryx`: require contributor changesets on PRs, remove the fallback that generates them from merged PRs, and add the missing publish gate. Retain its aggregate CI and branch/tag rulesets.
 
 ### Changelog exists; release chain differs
