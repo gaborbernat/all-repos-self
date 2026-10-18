@@ -28,7 +28,7 @@ Use the repository-only App pattern already established by `tox-dev/peryx`. Do n
 - [ ] Preserve or backfill a versioned changelog through the latest release.
 - [ ] Require a user-facing PR news fragment, with only explicit `skip news` exceptions. Do not offer a `misc` category for internal changes. The `skip news` label may be added after a PR opens; the fragment job must rerun on label changes, and the aggregate must accept a skipped job only for that exception.
 - [ ] Add one required aggregate check that runs with `always()` and collects all CI matrix jobs and the applicable fragment job. Keep external checks such as pre-commit.ci required separately where used.
-- [ ] Protect the default branch with a ruleset requiring the aggregate and allowing admin and the chosen release actor to bypass. Do not require PR review approval to merge; these repositories have one maintainer.
+- [ ] Protect the default branch with a ruleset requiring the aggregate and allowing admin and the chosen release actor to bypass. Keep the required review count at zero and disable extra approval for unattributed changes; these repositories have one maintainer.
 - [ ] Protect release tags against creation, update, and deletion except for admin and the release actor.
 - [ ] Apply the relevant Actions safeguards from [the Secure Open Source Fund notes](https://gist.github.com/gaborbernat/bc6795c27533d9d8dcc3cc2dd1ffeaa4): pin third-party actions to commit SHAs, give PR jobs read-only permissions and no release secrets, avoid shared caches in privileged release jobs, keep GitHub write permissions narrow, and avoid direct untrusted expressions in scripts.
 - [ ] Limit the prepare job to the default branch and a protected release environment. Build the changelog, commit it to `main`, then push the tag using the release actor.
@@ -94,6 +94,7 @@ Each unchecked row represents the remaining work for that repository. Existing p
 
 - [x] `tox-dev/sphinx-autodoc-typehints`: require an aggregate covering the test matrix and PR changelog job; retain pre-commit.ci and admin/App bypass. Commit `1675a9c`; [run passed](https://github.com/tox-dev/sphinx-autodoc-typehints/actions/runs/39107100720).
 - [x] Restrict its `tox-dev-release` App installation to `sphinx-autodoc-typehints` only.
+- [ ] `tox-dev/sphinx-autodoc-typehints`: disable its current `require_extra_approval_for_unattributed_changes` rule. Its review count is already zero and its admin bypass is already configured.
 - [ ] `tox-dev/sphinx-autodoc-typehints`: add a release-tag ruleset and verify the complete release contract.
 
 ### Existing changelog and preparation; persistent GitHub write credential
