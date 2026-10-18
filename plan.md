@@ -88,6 +88,10 @@ Review the full diff, release path, permissions, changelog policy, and CI for ev
 
 A later pass separated Towncrier from the App token in 14 code PRs and reference PR #1091. It made the same split for Knope in peryx and release tooling in pipx, pipdeptree, python-discovery, tox, and turbohtml. Reference PR #1091 now reruns its changelog check when `skip news` changes. Recheck CI before marking any PR ready.
 
+Pipx PR #2161 and turbohtml PR #1538 now reject `misc` fragments in their naming hooks, PR checks, and release preparation. Both repositories' Towncrier configs omit that category, so allowing its filename would silently discard the entry. Commits `57f9c9a` and `f7c1ffe1`; rerun CI after these pushes.
+
+The ruleset audit found that `pypa/virtualenv` currently requires one approving review. Set it to zero. Many existing branch rulesets also set `require_extra_approval_for_unattributed_changes=true`; disable it while retaining the admin bypass and replacing matrix check lists with the aggregate. These are settings changes after all code PRs are ready.
+
 
 ## Released repositories
 
