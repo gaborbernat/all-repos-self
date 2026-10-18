@@ -61,7 +61,7 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `tox-dev/mdformat-zola`: [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) backfills its first release and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 - [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, and publish checks. Preparation remains to be added after the credential choice.
 
-`peryx` PR #2375 currently fails its `source` job on RustSec advisories in locked dependencies; resolve those before treating it as green.
+`peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
 
 ## Released repositories
