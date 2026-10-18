@@ -205,8 +205,11 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [x] `tox-dev/tox-ini-fmt`: 26 versions covered, including the missing `0.1.0` GitHub Release; [PR #382](https://github.com/tox-dev/tox-ini-fmt/pull/382) adds future comparison links.
 - [x] `tox-dev/pyproject-api`: 34 release bodies updated from the tracked RST changelog; [PR #324](https://github.com/tox-dev/pyproject-api/pull/324) adds future PyPI and comparison links.
 - [x] `tox-dev/python-discovery`: 24 release bodies updated; [PR #153](https://github.com/tox-dev/python-discovery/pull/153) restores missing `1.5.2` and `1.6.3` changelog sections, removes already-shipped fragments, and adds future PyPI and comparison links.
+- [x] `tox-dev/peryx`: three GitHub Releases updated with PyPI and comparison links while retaining installer instructions and attached assets; [PR #2375](https://github.com/tox-dev/peryx/pull/2375) adds future links.
+- [x] `tox-dev/action-pre-commit-uv`: seven versioned releases updated with comparisons; the floating `v1` release now points readers to versioned releases. [PR #41](https://github.com/tox-dev/action-pre-commit-uv/pull/41) adds future links and pins the App-token action to v3.3.0.
+- [x] `tox-dev/jetbrains-fish`: 11 release bodies updated with Marketplace and comparison links, preserving assets; [PR #146](https://github.com/tox-dev/jetbrains-fish/pull/146) adds future links and fixes the tracked `0.1.4` comparison.
+- [x] `tox-dev/PyVenvManage`: 25 release bodies updated with Marketplace and comparison links, preserving assets; [PR #270](https://github.com/tox-dev/PyVenvManage/pull/270) adds future links.
 - [ ] `tox-dev/sphinx-autodoc-typehints`
-- [ ] `tox-dev/peryx`
 - [ ] `tox-dev/filelock`
 - [ ] `tox-dev/platformdirs`
 - [ ] `tox-dev/pipdeptree`
@@ -215,9 +218,6 @@ Use the tracked versioned changelog as the source, link the published ecosystem 
 - [ ] `pypa/pipx`
 - [ ] `pypa/virtualenv`
 - [ ] `tox-dev/tox-uv`
-- [ ] `tox-dev/action-pre-commit-uv`
-- [ ] `tox-dev/jetbrains-fish`
-- [ ] `tox-dev/PyVenvManage`
 - [ ] `quotaline/quotaline`
 - [ ] `tox-dev/toml-fmt`
 - [ ] `pytest-dev/pytest-env`
