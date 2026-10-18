@@ -63,15 +63,15 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `pypa/virtualenv`: [PR #3445](https://github.com/pypa/virtualenv/pull/3445) requires news fragments in its aggregate, guards publication, and pushes the release commit and tag atomically.
 - [ ] `tox-dev/python-discovery`: [PR #151](https://github.com/tox-dev/python-discovery/pull/151) requires news fragments, adds an aggregate, guards publication, replaces force pushes with fast-forward release refs, and replaces the release PAT with a repository App token.
 - [ ] `tox-dev/mdformat-zola`: [PR #36](https://github.com/tox-dev/mdformat-zola/pull/36) backfills its first release and adds fragment, aggregate, publish, and App-backed preparation workflows.
-- [ ] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [x] `gaborbernat/mdformat-hugo`: [PR #35](https://github.com/gaborbernat/mdformat-hugo/pull/35) backfills three tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/devpi-process`: [PR #287](https://github.com/tox-dev/devpi-process/pull/287) backfills versions 0.3.1 through 1.3.0 and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/sphinx-argparse-cli`: [PR #372](https://github.com/tox-dev/sphinx-argparse-cli/pull/372) moves released changes out of `Unreleased` and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/xml-fmt`: [PR #123](https://github.com/tox-dev/xml-fmt/pull/123) backfills five releases and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/tox-ini-fmt`: [PR #380](https://github.com/tox-dev/tox-ini-fmt/pull/380) restores the early changelog, backfills all 26 tags, and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/tox-gh`: [PR #308](https://github.com/tox-dev/tox-gh/pull/308) backfills all 23 tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
-- [ ] `gaborbernat/pypi-changes`: [PR #266](https://github.com/gaborbernat/pypi-changes/pull/266) backfills all 15 tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
+- [x] `gaborbernat/pypi-changes`: [PR #266](https://github.com/gaborbernat/pypi-changes/pull/266) backfills all 15 tags and adds fragment, aggregate, publish, and App-backed preparation workflows.
 - [ ] `tox-dev/pyproject-api`: [PR #324](https://github.com/tox-dev/pyproject-api/pull/324) restores all 34 tagged versions, adds fragment and aggregate checks, and prepares releases with a repository-only App.
-- [ ] `gaborbernat/bump-deps-index`: [PR #269](https://github.com/gaborbernat/bump-deps-index/pull/269) imports the notes for all 30 releases into the docs and adds fragment, aggregate, preparation, and publish checks.
+- [x] `gaborbernat/bump-deps-index`: [PR #269](https://github.com/gaborbernat/bump-deps-index/pull/269) imports the notes for all 30 releases into the docs and adds fragment, aggregate, preparation, and publish checks.
 - [ ] `tox-dev/pre-commit-uv`: [PR #186](https://github.com/tox-dev/pre-commit-uv/pull/186) backfills all 15 tags and adds fragment, aggregate, preparation, and publish checks.
 - [ ] `tox-dev/tox-uv`: [PR #386](https://github.com/tox-dev/tox-uv/pull/386) backfills all 75 tags and adds fragment, aggregate, preparation, and publish checks for its two distributions.
 - [ ] `tox-dev/action-pre-commit-uv`: [PR #39](https://github.com/tox-dev/action-pre-commit-uv/pull/39) backfills seven versioned releases and adds fragment, aggregate, App-backed preparation, and GitHub Release checks while retaining floating action tags.
@@ -79,12 +79,12 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 - [ ] `tox-dev/PyVenvManage`: [PR #268](https://github.com/tox-dev/PyVenvManage/pull/268) backfills missing and placeholder changelog sections, adds fragment and aggregate checks, prepares releases with a repository App, and migrates post-release and mise-update PRs away from the PAT.
 - [x] `quotaline/quotaline`: [PR #9](https://github.com/quotaline/quotaline/pull/9) backfills the archived macOS releases, requires fragments in the existing aggregate, waits for full CI on the changelog commit before tagging, and uses a repository App for protected Git writes and cask PRs. The existing GNOME, Direct, Homebrew, and App Store channels remain.
 - [ ] `tox-dev/toml-fmt`: [PR #484](https://github.com/tox-dev/toml-fmt/pull/484) backfills all 86 tags across both active packages and the older `toml-fmt-common` releases, collects eight PR workflows and news in one gate, separates preparation from tag-triggered publishing, and replaces the PAT in maintenance PR jobs with the repository App. Mirror sync falls back to its daily schedule.
-- [ ] `pytest-dev/pytest-env`: [PR #276](https://github.com/pytest-dev/pytest-env/pull/276) backfills 25 tags, adds fragments and an aggregate, prepares tags with a repository App, and checks versioned notes and distributions before PyPI. App provisioning needs a pytest-dev organization admin.
-- [ ] `pytest-dev/pytest-print`: [PR #271](https://github.com/pytest-dev/pytest-print/pull/271) backfills 19 tags, adds fragments and an aggregate, prepares tags with a repository App, and checks versioned notes and distributions before PyPI. App provisioning needs a pytest-dev organization admin.
+- [x] `pytest-dev/pytest-env`: [PR #276](https://github.com/pytest-dev/pytest-env/pull/276) backfills 25 tags, adds fragments and an aggregate, prepares tags with a repository App, and checks versioned notes and distributions before PyPI. App provisioning needs a pytest-dev organization admin.
+- [x] `pytest-dev/pytest-print`: [PR #271](https://github.com/pytest-dev/pytest-print/pull/271) backfills 19 tags, adds fragments and an aggregate, prepares tags with a repository App, and checks versioned notes and distributions before PyPI. App provisioning needs a pytest-dev organization admin.
 
 `peryx` PR #2375 includes updates for the RustSec advisories that failed its `source` job. Confirm the new CI run before treating it as green.
 
-The checked code PRs remain green. Atomic release-ref pushes were added to 26 other PRs on 2026-10-18; their new CI runs must finish before the settings phase.
+The checked code PRs have passing aggregate checks on their latest heads. The remaining new CI runs must finish before the settings phase.
 
 ### Adversarial review
 
