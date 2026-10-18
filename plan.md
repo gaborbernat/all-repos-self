@@ -50,6 +50,7 @@ The fragment tool may differ by project, but its PR check must enforce the same 
 
 Prepare and verify the code PRs before changing App installations, secrets, or rulesets. These links track code work; the release checklist below remains open until the repository's complete release path is verified.
 
+- [ ] `tox-dev/sphinx-autodoc-typehints`: [PR #1091](https://github.com/tox-dev/sphinx-autodoc-typehints/pull/1091) separates Towncrier from the credentialed release push and checks the patch before minting the App token.
 - [ ] `tox-dev/peryx`: [PR #2375](https://github.com/tox-dev/peryx/pull/2375) requires a change file and guards the published version.
 - [ ] `tox-dev/filelock`: [PR #857](https://github.com/tox-dev/filelock/pull/857) collects tests and the news check in one CI gate and replaces the release PAT with a repository App token.
 - [ ] `tox-dev/platformdirs`: [PR #628](https://github.com/tox-dev/platformdirs/pull/628) collects tests and the news check in one CI gate and replaces the release PAT with a repository App token.
@@ -83,7 +84,7 @@ Prepare and verify the code PRs before changing App installations, secrets, or r
 
 ### Adversarial review
 
-Review the complete diff, release script, workflow permissions, changelog policy, and CI for every rollout PR. Keep findings in that repository's existing PR. Completed review fixes: filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Each replaced a GitHub write PAT with a repository App token. Tox and turbohtml also stopped force pushing release refs. The internal fragments on those seven PRs were removed and `skip news` was applied. Twelve new preparation workflows now resolve the App bot identity from their installation tokens. Recheck the new CI runs before marking any PR ready.
+Review the complete diff, release script, workflow permissions, changelog policy, and CI for every rollout PR. Keep findings in that repository's existing PR. Completed review fixes: filelock, platformdirs, pipdeptree, tox, turbohtml, pipx, and python-discovery. Each replaced a GitHub write PAT with a repository App token. Tox and turbohtml also stopped force pushing release refs. The internal fragments on those seven PRs were removed and `skip news` was applied. Twelve new preparation workflows now resolve the App bot identity from their installation tokens. A later review separated untrusted Towncrier execution from App token creation in 14 code PRs and the reference PR #1091. Recheck the new CI runs before marking any PR ready.
 
 
 ## Released repositories
