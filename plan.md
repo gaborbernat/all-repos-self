@@ -238,7 +238,11 @@ Seven repositories already use an App: the three personal repositories, tox-dev/
 
 `pypa/pipx`, `pytest-dev/pytest-env`, and `pytest-dev/pytest-print` need their organization admins to create repository-only Apps. Give only Contents write and mandatory Metadata read to ordinary release Apps. `jetbrains-fish`, `PyVenvManage`, `toml-fmt`, and `quotaline` also need Issues and Pull requests write for their maintenance PR jobs. Scope every installation and token to its repository. Browser registration requires action-time approval, and entering a new private key requires the user's handoff; those steps await Bernát's return.
 
-[action-pre-commit-uv PR #42](https://github.com/tox-dev/action-pre-commit-uv/pull/42) merged the current v3.3.0 App-token action pin after its required check passed. [quotaline PR #11](https://github.com/quotaline/quotaline/pull/11) updates both App-token uses to v3.3.0; its replacement CI run is in progress. `pypa/virtualenv` still has one v3.2.0 use to update when PyPA moves through its last-stage rollout.
+[action-pre-commit-uv PR #42](https://github.com/tox-dev/action-pre-commit-uv/pull/42) merged the current v3.3.0 App-token action pin after its required check passed. [quotaline PR #11](https://github.com/quotaline/quotaline/pull/11) updates both App-token uses to v3.3.0; its replacement CI run is in progress. [virtualenv PR #3449](https://github.com/pypa/virtualenv/pull/3449) updates its last v3.2.0 use; its replacement CI run is in progress. Both new PRs passed `prek` on the edited workflows before publication.
+
+The old GitHub write credentials remain until each replacement release succeeds: `RELEASE_TOKEN` in filelock's `release` environment and in the repository secrets of platformdirs, jetbrains-fish, PyVenvManage, and toml-fmt; `RELEASE_PAT` in the `release-auth` environments of pipdeptree, tox, turbohtml, and python-discovery; and `GH_RELEASE_TOKEN` in pipx's repository secrets. Marketplace `PUBLISH_TOKEN` values in jetbrains-fish and PyVenvManage are separate and must remain.
+
+A read-only scan of all 1,697 existing GitHub Releases across the 29 repositories found no generated-notes banner and no versioned Release without a comparison link. The floating `v1` Action Release deliberately points to its versioned releases. The per-repository source and ecosystem-link backfills are recorded in the historical notes section above; verify them again before each validation release.
 
 ## Rollout order
 
