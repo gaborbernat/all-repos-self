@@ -1,0 +1,445 @@
+{
+  "captured_at": "2026-10-19",
+  "method": "disposable synthetic-tag checkout; no ref push, release creation, or ecosystem upload",
+  "repositories": [
+    {
+      "repository": "gaborbernat/bump-deps-index",
+      "candidate_version": "1.17.2",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "bump_deps_index-1.17.2-py3-none-any.whl",
+          "size": 44153,
+          "sha256": "56bb6b324d3d306c42fe2763e16eac10a1a52c10fd4464a595f01cec32b9cb36"
+        },
+        {
+          "filename": "bump_deps_index-1.17.2.tar.gz",
+          "size": 61889,
+          "sha256": "be59c2ca70bd1071c9e8a7d8e07e21093021cdcbd573840a1914a9ab60ffaa5d"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "gaborbernat/mdformat-hugo",
+      "candidate_version": "0.3.4",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "mdformat_hugo-0.3.4-py3-none-any.whl",
+          "size": 8783,
+          "sha256": "463347c044dde86b58cd9405638440320514133bc2c0e28af5066042348fb8f2"
+        },
+        {
+          "filename": "mdformat_hugo-0.3.4.tar.gz",
+          "size": 26306,
+          "sha256": "541345cd4851caad693eda6b0155c774aae6f05e6e9d41c87f95be3f323b220f"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "gaborbernat/pypi-changes",
+      "candidate_version": "1.7.4",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "pypi_changes-1.7.4-py3-none-any.whl",
+          "size": 15428,
+          "sha256": "a13eefc40aef1ea3a6842c131671817325c8cb8e4c8aa3bd3f452427ea2ee2a7"
+        },
+        {
+          "filename": "pypi_changes-1.7.4.tar.gz",
+          "size": 153953,
+          "sha256": "8b2a05499996e6ce2cce0c126212976751d22fe49f938f47307e398453549137"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "pypa/pipx",
+      "candidate_version": "1.18.5",
+      "status": "local_build_pass",
+      "method": "python -m build through uv run; twine check passed",
+      "artifacts": [
+        {
+          "filename": "pipx-1.18.5-py3-none-any.whl",
+          "size": 181563,
+          "sha256": "c2726d3c58c8324d145f19230e8d58bc36a2a25ec115dcd63f63a2ee452a1749"
+        },
+        {
+          "filename": "pipx-1.18.5.tar.gz",
+          "size": 381995,
+          "sha256": "052e330039b32069271efae7996c28642bb715d6b5264a0fafa01738262373c2"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "pypa/virtualenv",
+      "candidate_version": "21.14.12",
+      "status": "local_build_pass",
+      "method": "locked uv build; SPDX and zipapp tox environments passed with AGENTS dependency overrides",
+      "artifacts": [
+        {
+          "filename": "virtualenv-21.14.12-py3-none-any.whl",
+          "size": 5495255,
+          "sha256": "4e72b87aa0cfadc84b6ad89ae396c395b5ddbb7740f22d6f8944174b083bc703"
+        },
+        {
+          "filename": "virtualenv-21.14.12.tar.gz",
+          "size": 5503903,
+          "sha256": "61b24e6feb1ce40419f30567ceaf6c865de29763cbf8ca92cb47cfe35c6b8218"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/devpi-process",
+      "candidate_version": "1.3.2",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "devpi_process-1.3.2-py3-none-any.whl",
+          "size": 6011,
+          "sha256": "41817a2691a91deec7c7a3b32eebfeb05588cbd20348cce2ad4dbd7b96b52d2e"
+        },
+        {
+          "filename": "devpi_process-1.3.2.tar.gz",
+          "size": 14602,
+          "sha256": "618134ac45aff515faa92ddbf60a514bc2909deefd31a8c51e2dc443eb388784"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/filelock",
+      "candidate_version": "4.2.5",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "filelock-4.2.5-py3-none-any.whl",
+          "size": 162473,
+          "sha256": "302ff251b6735478010bc7abb8f766654a0060bf76178cde43583360951e75c5"
+        },
+        {
+          "filename": "filelock-4.2.5.tar.gz",
+          "size": 652531,
+          "sha256": "673fa885b31df92d4883d0bea8733e43f45c799152ffb9e768ad3cf612940ed9"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/mdformat-zola",
+      "candidate_version": "1.0.2",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "mdformat_zola-1.0.2-py3-none-any.whl",
+          "size": 13185,
+          "sha256": "1baaa3f0bfc32e0ff75f5e57d6171b570457f6b44b2dcc2fc3a38a17d4bb7a15"
+        },
+        {
+          "filename": "mdformat_zola-1.0.2.tar.gz",
+          "size": 24634,
+          "sha256": "4c5f51818c8825501136690cecbe24679cba6c91a4acf918a14c4b32afc9393d"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/pipdeptree",
+      "candidate_version": "4.2.10",
+      "status": "local_build_pass",
+      "method": "local Meson/PyO3 wheel; cibuildwheel platform matrix requires GitHub Actions",
+      "artifacts": [
+        {
+          "filename": "pipdeptree-4.2.10-cp315-cp315-linux_x86_64.whl",
+          "size": 2129493,
+          "sha256": "d8f9f46683d8208f8c14b891eecf050e5e017e19d06a37fbc7b5fcb5bc0bb1ee"
+        },
+        {
+          "filename": "pipdeptree-4.2.10.tar.gz",
+          "size": 165247,
+          "sha256": "c68f2f97090b5997399af190effc0b2f8ba71c01a33a22bba7a1b13ae81b5192"
+        }
+      ],
+      "runner_validation": "open",
+      "sdist_round_trip": {
+        "status": "passed",
+        "installed_smoke_test": "passed",
+        "wheel": {
+          "filename": "pipdeptree-4.2.10-cp315-cp315-linux_x86_64.whl",
+          "size": 2129493,
+          "sha256": "e3158f2128d4a638b271b61c5077fb57f16b633c4f4a6e7675f71bcb51f6ab74"
+        }
+      }
+    },
+    {
+      "repository": "tox-dev/platformdirs",
+      "candidate_version": "4.13.6",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "platformdirs-4.13.6-py3-none-any.whl",
+          "size": 32782,
+          "sha256": "dc35a065ed78be9df1e38695ddc5cf6dcbde63b2f4ee8f39beec9ab956102cef"
+        },
+        {
+          "filename": "platformdirs-4.13.6.tar.gz",
+          "size": 62381,
+          "sha256": "81f967837b0ecc1778e2dbbb8b36f9b8741ae8444043712bad9178a8e6dd66b0"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/pre-commit-uv",
+      "candidate_version": "4.4.1",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "pre_commit_uv-4.4.1-py3-none-any.whl",
+          "size": 6234,
+          "sha256": "588053a7b5c5350d801b1773a68d585d4436ab253f93e7ca4485d08809263535"
+        },
+        {
+          "filename": "pre_commit_uv-4.4.1.tar.gz",
+          "size": 7732,
+          "sha256": "8aaf0299e553e213adf2f2284d29379dc08eac92c29f5df3fd6f8cf3ad1a618f"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/pyproject-api",
+      "candidate_version": "1.12.1",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "pyproject_api-1.12.1-py3-none-any.whl",
+          "size": 14082,
+          "sha256": "9d01f07d713bc107143aab9a05cbb1febf5ed854030aa354fbaa42fff7161c62"
+        },
+        {
+          "filename": "pyproject_api-1.12.1.tar.gz",
+          "size": 31942,
+          "sha256": "661ecc5b9ff5f0831d0526e77b13ddecf194bddc5cd8f1f62b3f7424c27e1cc3"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/python-discovery",
+      "candidate_version": "1.6.5",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "python_discovery-1.6.5-py3-none-any.whl",
+          "size": 39386,
+          "sha256": "be1b31a5421ed1e61d412e7c222b2e8c7739c72388d577cb973c9eba82f350ee"
+        },
+        {
+          "filename": "python_discovery-1.6.5.tar.gz",
+          "size": 89917,
+          "sha256": "29f3c39e3d3c2064b025c6241fc761cc515425d67368d40b2126a584f03a4d7d"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/sphinx-argparse-cli",
+      "candidate_version": "1.24.1",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "sphinx_argparse_cli-1.24.1-py3-none-any.whl",
+          "size": 12279,
+          "sha256": "76445bd1e8202246e6c9dd4a82ca539bcc055bb48a3c22312f50131fef71edad"
+        },
+        {
+          "filename": "sphinx_argparse_cli-1.24.1.tar.gz",
+          "size": 17357,
+          "sha256": "d42891aa6f8a25353aace61829b4998e85be1cbdbe34268f0bb0a646299d9210"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/sphinx-autodoc-typehints",
+      "candidate_version": "3.17.3",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "sphinx_autodoc_typehints-3.17.3-py3-none-any.whl",
+          "size": 140284,
+          "sha256": "a0829100189797e7c5fb0e2a0058fb47bfaffad899b15adfa02cdf7ee5e9966b"
+        },
+        {
+          "filename": "sphinx_autodoc_typehints-3.17.3.tar.gz",
+          "size": 571906,
+          "sha256": "bc5ef26295bf51a96bbde184454e38040e54d50c361f7a0269f41c21e2f5e74f"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/tox",
+      "candidate_version": "4.67.2",
+      "status": "local_build_pass",
+      "method": "uv build, including wheel from sdist",
+      "artifacts": [
+        {
+          "filename": "tox-4.67.2-py3-none-any.whl",
+          "size": 238078,
+          "sha256": "ec542e6a7865f9704033c90ec3f40f73a19cd4ba56a926a767fd4c1084efde19"
+        },
+        {
+          "filename": "tox-4.67.2.tar.gz",
+          "size": 347190,
+          "sha256": "49d32cadb4180063cb6f87d5481ed335b266873499fcd191be3bdbea3546defc"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/tox-gh",
+      "candidate_version": "1.9.1",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "tox_gh-1.9.1-py3-none-any.whl",
+          "size": 10472,
+          "sha256": "1806ccecbb694cbe03c507d4581ccb5cd3ccdc0245e70ff79000d1483d5e83a6"
+        },
+        {
+          "filename": "tox_gh-1.9.1.tar.gz",
+          "size": 12122,
+          "sha256": "641e1d2c52753d70ab4c579ac460545e41151b80c0f9768e67bef3363567d6b1"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/tox-ini-fmt",
+      "candidate_version": "1.10.1",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "tox_ini_fmt-1.10.1-py3-none-any.whl",
+          "size": 15088,
+          "sha256": "f2ccd54f6242d932378d43954bf57712b188c819480b4f7af9f854a75d634365"
+        },
+        {
+          "filename": "tox_ini_fmt-1.10.1.tar.gz",
+          "size": 17526,
+          "sha256": "6d213a51816ccfa8fb30d38785d04c15230b1ac4d1a9bd1ef7ddea982c76b9d2"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/tox-uv",
+      "candidate_version": "1.37.1",
+      "status": "local_build_pass",
+      "method": "bare sdist and wheel plus meta wheel",
+      "artifacts": [
+        {
+          "filename": "tox_uv-1.37.1-py3-none-any.whl",
+          "size": 6582,
+          "sha256": "be8c8672322f685142123d1e79d8f1a3521cdf28f6231bc47c0c12f061ea39cd"
+        },
+        {
+          "filename": "tox_uv_bare-1.37.1-py3-none-any.whl",
+          "size": 22349,
+          "sha256": "42709cc1e5fefcd1c2f629cf5526e0bb3169253e15adc99bf14f38c9767912b3"
+        },
+        {
+          "filename": "tox_uv_bare-1.37.1.tar.gz",
+          "size": 33098,
+          "sha256": "2f13dd4d6e8cdab9cd013fa29b67fb0ccb4711150ea8919f95c68957b3704e0e"
+        }
+      ],
+      "runner_validation": "open"
+    },
+    {
+      "repository": "tox-dev/turbohtml",
+      "candidate_version": "1.15.4",
+      "status": "local_build_pass",
+      "method": "local Meson native wheel and wheel built from sdist; cibuildwheel platform matrix requires GitHub Actions",
+      "artifacts": [
+        {
+          "filename": "turbohtml-1.15.4-cp315-cp315-linux_x86_64.whl",
+          "size": 2100439,
+          "sha256": "445cc55de6038adeeb00d232c23510654eb3a04ebbf8520ef701d041f0b08895"
+        },
+        {
+          "filename": "turbohtml-1.15.4.tar.gz",
+          "size": 4553417,
+          "sha256": "b8bb44399cb8137fb3d06889ab6378c781602cabc5d72febaf98481a686d22be"
+        }
+      ],
+      "runner_validation": "open",
+      "sdist_round_trip": {
+        "status": "passed",
+        "installed_smoke_test": "passed",
+        "wheel": {
+          "filename": "turbohtml-1.15.4-cp315-cp315-linux_x86_64.whl",
+          "size": 2100439,
+          "sha256": "2fec7d430d82b829ceb2f43eb14c3e26ac16fda6b05438b44ae94fe4078d0826"
+        }
+      }
+    },
+    {
+      "repository": "tox-dev/xml-fmt",
+      "candidate_version": "1.2.1",
+      "status": "local_build_pass",
+      "method": "release workflow uv build command",
+      "artifacts": [
+        {
+          "filename": "xml_fmt-1.2.1-py3-none-any.whl",
+          "size": 5547,
+          "sha256": "5a4e6cd85abf74f24439e5f9b556b072941a8399b632675a58bb027ea5711b9c"
+        },
+        {
+          "filename": "xml_fmt-1.2.1.tar.gz",
+          "size": 6148,
+          "sha256": "a6362805ab9343f5997ef1c19291aca13766e75e91560a83df30724719334182"
+        }
+      ],
+      "runner_validation": "open"
+    }
+  ],
+  "virtualenv_extra_artifacts": [
+    {
+      "filename": "virtualenv.pyz",
+      "size": 11925540,
+      "sha256": "bbcca8787a6d50bda470ffb6102ca9404f8898ffbf0438ac1031ae8e4bf61f3f"
+    },
+    {
+      "filename": "virtualenv.spdx.json",
+      "size": 90346,
+      "sha256": "e53aa2c991bc2f7f61641c440622ff1ce9c9b33ad6c53078c611b8513c8e8630"
+    }
+  ],
+  "limitations": [
+    "No PR-head GitHub Actions run for the assembled candidate tag.",
+    "Native and desktop builds on other runner platforms remain open.",
+    "The generated-notes API and publish credentials require protected release context."
+  ]
+}

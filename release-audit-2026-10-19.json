@@ -150,7 +150,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 20,
-      "strict_replay_failures": 11
+      "strict_replay_failures": 11,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "gaborbernat/mdformat-hugo",
@@ -252,7 +257,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 6,
-      "strict_replay_failures": 0
+      "strict_replay_failures": 0,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "gaborbernat/pypi-changes",
@@ -355,7 +365,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 18,
-      "strict_replay_failures": 0
+      "strict_replay_failures": 0,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "pypa/pipx",
@@ -850,7 +865,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 97
+      "strict_replay_failures": 97,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "pypa/virtualenv",
@@ -2132,7 +2152,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 292
+      "strict_replay_failures": 292,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "pytest-dev/pytest-env",
@@ -2805,7 +2830,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 1,
-      "strict_replay_failures": 11
+      "strict_replay_failures": 11,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/filelock",
@@ -3468,7 +3498,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 139
+      "strict_replay_failures": 139,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/jetbrains-fish",
@@ -3718,7 +3753,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 1,
-      "strict_replay_failures": 1
+      "strict_replay_failures": 1,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/peryx",
@@ -3826,7 +3866,7 @@
         "assembly": "passed",
         "strict_note_render": "failed",
         "note_error": "unknown changelog category: Fixes",
-        "artifact_count": 0
+        "artifact_count": 2
       }
     },
     {
@@ -4321,7 +4361,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 97
+      "strict_replay_failures": 97,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/platformdirs",
@@ -4802,7 +4847,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 2,
-      "strict_replay_failures": 91
+      "strict_replay_failures": 91,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/pre-commit-uv",
@@ -4955,7 +5005,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 15
+      "strict_replay_failures": 15,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/pyproject-api",
@@ -5197,7 +5252,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 34
+      "strict_replay_failures": 34,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/python-discovery",
@@ -5402,7 +5462,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 25
+      "strict_replay_failures": 25,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -5506,7 +5571,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 40
+      "strict_replay_failures": 40,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -6174,7 +6244,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 143
+      "strict_replay_failures": 143,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/toml-fmt",
@@ -8059,7 +8134,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 328
+      "strict_replay_failures": 328,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/tox-gh",
@@ -8162,7 +8242,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 23
+      "strict_replay_failures": 23,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
@@ -8266,7 +8351,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 26
+      "strict_replay_failures": 26,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/tox-uv",
@@ -8655,7 +8745,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 3,
-      "strict_replay_failures": 72
+      "strict_replay_failures": 72,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 3,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/turbohtml",
@@ -8886,7 +8981,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 29
+      "strict_replay_failures": 29,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     },
     {
       "repository": "tox-dev/xml-fmt",
@@ -8989,7 +9089,12 @@
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 5
+      "strict_replay_failures": 5,
+      "exact_artifact_validation": {
+        "status": "local_build_pass",
+        "artifact_count": 2,
+        "runner_validation": "open"
+      }
     }
   ]
 }

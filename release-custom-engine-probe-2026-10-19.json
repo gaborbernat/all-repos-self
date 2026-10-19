@@ -110,13 +110,26 @@
       "prek": "passed",
       "strict_note_render": "failed",
       "note_error": "unknown changelog category: Fixes",
-      "artifacts": [],
+      "artifacts": [
+        {
+          "filename": "peryx-x86_64-unknown-linux-gnu.tar.gz",
+          "size": 25558482,
+          "sha256": "700323b5d2532e4649c6e266b9d4488231808cfbfa4eae4ddd6768d373548305"
+        },
+        {
+          "filename": "peryx-x86_64-unknown-linux-gnu.tar.gz.sha256",
+          "size": 105,
+          "sha256": "a7efce890ea5f160e4ee036e6f7cdff88bafaf8f71151b3b83140ef3986ae11e"
+        }
+      ],
       "candidate_tag": "v2026.1019.0",
       "dist_plan": {
         "sha256": "7f0d83f1a1b98b206fda08fb6ffc116fccae9dd3736bca9945e3709624f0c0cc",
-        "artifact_count": 16
+        "artifact_count": 16,
+        "status": "passed"
       },
-      "content_issue": "Internal .changeset/release-changelog-policy.md appears in public Changes."
+      "content_issue": "Internal .changeset/release-changelog-policy.md appears in public Changes.",
+      "linux_local_build": "passed"
     },
     {
       "repository": "tox-dev/toml-fmt",
