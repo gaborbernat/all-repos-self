@@ -140,6 +140,14 @@
         "render_failure": 26,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.17.2",
+        "changelog_sha256": "160a3f15b42c0b6c8be1634d8bd8a46461676865cd0f6358ec8e76a1f20e462c",
+        "notes_sha256": "def769b5b517764cf904bf7e5b8c295b8a42db19cf7d60be73760ccc3b4af888",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -232,6 +240,14 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "0.3.4",
+        "changelog_sha256": "173e0f4882efe006bc1cff932eaa9e7b572c09244b3f2c29e5ee9b3f67011b2e",
+        "notes_sha256": "12fca83561c61284d3c9082038be1c865abfdab13218ec8a53374a86f151a0c6",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -325,6 +341,14 @@
         "render_failure": 3,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.7.4",
+        "changelog_sha256": "7439cfbf721b6bdfac29f7e37abc7e65518c818b4164902ea903a3fef1ac0248",
+        "notes_sha256": "8317e4c76945480b2e605b6a6bd6b6b442db70fb2c61e2cb55979b9394238f7b",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -810,6 +834,14 @@
         "render_failure": 90,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.18.5",
+        "changelog_sha256": "0becd77d566ce207785fb1fd1de5461035f4afd6656e0a0deabb6451b426f719",
+        "notes_sha256": "44d0fe72000d4b1b55e874fe67e5285e8d7d6163af3c5a907b70df01315022e1",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -2082,6 +2114,14 @@
         "render_failure": 195,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "21.14.12",
+        "changelog_sha256": "31b85d62b2786b1bb463f456f64558d5fdaa1cf77f4c1d3d0ce660bb93b21e6c",
+        "notes_sha256": "fc3ae26b9b7dd3d3c4571c4dafd6714588b3c33dafcb92c9f32f58b0079e5b8a",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -2700,6 +2740,14 @@
         "render_failure": 10,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.3.2",
+        "changelog_sha256": "3e09a849e66cff2b6acd2f908b9c0af0554b7f8b00ae1f029dfecea7dd77c80d",
+        "notes_sha256": "32e713ac678271eab2878789e43641133548450215d8fa5c3c1641f9e51e86e1",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -3353,6 +3401,14 @@
         "render_failure": 111,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "4.2.5",
+        "changelog_sha256": "e3d86f7e34e6bb3d431669f68cb0d30a5997884cd7a2dca97255bafd9bd95d91",
+        "notes_sha256": "53fd128bf82665792eda90a34d17b2f7ba65a62649a46e4ce8292f826f5aa81c",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -3584,6 +3640,14 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.0.2",
+        "changelog_sha256": "c413f1ea5b2cf9483d1eb53a537be46ddd43035e1c51f727654bb9caacebbc6d",
+        "notes_sha256": "2340d328621e6909b0be3294662145ea6af4f9c6f1e1e14e45eb92329de31979",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -4168,6 +4232,14 @@
         "render_failure": 10,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "4.2.10",
+        "changelog_sha256": "bb1dbdafd5ef5833d688a12d3384459e62d5c061fa7fbbebdf40485a39a1d0f8",
+        "notes_sha256": "621689426c59b010cd2d473bdb606615b0ca62e6fc6162ec7877e967bc796890",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -4639,6 +4711,14 @@
         "render_failure": 76,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "4.13.6",
+        "changelog_sha256": "7a489b9f8e6108d9d127ab93cdbd9aaba9d310a20c6ca456bdcce6f148b14882",
+        "notes_sha256": "71b2f7787f1f106c4bad5c0f17f479633e274eb2b9d9c4a7ab5579de7a696544",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -4782,6 +4862,14 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "4.4.1",
+        "changelog_sha256": "f2c0046d2e9603c24ee235cdf253b2c6ef48c3a809e877d6347e344b342e67c2",
+        "notes_sha256": "a30857007a251d97c8d431f2472cd321b9e3e9ec0349ab29bd34dc1f154a6e66",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -5014,6 +5102,14 @@
         "render_failure": 18,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.12.1",
+        "changelog_sha256": "fb5f259aeabc51cc109bb1f28ac840a24089e11ab46da7790556c58de37574df",
+        "notes_sha256": "85dd1c40aaacfd9973f06237bad78f17479a9d989a56ea5cf0bd8be1e971a15e",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -5209,6 +5305,14 @@
         "render_failure": 16,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.6.5",
+        "changelog_sha256": "9677ce6672b2377a6377b2640b6bc6b96054306dd7bbecfa842bfbb4a1d0a5fb",
+        "notes_sha256": "2a2f92383d36fc848c011200ac92461d1dd1bf8ea6818ba0c528f84fb64d25f6",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -5303,6 +5407,14 @@
         "render_failure": 29,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.24.1",
+        "changelog_sha256": "2eccf74477b11fdecb98d5e0556e8ab661fd3ff97717bdb1923b0bcf07ac23c6",
+        "notes_sha256": "5743492be1a335c1755f7baba538f68add8b4350f1da033b3522d17e78911261",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -5961,6 +6073,14 @@
         "render_failure": 41,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "3.17.3",
+        "changelog_sha256": "39320ecdc50040bc9e8c4e3f876dd2342844f9f327ed4782abb388e68f9b7da1",
+        "notes_sha256": "be07ecef9631895bce117f146b8cbc2af514dc8b26338a7d3b9573bf184f1f70",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -7827,6 +7947,14 @@
         "render_failure": 269,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "4.67.2",
+        "changelog_sha256": "117a4e2a47e3182f4a1871724319dc33fd31d726606eddf1fe989df606b62492",
+        "notes_sha256": "0851fc8d216ec7712a8e54d439b803ffb2e6dbbbd58dc8a03a4c566cf0173f6b",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -7920,6 +8048,14 @@
         "render_failure": 5,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.9.1",
+        "changelog_sha256": "86cd9a9238be4530389aa9d08f89bf81165d0ed8c3cf4d16c10d7b8786b829a6",
+        "notes_sha256": "4237eb8ebbd35fbad6f78ba17aedcdf986369c2c4a6ad4b29ac5b23a5a8cacc8",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -8014,6 +8150,14 @@
         "render_failure": 15,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.10.1",
+        "changelog_sha256": "ab4ba03521bdbac227d3f106ec40bd83fcb02b37bb7a6e981385a5f4890622fa",
+        "notes_sha256": "450e43156c4812d3bcd2199ded1462bd39e563587928b360a744faeea9340f2e",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -8393,6 +8537,14 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.37.1",
+        "changelog_sha256": "d966f2751c2d91408a6ce9165e7659887741080301af421bcc34248ce2d24c95",
+        "notes_sha256": "82a6fd0db3365e25b7a7ac61be960a32a5ee830dd8c3825a30f9aa57b80f1cd5",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -8614,6 +8766,14 @@
         "render_failure": 29,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.15.4",
+        "changelog_sha256": "614ed5a147caec85963b9070a4fb78ca513906c0e9cf6c8618ed722f140c5c36",
+        "notes_sha256": "645f859cefe6e5cd0e0e8da53984a6137786d423bbb124b3fc858eda7b2da56b",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     },
     {
@@ -8707,6 +8867,14 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
+      },
+      "standardized_local_pipeline": {
+        "status": "pass",
+        "candidate": "1.2.1",
+        "changelog_sha256": "f4e6b344df76e95ea4469a06fba07f38dfac20382e1966d09fdc6bdc5ee532e1",
+        "notes_sha256": "56e126c085473bf1a1dd867f3576f9a0d8408f6e42c1ed31757f42430c25c278",
+        "artifact_count": 2,
+        "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
       }
     }
   ]

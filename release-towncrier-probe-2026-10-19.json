@@ -1,0 +1,425 @@
+{
+  "candidate_release_creator_commit": "06b5aef",
+  "repositories": [
+    {
+      "repository": "gaborbernat/bump-deps-index",
+      "head": "9d59e88c0cd85f4bed18a81ae6eb139e3425acfc",
+      "synthetic_commit": "80b8070dc301c5fb9c0d4af1ba701d1b78509a6e",
+      "version": "1.17.2",
+      "artifacts": [
+        "bump_deps_index-1.17.2-py3-none-any.whl",
+        "bump_deps_index-1.17.2.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "160a3f15b42c0b6c8be1634d8bd8a46461676865cd0f6358ec8e76a1f20e462c",
+      "notes_sha256": "def769b5b517764cf904bf7e5b8c295b8a42db19cf7d60be73760ccc3b4af888",
+      "patch_sha256": "654056b39760d92f724ddba619b1509e1bd14a217daf1674819318a972ad50ff",
+      "artifact_sha256": {
+        "bump_deps_index-1.17.2-py3-none-any.whl": "56bb6b324d3d306c42fe2763e16eac10a1a52c10fd4464a595f01cec32b9cb36",
+        "bump_deps_index-1.17.2.tar.gz": "be59c2ca70bd1071c9e8a7d8e07e21093021cdcbd573840a1914a9ab60ffaa5d"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "gaborbernat/mdformat-hugo",
+      "head": "c0a4d17d7a05b432e77fc986b7a3f856821534d0",
+      "synthetic_commit": "9b4ee796f6e3e4da5967932ea029300aee5eb1a8",
+      "version": "0.3.4",
+      "artifacts": [
+        "mdformat_hugo-0.3.4-py3-none-any.whl",
+        "mdformat_hugo-0.3.4.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "173e0f4882efe006bc1cff932eaa9e7b572c09244b3f2c29e5ee9b3f67011b2e",
+      "notes_sha256": "12fca83561c61284d3c9082038be1c865abfdab13218ec8a53374a86f151a0c6",
+      "patch_sha256": "34ea5ff657ea94843207f8e488e2e43d6120dcf3f3a1f93d8b843a59dd7279d4",
+      "artifact_sha256": {
+        "mdformat_hugo-0.3.4-py3-none-any.whl": "463347c044dde86b58cd9405638440320514133bc2c0e28af5066042348fb8f2",
+        "mdformat_hugo-0.3.4.tar.gz": "541345cd4851caad693eda6b0155c774aae6f05e6e9d41c87f95be3f323b220f"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "gaborbernat/pypi-changes",
+      "head": "c618d2aaf4b614da4f972398290450fd0de83be6",
+      "synthetic_commit": "c75fc1ec29853f0631869d49aaa6558f618afa9f",
+      "version": "1.7.4",
+      "artifacts": [
+        "pypi_changes-1.7.4-py3-none-any.whl",
+        "pypi_changes-1.7.4.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "7439cfbf721b6bdfac29f7e37abc7e65518c818b4164902ea903a3fef1ac0248",
+      "notes_sha256": "8317e4c76945480b2e605b6a6bd6b6b442db70fb2c61e2cb55979b9394238f7b",
+      "patch_sha256": "06e1157c74cf961ca3fa487a71573594c34e6c3be08f52ee1b2fa8d4e4ae6bad",
+      "artifact_sha256": {
+        "pypi_changes-1.7.4-py3-none-any.whl": "a13eefc40aef1ea3a6842c131671817325c8cb8e4c8aa3bd3f452427ea2ee2a7",
+        "pypi_changes-1.7.4.tar.gz": "8b2a05499996e6ce2cce0c126212976751d22fe49f938f47307e398453549137"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "pypa/pipx",
+      "head": "bd0a54bc48aab9399d36f87d04308295bedc9a62",
+      "synthetic_commit": "23d1c79a73e5f177e81d3c2cd8fd7b9d881a02cb",
+      "version": "1.18.5",
+      "artifacts": [
+        "pipx-1.18.5-py3-none-any.whl",
+        "pipx-1.18.5.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "0becd77d566ce207785fb1fd1de5461035f4afd6656e0a0deabb6451b426f719",
+      "notes_sha256": "44d0fe72000d4b1b55e874fe67e5285e8d7d6163af3c5a907b70df01315022e1",
+      "patch_sha256": "2d05e8ad5a840f4bac53947460e4c2f9f6155a1e498df0df853e35545c49c191",
+      "artifact_sha256": {
+        "pipx-1.18.5-py3-none-any.whl": "c2726d3c58c8324d145f19230e8d58bc36a2a25ec115dcd63f63a2ee452a1749",
+        "pipx-1.18.5.tar.gz": "052e330039b32069271efae7996c28642bb715d6b5264a0fafa01738262373c2"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "pypa/virtualenv",
+      "head": "79537b3461bf150d3eb439347f2858b8ecd504f8",
+      "synthetic_commit": "670c3967373f8dfc80de21e3c0d9c8b3b16b737c",
+      "version": "21.14.12",
+      "artifacts": [
+        "virtualenv-21.14.12-py3-none-any.whl",
+        "virtualenv-21.14.12.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "31b85d62b2786b1bb463f456f64558d5fdaa1cf77f4c1d3d0ce660bb93b21e6c",
+      "notes_sha256": "fc3ae26b9b7dd3d3c4571c4dafd6714588b3c33dafcb92c9f32f58b0079e5b8a",
+      "patch_sha256": "34a83b165cb858a14dd6812f531e332af38f14d50143fb469defd6d5ea63c3fc",
+      "artifact_sha256": {
+        "virtualenv-21.14.12-py3-none-any.whl": "669ebc0b5f36d44bd1e46844d0862243b6fccdfa99b218d7009d7d9c8a4ae6f8",
+        "virtualenv-21.14.12.tar.gz": "1528df03964320fbd6ed49ba992c498c61423010865de4d9895cf6de8014f905"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/devpi-process",
+      "head": "f4ce866cf97cd268ec55c1c964f07db228fbe436",
+      "synthetic_commit": "1bd69cb20caa4f75ccee3207456bc9d5d500ddd6",
+      "version": "1.3.2",
+      "artifacts": [
+        "devpi_process-1.3.2-py3-none-any.whl",
+        "devpi_process-1.3.2.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "3e09a849e66cff2b6acd2f908b9c0af0554b7f8b00ae1f029dfecea7dd77c80d",
+      "notes_sha256": "32e713ac678271eab2878789e43641133548450215d8fa5c3c1641f9e51e86e1",
+      "patch_sha256": "1f52c57188743a63576e00f2be646b801df23517f7de202087ed953df94dc718",
+      "artifact_sha256": {
+        "devpi_process-1.3.2-py3-none-any.whl": "41817a2691a91deec7c7a3b32eebfeb05588cbd20348cce2ad4dbd7b96b52d2e",
+        "devpi_process-1.3.2.tar.gz": "618134ac45aff515faa92ddbf60a514bc2909deefd31a8c51e2dc443eb388784"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/filelock",
+      "head": "22f0776dd499690d71d2e6d2f95e1662a76db75d",
+      "synthetic_commit": "0d0f1604beb27eae0b46e6d0160b7b4f9bb4c882",
+      "version": "4.2.5",
+      "artifacts": [
+        "filelock-4.2.5-py3-none-any.whl",
+        "filelock-4.2.5.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "e3d86f7e34e6bb3d431669f68cb0d30a5997884cd7a2dca97255bafd9bd95d91",
+      "notes_sha256": "53fd128bf82665792eda90a34d17b2f7ba65a62649a46e4ce8292f826f5aa81c",
+      "patch_sha256": "4c474623db716431e2dc35f1e43df01e3fce522f32a89bbb7dc47534b765c06a",
+      "artifact_sha256": {
+        "filelock-4.2.5-py3-none-any.whl": "302ff251b6735478010bc7abb8f766654a0060bf76178cde43583360951e75c5",
+        "filelock-4.2.5.tar.gz": "673fa885b31df92d4883d0bea8733e43f45c799152ffb9e768ad3cf612940ed9"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/mdformat-zola",
+      "head": "f979b77756e5e0c39dd67bb73468aed8381abdf6",
+      "synthetic_commit": "23211f78a6c023979fbe6b0a3667831dd41c8887",
+      "version": "1.0.2",
+      "artifacts": [
+        "mdformat_zola-1.0.2-py3-none-any.whl",
+        "mdformat_zola-1.0.2.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "c413f1ea5b2cf9483d1eb53a537be46ddd43035e1c51f727654bb9caacebbc6d",
+      "notes_sha256": "2340d328621e6909b0be3294662145ea6af4f9c6f1e1e14e45eb92329de31979",
+      "patch_sha256": "b026510fedfdd3a4c47f166082783db8e82ec5fe65ab051e4324813920cab073",
+      "artifact_sha256": {
+        "mdformat_zola-1.0.2-py3-none-any.whl": "1baaa3f0bfc32e0ff75f5e57d6171b570457f6b44b2dcc2fc3a38a17d4bb7a15",
+        "mdformat_zola-1.0.2.tar.gz": "4c5f51818c8825501136690cecbe24679cba6c91a4acf918a14c4b32afc9393d"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/pipdeptree",
+      "head": "892b633df8cd92f3731253f24d5dff7d2ca338b5",
+      "synthetic_commit": "94fc8328d232917a1d329a841c23a6d081c8385b",
+      "version": "4.2.10",
+      "artifacts": [
+        "pipdeptree-4.2.10-cp315-cp315-linux_x86_64.whl",
+        "pipdeptree-4.2.10.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "bb1dbdafd5ef5833d688a12d3384459e62d5c061fa7fbbebdf40485a39a1d0f8",
+      "notes_sha256": "621689426c59b010cd2d473bdb606615b0ca62e6fc6162ec7877e967bc796890",
+      "patch_sha256": "357fd43911f73a0039329add1712f39a6b960c6e2ddc5a6b4af00d31e678e4af",
+      "artifact_sha256": {
+        "pipdeptree-4.2.10-cp315-cp315-linux_x86_64.whl": "930ef388c68391490e3fe4c6149740e524b6e699cd814d500f394ea1d76da2d7",
+        "pipdeptree-4.2.10.tar.gz": "c68f2f97090b5997399af190effc0b2f8ba71c01a33a22bba7a1b13ae81b5192"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/platformdirs",
+      "head": "57029042a19fb7a280b1e017a211476069749954",
+      "synthetic_commit": "223d1cde2fdcc5c87e58aad5ed48362b78db62b7",
+      "version": "4.13.6",
+      "artifacts": [
+        "platformdirs-4.13.6-py3-none-any.whl",
+        "platformdirs-4.13.6.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "7a489b9f8e6108d9d127ab93cdbd9aaba9d310a20c6ca456bdcce6f148b14882",
+      "notes_sha256": "71b2f7787f1f106c4bad5c0f17f479633e274eb2b9d9c4a7ab5579de7a696544",
+      "patch_sha256": "8564bee0d3cc9ee7d59f02e263e23deb3b6d980b70cdf34b53015bf6cb66691e",
+      "artifact_sha256": {
+        "platformdirs-4.13.6-py3-none-any.whl": "dc35a065ed78be9df1e38695ddc5cf6dcbde63b2f4ee8f39beec9ab956102cef",
+        "platformdirs-4.13.6.tar.gz": "81f967837b0ecc1778e2dbbb8b36f9b8741ae8444043712bad9178a8e6dd66b0"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/pre-commit-uv",
+      "head": "abbcd32d5b02cbbbad952a73922e0e05d207403f",
+      "synthetic_commit": "9dfecf56e4a7738890a025d1d191b4a963bcba7d",
+      "version": "4.4.1",
+      "artifacts": [
+        "pre_commit_uv-4.4.1-py3-none-any.whl",
+        "pre_commit_uv-4.4.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "f2c0046d2e9603c24ee235cdf253b2c6ef48c3a809e877d6347e344b342e67c2",
+      "notes_sha256": "a30857007a251d97c8d431f2472cd321b9e3e9ec0349ab29bd34dc1f154a6e66",
+      "patch_sha256": "64a9d1cb52105068c9f249180e08abd709487fd2b950197ff4ae69281e5928d9",
+      "artifact_sha256": {
+        "pre_commit_uv-4.4.1-py3-none-any.whl": "588053a7b5c5350d801b1773a68d585d4436ab253f93e7ca4485d08809263535",
+        "pre_commit_uv-4.4.1.tar.gz": "8aaf0299e553e213adf2f2284d29379dc08eac92c29f5df3fd6f8cf3ad1a618f"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/pyproject-api",
+      "head": "0fbc6b52d3c1fb37268d3846ea0e525b337a6acf",
+      "synthetic_commit": "355b0e5ec600bb2085ae9c6a8865fbe61c46b195",
+      "version": "1.12.1",
+      "artifacts": [
+        "pyproject_api-1.12.1-py3-none-any.whl",
+        "pyproject_api-1.12.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "fb5f259aeabc51cc109bb1f28ac840a24089e11ab46da7790556c58de37574df",
+      "notes_sha256": "85dd1c40aaacfd9973f06237bad78f17479a9d989a56ea5cf0bd8be1e971a15e",
+      "patch_sha256": "9dfd02b9b8275453f6528dd25dee97cad66671f40e4bc79bdab1e10d91fd41d0",
+      "artifact_sha256": {
+        "pyproject_api-1.12.1-py3-none-any.whl": "9d01f07d713bc107143aab9a05cbb1febf5ed854030aa354fbaa42fff7161c62",
+        "pyproject_api-1.12.1.tar.gz": "661ecc5b9ff5f0831d0526e77b13ddecf194bddc5cd8f1f62b3f7424c27e1cc3"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/python-discovery",
+      "head": "885805a8402f8b6ff689eca7a064b31eb46925f2",
+      "synthetic_commit": "73413400cd34b4a41f62b0d03116405a012fd385",
+      "version": "1.6.5",
+      "artifacts": [
+        "python_discovery-1.6.5-py3-none-any.whl",
+        "python_discovery-1.6.5.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "9677ce6672b2377a6377b2640b6bc6b96054306dd7bbecfa842bfbb4a1d0a5fb",
+      "notes_sha256": "2a2f92383d36fc848c011200ac92461d1dd1bf8ea6818ba0c528f84fb64d25f6",
+      "patch_sha256": "8a86b635994fb80ce0ae690fb2555525d43a3e701fc6f1691db312a1ce95f761",
+      "artifact_sha256": {
+        "python_discovery-1.6.5-py3-none-any.whl": "be1b31a5421ed1e61d412e7c222b2e8c7739c72388d577cb973c9eba82f350ee",
+        "python_discovery-1.6.5.tar.gz": "29f3c39e3d3c2064b025c6241fc761cc515425d67368d40b2126a584f03a4d7d"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/sphinx-argparse-cli",
+      "head": "32faf4c2fc0e70489a66c95ae4e9236f44098c60",
+      "synthetic_commit": "3b5113a5201b1dd6093db23072d4e04ba5734139",
+      "version": "1.24.1",
+      "artifacts": [
+        "sphinx_argparse_cli-1.24.1-py3-none-any.whl",
+        "sphinx_argparse_cli-1.24.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "2eccf74477b11fdecb98d5e0556e8ab661fd3ff97717bdb1923b0bcf07ac23c6",
+      "notes_sha256": "5743492be1a335c1755f7baba538f68add8b4350f1da033b3522d17e78911261",
+      "patch_sha256": "aecd7f6ee147c78d20b817dc7befb5b13637b6df595c6961cf081d9721290729",
+      "artifact_sha256": {
+        "sphinx_argparse_cli-1.24.1-py3-none-any.whl": "76445bd1e8202246e6c9dd4a82ca539bcc055bb48a3c22312f50131fef71edad",
+        "sphinx_argparse_cli-1.24.1.tar.gz": "d42891aa6f8a25353aace61829b4998e85be1cbdbe34268f0bb0a646299d9210"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/sphinx-autodoc-typehints",
+      "head": "5ac117c55c9842f65581b8b70fd42e52cdcb5b85",
+      "synthetic_commit": "c3386b96cc369e93af323294432fa1831b3567c1",
+      "version": "3.17.3",
+      "artifacts": [
+        "sphinx_autodoc_typehints-3.17.3-py3-none-any.whl",
+        "sphinx_autodoc_typehints-3.17.3.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "39320ecdc50040bc9e8c4e3f876dd2342844f9f327ed4782abb388e68f9b7da1",
+      "notes_sha256": "be07ecef9631895bce117f146b8cbc2af514dc8b26338a7d3b9573bf184f1f70",
+      "patch_sha256": "069b4d1efb7cdbfec72bb5af2717759f245db4a832dc37c4aeaafc335a3a47f7",
+      "artifact_sha256": {
+        "sphinx_autodoc_typehints-3.17.3-py3-none-any.whl": "a0829100189797e7c5fb0e2a0058fb47bfaffad899b15adfa02cdf7ee5e9966b",
+        "sphinx_autodoc_typehints-3.17.3.tar.gz": "bc5ef26295bf51a96bbde184454e38040e54d50c361f7a0269f41c21e2f5e74f"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/tox",
+      "head": "7988418936b730b19981ba934dc8b57186d6b957",
+      "synthetic_commit": "8087f07afff0cd5cf0c8ed77baf163f22a73876f",
+      "version": "4.67.2",
+      "artifacts": [
+        "tox-4.67.2-py3-none-any.whl",
+        "tox-4.67.2.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "117a4e2a47e3182f4a1871724319dc33fd31d726606eddf1fe989df606b62492",
+      "notes_sha256": "0851fc8d216ec7712a8e54d439b803ffb2e6dbbbd58dc8a03a4c566cf0173f6b",
+      "patch_sha256": "52938b063b20030258d1657c0f640b8ba552e380f836b76c298c3a124f4d0074",
+      "artifact_sha256": {
+        "tox-4.67.2-py3-none-any.whl": "ec542e6a7865f9704033c90ec3f40f73a19cd4ba56a926a767fd4c1084efde19",
+        "tox-4.67.2.tar.gz": "49d32cadb4180063cb6f87d5481ed335b266873499fcd191be3bdbea3546defc"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/tox-gh",
+      "head": "eadbea6d76bc832cd9b25452aa624dd56189ee51",
+      "synthetic_commit": "0f6910dc251230aa551c4a93fd6302ce50a0e47f",
+      "version": "1.9.1",
+      "artifacts": [
+        "tox_gh-1.9.1-py3-none-any.whl",
+        "tox_gh-1.9.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "86cd9a9238be4530389aa9d08f89bf81165d0ed8c3cf4d16c10d7b8786b829a6",
+      "notes_sha256": "4237eb8ebbd35fbad6f78ba17aedcdf986369c2c4a6ad4b29ac5b23a5a8cacc8",
+      "patch_sha256": "32486d7f8a5429fad2e4b4b93a0fa59f0db1bd7afe350ec804b6d399af69a2e9",
+      "artifact_sha256": {
+        "tox_gh-1.9.1-py3-none-any.whl": "1806ccecbb694cbe03c507d4581ccb5cd3ccdc0245e70ff79000d1483d5e83a6",
+        "tox_gh-1.9.1.tar.gz": "641e1d2c52753d70ab4c579ac460545e41151b80c0f9768e67bef3363567d6b1"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/tox-ini-fmt",
+      "head": "e8d4e6fc9eb57d8166234a236889d31076bed94e",
+      "synthetic_commit": "be8b16000e2970d35b956a416f4abbf6190668ab",
+      "version": "1.10.1",
+      "artifacts": [
+        "tox_ini_fmt-1.10.1-py3-none-any.whl",
+        "tox_ini_fmt-1.10.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "ab4ba03521bdbac227d3f106ec40bd83fcb02b37bb7a6e981385a5f4890622fa",
+      "notes_sha256": "450e43156c4812d3bcd2199ded1462bd39e563587928b360a744faeea9340f2e",
+      "patch_sha256": "df0c23cad2c358844d0f6ecf3f6ee8285efdd381efb6b437709818374a753896",
+      "artifact_sha256": {
+        "tox_ini_fmt-1.10.1-py3-none-any.whl": "f2ccd54f6242d932378d43954bf57712b188c819480b4f7af9f854a75d634365",
+        "tox_ini_fmt-1.10.1.tar.gz": "6d213a51816ccfa8fb30d38785d04c15230b1ac4d1a9bd1ef7ddea982c76b9d2"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/tox-uv",
+      "head": "11f7a0aa30598fea039633f25f7726129e7042ae",
+      "synthetic_commit": "0d653d42aee46679924e34cf7920c9a1c29a73a0",
+      "version": "1.37.1",
+      "artifacts": [
+        "tox_uv_bare-1.37.1-py3-none-any.whl",
+        "tox_uv_bare-1.37.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "d966f2751c2d91408a6ce9165e7659887741080301af421bcc34248ce2d24c95",
+      "notes_sha256": "82a6fd0db3365e25b7a7ac61be960a32a5ee830dd8c3825a30f9aa57b80f1cd5",
+      "patch_sha256": "2eff2e51d0fc48c36fe70d16041b211a302dd84c1db8273df8482c09ba50033e",
+      "artifact_sha256": {
+        "tox_uv_bare-1.37.1-py3-none-any.whl": "42709cc1e5fefcd1c2f629cf5526e0bb3169253e15adc99bf14f38c9767912b3",
+        "tox_uv_bare-1.37.1.tar.gz": "2f13dd4d6e8cdab9cd013fa29b67fb0ccb4711150ea8919f95c68957b3704e0e"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/turbohtml",
+      "head": "39b2069093c9f820e0e0c326c60a38e1e1b24d57",
+      "synthetic_commit": "b3da6d5f06b98a00d13b5f4d4e45bd2e6e111278",
+      "version": "1.15.4",
+      "artifacts": [
+        "turbohtml-1.15.4-cp315-cp315-linux_x86_64.whl",
+        "turbohtml-1.15.4.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "614ed5a147caec85963b9070a4fb78ca513906c0e9cf6c8618ed722f140c5c36",
+      "notes_sha256": "645f859cefe6e5cd0e0e8da53984a6137786d423bbb124b3fc858eda7b2da56b",
+      "patch_sha256": "f472cfdf5fd2671eb339d0efb5164bb4b301ce044419b3f0a39d6b6a13a3b499",
+      "artifact_sha256": {
+        "turbohtml-1.15.4-cp315-cp315-linux_x86_64.whl": "596fd739cec90fc576a055725a6743f19c3286f104c57e3988da4d8a8837dd9d",
+        "turbohtml-1.15.4.tar.gz": "c5c53a85e5e68f091ab1eef3188bcb368748769cc322fde7b8ef1536d4d5b778"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    },
+    {
+      "repository": "tox-dev/xml-fmt",
+      "head": "86243c27baa6cd5fb7e4726efe9fd5de8f16cc6c",
+      "synthetic_commit": "6c2b8d9df62e1241f643ae45f41ea6a2445697cc",
+      "version": "1.2.1",
+      "artifacts": [
+        "xml_fmt-1.2.1-py3-none-any.whl",
+        "xml_fmt-1.2.1.tar.gz",
+        ".gitignore"
+      ],
+      "status": "local_pipeline_pass",
+      "changelog_sha256": "f4e6b344df76e95ea4469a06fba07f38dfac20382e1966d09fdc6bdc5ee532e1",
+      "notes_sha256": "56e126c085473bf1a1dd867f3576f9a0d8408f6e42c1ed31757f42430c25c278",
+      "patch_sha256": "4770df2519ecafa067e8c7aa245b7db1fdb6925abc149421d815f47d9ece6472",
+      "artifact_sha256": {
+        "xml_fmt-1.2.1-py3-none-any.whl": "5a4e6cd85abf74f24439e5f9b556b072941a8399b632675a58bb027ea5711b9c",
+        "xml_fmt-1.2.1.tar.gz": "a6362805ab9343f5997ef1c19291aca13766e75e91560a83df30724719334182"
+      },
+      "scope": "synthetic standardized configuration; not a consumer PR head or platform-specific publish job"
+    }
+  ]
+}
