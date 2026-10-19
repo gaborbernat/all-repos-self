@@ -1,6 +1,6 @@
 {
   "captured_at": "2026-10-19T18:26:46.139461+00:00",
-  "method": "GitHub REST default branch changelog and Releases; local release-creator renderer with no previous or artifact URL",
+  "method": "GitHub REST default branch changelog and Releases; local release-creator renderer with no previous or artifact URL; isolated local synthetic fragment assembly for Towncrier repositories, without credentials or remote writes",
   "repositories": [
     {
       "repository": "gaborbernat/bump-deps-index",
@@ -87,16 +87,31 @@
         {
           "repository": "gaborbernat/bump-deps-index",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "8efc36d4b6f1bcd0befe041ef6350658a4e3d78a",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__bump-deps-index/prepare-release.yaml"
+          "sha": "8efc36d4b6f1bcd0befe041ef6350658a4e3d78a"
         },
         {
           "repository": "gaborbernat/bump-deps-index",
           "path": ".github/workflows/release.yaml",
-          "sha": "25708de19c9594fd990f9e2da7e04766a13fae2a",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__bump-deps-index/release.yaml"
+          "sha": "25708de19c9594fd990f9e2da7e04766a13fae2a"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.17.2",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "bump_deps_index-1.17.2-py3-none-any.whl",
+          "bump_deps_index-1.17.2.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "gaborbernat/mdformat-hugo",
@@ -132,22 +147,36 @@
         {
           "repository": "gaborbernat/mdformat-hugo",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "8c96b8b2666c42f125dd7ec155e28edbaace1c49",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__mdformat-hugo/prepare-release.yaml"
+          "sha": "8c96b8b2666c42f125dd7ec155e28edbaace1c49"
         },
         {
           "repository": "gaborbernat/mdformat-hugo",
           "path": ".github/workflows/release.yaml",
-          "sha": "4232ff32a067107d60aef7f629ed99b3d325fe01",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__mdformat-hugo/release.yaml"
+          "sha": "4232ff32a067107d60aef7f629ed99b3d325fe01"
         },
         {
           "repository": "gaborbernat/mdformat-hugo",
           "path": ".github/workflows/upgrade-release-tools.yaml",
-          "sha": "bdff66ddba21eaf316d633f2aa439ba17143af6d",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__mdformat-hugo/upgrade-release-tools.yaml"
+          "sha": "bdff66ddba21eaf316d633f2aa439ba17143af6d"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": true,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "0.3.4",
+        "notes": "notes passed",
+        "notes_failure": "",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "mdformat_hugo-0.3.4-py3-none-any.whl",
+          "mdformat_hugo-0.3.4.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "gaborbernat/pypi-changes",
@@ -183,22 +212,36 @@
         {
           "repository": "gaborbernat/pypi-changes",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "a44a0789a5bdd6d8dce81970a4a37a2a4f849d48",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__pypi-changes/prepare-release.yaml"
+          "sha": "a44a0789a5bdd6d8dce81970a4a37a2a4f849d48"
         },
         {
           "repository": "gaborbernat/pypi-changes",
           "path": ".github/workflows/release.yaml",
-          "sha": "5463fd4bb6f5c31859388633284e0e1857c5efe4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__pypi-changes/release.yaml"
+          "sha": "5463fd4bb6f5c31859388633284e0e1857c5efe4"
         },
         {
           "repository": "gaborbernat/pypi-changes",
           "path": ".github/workflows/upgrade-release-tools.yaml",
-          "sha": "dd759f9fd1c68e491219fd171b900b09d4c79334",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/gaborbernat__pypi-changes/upgrade-release-tools.yaml"
+          "sha": "dd759f9fd1c68e491219fd171b900b09d4c79334"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": true,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.7.4",
+        "notes": "notes passed",
+        "notes_failure": "",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "pypi_changes-1.7.4-py3-none-any.whl",
+          "pypi_changes-1.7.4.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "pypa/pipx",
@@ -623,8 +666,7 @@
         {
           "repository": "pypa/pipx",
           "path": ".github/workflows/pre-release.yml",
-          "sha": "c2657b87827adec73a1593023de321d32181a190",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pypa__pipx/pre-release.yml"
+          "sha": "c2657b87827adec73a1593023de321d32181a190"
         },
         {
           "repository": "pypa/pipx",
@@ -634,10 +676,26 @@
         {
           "repository": "pypa/pipx",
           "path": ".github/workflows/release.yml",
-          "sha": "191b7431a2e80f17acbb4c020c48c2b8e0fd4a1a",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pypa__pipx/release.yml"
+          "sha": "191b7431a2e80f17acbb4c020c48c2b8e0fd4a1a"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.18.5",
+        "notes": "notes failed",
+        "notes_failure": "expected one changelog section for 1.18.5, found 0",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "pipx-1.18.5-py3-none-any.whl",
+          "pipx-1.18.5.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "pypa/virtualenv",
@@ -1857,16 +1915,31 @@
         {
           "repository": "pypa/virtualenv",
           "path": ".github/workflows/pre-release.yaml",
-          "sha": "eaa634d7bf6c4820cfbf60f9b93daafc01e7b1d1",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pypa__virtualenv/pre-release.yaml"
+          "sha": "eaa634d7bf6c4820cfbf60f9b93daafc01e7b1d1"
         },
         {
           "repository": "pypa/virtualenv",
           "path": ".github/workflows/release.yaml",
-          "sha": "aa4d8102b51c2da4f1df8fa86f57cf225d824b45",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pypa__virtualenv/release.yaml"
+          "sha": "aa4d8102b51c2da4f1df8fa86f57cf225d824b45"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "21.14.12",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bugfixes - 21.14.12",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "virtualenv-21.14.12-py3-none-any.whl",
+          "virtualenv-21.14.12.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "pytest-dev/pytest-env",
@@ -1902,16 +1975,24 @@
         {
           "repository": "pytest-dev/pytest-env",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "d465e61f799bc260ce96cb25dbe2e6420f7f2ca5",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pytest-dev__pytest-env/prepare-release.yaml"
+          "sha": "d465e61f799bc260ce96cb25dbe2e6420f7f2ca5"
         },
         {
           "repository": "pytest-dev/pytest-env",
           "path": ".github/workflows/release.yaml",
-          "sha": "a6efb0878b5e87273c69ae3b6999a340a21a9a94",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pytest-dev__pytest-env/release.yaml"
+          "sha": "a6efb0878b5e87273c69ae3b6999a340a21a9a94"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.8.2",
+        "notes": "uncategorized or unmatched section",
+        "notes_failure": "",
+        "prek_first_run": "not assembled",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "pytest-dev/pytest-print",
@@ -1947,16 +2028,24 @@
         {
           "repository": "pytest-dev/pytest-print",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "ffda0d6a03427724436727a4e1bf2170b2474afc",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pytest-dev__pytest-print/prepare-release.yaml"
+          "sha": "ffda0d6a03427724436727a4e1bf2170b2474afc"
         },
         {
           "repository": "pytest-dev/pytest-print",
           "path": ".github/workflows/release.yaml",
-          "sha": "b5f58079547800e471dbbe122a4b7e8e6a1d9097",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/pytest-dev__pytest-print/release.yaml"
+          "sha": "b5f58079547800e471dbbe122a4b7e8e6a1d9097"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.4.1",
+        "notes": "uncategorized or unmatched section",
+        "notes_failure": "",
+        "prek_first_run": "not assembled",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "quotaline/quotaline",
@@ -1991,16 +2080,24 @@
         {
           "repository": "quotaline/quotaline",
           "path": ".github/workflows/prepare-release.yml",
-          "sha": "bef66d293d197ed42d9223922175876e5c064089",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/quotaline__quotaline/prepare-release.yml"
+          "sha": "bef66d293d197ed42d9223922175876e5c064089"
         },
         {
           "repository": "quotaline/quotaline",
           "path": ".github/workflows/release.yml",
-          "sha": "5aa70ca3de85ef465fe901a74e61ba7bab008907",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/quotaline__quotaline/release.yml"
+          "sha": "5aa70ca3de85ef465fe901a74e61ba7bab008907"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "0.1.8",
+        "notes": "uncategorized or unmatched section",
+        "notes_failure": "",
+        "prek_first_run": "not assembled",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "tox-dev/PyVenvManage",
@@ -2149,16 +2246,24 @@
         {
           "repository": "tox-dev/PyVenvManage",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "84aa64f9542dd90fcb7b30d18b44caafab87d1ea",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__PyVenvManage/prepare-release.yaml"
+          "sha": "84aa64f9542dd90fcb7b30d18b44caafab87d1ea"
         },
         {
           "repository": "tox-dev/PyVenvManage",
           "path": ".github/workflows/release.yaml",
-          "sha": "5ad4fd9410a11d87e15a02718c94ab2333bdb531",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__PyVenvManage/release.yaml"
+          "sha": "5ad4fd9410a11d87e15a02718c94ab2333bdb531"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "2.4.7",
+        "notes": "uncategorized or unmatched section",
+        "notes_failure": "",
+        "prek_first_run": "not assembled",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "tox-dev/action-pre-commit-uv",
@@ -2193,16 +2298,24 @@
         {
           "repository": "tox-dev/action-pre-commit-uv",
           "path": ".github/workflows/prepare-release.yml",
-          "sha": "7cfa45a3e66663285f64e01df4d6feab2a163643",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__action-pre-commit-uv/prepare-release.yml"
+          "sha": "7cfa45a3e66663285f64e01df4d6feab2a163643"
         },
         {
           "repository": "tox-dev/action-pre-commit-uv",
           "path": ".github/workflows/release.yml",
-          "sha": "b1dea43017a505fa63f0f3e26f32588512d56168",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__action-pre-commit-uv/release.yml"
+          "sha": "b1dea43017a505fa63f0f3e26f32588512d56168"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.1.1",
+        "notes": "uncategorized or unmatched section",
+        "notes_failure": "",
+        "prek_first_run": "not assembled",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "tox-dev/devpi-process",
@@ -2249,16 +2362,31 @@
         {
           "repository": "tox-dev/devpi-process",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__devpi-process/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/devpi-process",
           "path": ".github/workflows/release.yaml",
-          "sha": "0874cb648abbd568bfed3be4176dbe8cb3f5a043",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__devpi-process/release.yaml"
+          "sha": "0874cb648abbd568bfed3be4176dbe8cb3f5a043"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.3.2",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "devpi_process-1.3.2-py3-none-any.whl",
+          "devpi_process-1.3.2.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/filelock",
@@ -2857,16 +2985,31 @@
         {
           "repository": "tox-dev/filelock",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "dd89611a9dfbc2516294f1f959abb5f85afad377",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__filelock/prepare-release.yaml"
+          "sha": "dd89611a9dfbc2516294f1f959abb5f85afad377"
         },
         {
           "repository": "tox-dev/filelock",
           "path": ".github/workflows/release.yaml",
-          "sha": "ea82f917b7233a2dfe123e519333a621985e95a2",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__filelock/release.yaml"
+          "sha": "ea82f917b7233a2dfe123e519333a621985e95a2"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "4.2.5",
+        "notes": "notes failed",
+        "notes_failure": "release item outside a category: - Verify the candidate release pipeline output. :pr:`999999`",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "filelock-4.2.5-py3-none-any.whl",
+          "filelock-4.2.5.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/jetbrains-fish",
@@ -2953,16 +3096,24 @@
         {
           "repository": "tox-dev/jetbrains-fish",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "aed77a22ab0b2ebf0471c9a95087fb15503568d9",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__jetbrains-fish/prepare-release.yaml"
+          "sha": "aed77a22ab0b2ebf0471c9a95087fb15503568d9"
         },
         {
           "repository": "tox-dev/jetbrains-fish",
           "path": ".github/workflows/release.yaml",
-          "sha": "cd314f1767b093250f66e8c15e6af9ab9e4384d1",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__jetbrains-fish/release.yaml"
+          "sha": "cd314f1767b093250f66e8c15e6af9ab9e4384d1"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "0.1.11",
+        "notes": "uncategorized or unmatched section",
+        "notes_failure": "",
+        "prek_first_run": "not assembled",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "tox-dev/mdformat-zola",
@@ -3009,16 +3160,31 @@
         {
           "repository": "tox-dev/mdformat-zola",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__mdformat-zola/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/mdformat-zola",
           "path": ".github/workflows/release.yaml",
-          "sha": "894afde01d75395289c08061a5b8ee3f9e9047ec",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__mdformat-zola/release.yaml"
+          "sha": "894afde01d75395289c08061a5b8ee3f9e9047ec"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.0.2",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "mdformat_zola-1.0.2-py3-none-any.whl",
+          "mdformat_zola-1.0.2.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/peryx",
@@ -3066,22 +3232,29 @@
         {
           "repository": "tox-dev/peryx",
           "path": ".github/workflows/prepare-release.yml",
-          "sha": "ace6eab77a00e241eaa4a64b8e71137ad8409c6e",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__peryx/prepare-release.yml"
+          "sha": "ace6eab77a00e241eaa4a64b8e71137ad8409c6e"
         },
         {
           "repository": "tox-dev/peryx",
           "path": ".github/workflows/publish-pypi.yml",
-          "sha": "eae0db4f7ef3c8d0290ca8f77a44e4da0e4b0390",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__peryx/publish-pypi.yml"
+          "sha": "eae0db4f7ef3c8d0290ca8f77a44e4da0e4b0390"
         },
         {
           "repository": "tox-dev/peryx",
           "path": ".github/workflows/release.yml",
-          "sha": "2e659b31cc716e3337bcbc9ce48132baa3af683b",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__peryx/release.yml"
+          "sha": "2e659b31cc716e3337bcbc9ce48132baa3af683b"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": true,
+      "baseline_no_publish": {
+        "assembly": "assembled with Knope",
+        "candidate": "2026.1019.0",
+        "notes": "blocked by public internal changeset and unstandardized headings",
+        "notes_failure": "",
+        "prek_first_run": "passed",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "tox-dev/pipdeptree",
@@ -3512,16 +3685,31 @@
         {
           "repository": "tox-dev/pipdeptree",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "ccc0a434890572313efecc20296b9b090bda02d3",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__pipdeptree/prepare-release.yaml"
+          "sha": "ccc0a434890572313efecc20296b9b090bda02d3"
         },
         {
           "repository": "tox-dev/pipdeptree",
           "path": ".github/workflows/release.yaml",
-          "sha": "49f5f41577b84adba27110ac3fa4eaf36f252617",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__pipdeptree/release.yaml"
+          "sha": "49f5f41577b84adba27110ac3fa4eaf36f252617"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "4.2.10",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes - 4.2.10",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "pipdeptree-4.2.10-cp315-cp315-linux_x86_64.whl",
+          "pipdeptree-4.2.10.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/platformdirs",
@@ -3938,16 +4126,31 @@
         {
           "repository": "tox-dev/platformdirs",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "b8dfa1d099a317f47bf7e2ded598f0f977c44f93",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__platformdirs/prepare-release.yaml"
+          "sha": "b8dfa1d099a317f47bf7e2ded598f0f977c44f93"
         },
         {
           "repository": "tox-dev/platformdirs",
           "path": ".github/workflows/release.yaml",
-          "sha": "2203f68d4eab7eff6e4fc0b934ed347e2a8094d0",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__platformdirs/release.yaml"
+          "sha": "2203f68d4eab7eff6e4fc0b934ed347e2a8094d0"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "4.13.6",
+        "notes": "notes failed",
+        "notes_failure": "release item outside a category: - Verify the candidate release pipeline output. :pr:`999999`",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "platformdirs-4.13.6-py3-none-any.whl",
+          "platformdirs-4.13.6.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/pre-commit-uv",
@@ -4038,16 +4241,31 @@
         {
           "repository": "tox-dev/pre-commit-uv",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__pre-commit-uv/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/pre-commit-uv",
           "path": ".github/workflows/release.yaml",
-          "sha": "9eb3cc485789e8a5d6782f1b27c8a3741f14f2fa",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__pre-commit-uv/release.yaml"
+          "sha": "9eb3cc485789e8a5d6782f1b27c8a3741f14f2fa"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "4.4.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "pre_commit_uv-4.4.1-py3-none-any.whl",
+          "pre_commit_uv-4.4.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/pyproject-api",
@@ -4226,16 +4444,31 @@
         {
           "repository": "tox-dev/pyproject-api",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "56419bc72f3cee87f79f41fe95a5043e0ca259aa",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__pyproject-api/prepare-release.yaml"
+          "sha": "56419bc72f3cee87f79f41fe95a5043e0ca259aa"
         },
         {
           "repository": "tox-dev/pyproject-api",
           "path": ".github/workflows/release.yaml",
-          "sha": "18dd4c9a2b9345ebc562d809ec5ad9eea6dc3fa5",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__pyproject-api/release.yaml"
+          "sha": "18dd4c9a2b9345ebc562d809ec5ad9eea6dc3fa5"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.12.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "pyproject_api-1.12.1-py3-none-any.whl",
+          "pyproject_api-1.12.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/python-discovery",
@@ -4378,16 +4611,31 @@
         {
           "repository": "tox-dev/python-discovery",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "49fc34cb3d65b2af24f01a7cd1d947101dda50b4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__python-discovery/prepare-release.yaml"
+          "sha": "49fc34cb3d65b2af24f01a7cd1d947101dda50b4"
         },
         {
           "repository": "tox-dev/python-discovery",
           "path": ".github/workflows/release.yaml",
-          "sha": "0bb4c756077e9f90286b6a1f01d508656ff7655d",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__python-discovery/release.yaml"
+          "sha": "0bb4c756077e9f90286b6a1f01d508656ff7655d"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.6.5",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes - 1.6.5",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "python_discovery-1.6.5-py3-none-any.whl",
+          "python_discovery-1.6.5.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -4429,16 +4677,31 @@
         {
           "repository": "tox-dev/sphinx-argparse-cli",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__sphinx-argparse-cli/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/sphinx-argparse-cli",
           "path": ".github/workflows/release.yaml",
-          "sha": "58b098aaec6945389a195ce738993fd4ba5da89f",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__sphinx-argparse-cli/release.yaml"
+          "sha": "58b098aaec6945389a195ce738993fd4ba5da89f"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.24.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "sphinx_argparse_cli-1.24.1-py3-none-any.whl",
+          "sphinx_argparse_cli-1.24.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -5046,16 +5309,31 @@
         {
           "repository": "tox-dev/sphinx-autodoc-typehints",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "51c4442c272b19e476853888253b91282b6a4a74",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__sphinx-autodoc-typehints/prepare-release.yaml"
+          "sha": "51c4442c272b19e476853888253b91282b6a4a74"
         },
         {
           "repository": "tox-dev/sphinx-autodoc-typehints",
           "path": ".github/workflows/release.yaml",
-          "sha": "aa602a5ec9dc019383d87f744c42e595a43d1e8f",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__sphinx-autodoc-typehints/release.yaml"
+          "sha": "aa602a5ec9dc019383d87f744c42e595a43d1e8f"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "3.17.3",
+        "notes": "notes failed",
+        "notes_failure": "release item outside a category: - Verify the candidate release pipeline output. :pr:`999999`",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "sphinx_autodoc_typehints-3.17.3-py3-none-any.whl",
+          "sphinx_autodoc_typehints-3.17.3.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/toml-fmt",
@@ -5436,22 +5714,29 @@
         {
           "repository": "tox-dev/toml-fmt",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "8c20cfd6c3457a5cda6464d1000ca0d281e48d73",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__toml-fmt/prepare-release.yaml"
+          "sha": "8c20cfd6c3457a5cda6464d1000ca0d281e48d73"
         },
         {
           "repository": "tox-dev/toml-fmt",
           "path": ".github/workflows/pyproject_fmt_release.yaml",
-          "sha": "bc5836a2b70b5d57bdc37e85b56b675f52b74b60",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__toml-fmt/pyproject_fmt_release.yaml"
+          "sha": "bc5836a2b70b5d57bdc37e85b56b675f52b74b60"
         },
         {
           "repository": "tox-dev/toml-fmt",
           "path": ".github/workflows/tox_toml_fmt_release.yaml",
-          "sha": "ecd281d3f4b4c42f64178cfbf25af06927634830",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__toml-fmt/tox_toml_fmt_release.yaml"
+          "sha": "ecd281d3f4b4c42f64178cfbf25af06927634830"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": true,
+      "baseline_no_publish": {
+        "assembly": "both active packages assembled",
+        "candidate": "pyproject-fmt/2.30.4; tox-toml-fmt/1.11.2",
+        "notes": "not rendered",
+        "notes_failure": "",
+        "prek_first_run": "passed for both packages",
+        "package_build": "not exercised",
+        "package_files": []
+      }
     },
     {
       "repository": "tox-dev/tox",
@@ -6831,16 +7116,31 @@
         {
           "repository": "tox-dev/tox",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "cf678a915b25830ccc30edc947e1208b704188f8",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox/prepare-release.yaml"
+          "sha": "cf678a915b25830ccc30edc947e1208b704188f8"
         },
         {
           "repository": "tox-dev/tox",
           "path": ".github/workflows/release.yaml",
-          "sha": "a38c6d5fa806680b7c84c85c6fadf682dc838db2",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox/release.yaml"
+          "sha": "a38c6d5fa806680b7c84c85c6fadf682dc838db2"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "4.67.2",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes - 4.67.2",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "tox-4.67.2-py3-none-any.whl",
+          "tox-4.67.2.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/tox-gh",
@@ -6882,16 +7182,31 @@
         {
           "repository": "tox-dev/tox-gh",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox-gh/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/tox-gh",
           "path": ".github/workflows/release.yaml",
-          "sha": "ba1a3b9d89111d5c6bab0cbb5ef7a315f9378bf4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox-gh/release.yaml"
+          "sha": "ba1a3b9d89111d5c6bab0cbb5ef7a315f9378bf4"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.9.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "tox_gh-1.9.1-py3-none-any.whl",
+          "tox_gh-1.9.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
@@ -6933,16 +7248,31 @@
         {
           "repository": "tox-dev/tox-ini-fmt",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox-ini-fmt/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/tox-ini-fmt",
           "path": ".github/workflows/release.yaml",
-          "sha": "68ed4bf5a8190202e33c5b5cb7822002331bb2c7",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox-ini-fmt/release.yaml"
+          "sha": "68ed4bf5a8190202e33c5b5cb7822002331bb2c7"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.10.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "tox_ini_fmt-1.10.1-py3-none-any.whl",
+          "tox_ini_fmt-1.10.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/tox-uv",
@@ -7269,16 +7599,31 @@
         {
           "repository": "tox-dev/tox-uv",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox-uv/prepare-release.yaml"
+          "sha": "144d2911addd6c4213fc30968549cb760d5c2ba4"
         },
         {
           "repository": "tox-dev/tox-uv",
           "path": ".github/workflows/release.yaml",
-          "sha": "223bd2847640f9b2ed7e256ddef387542b8dfd91",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__tox-uv/release.yaml"
+          "sha": "223bd2847640f9b2ed7e256ddef387542b8dfd91"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.37.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "tox_uv_bare-1.37.1-py3-none-any.whl",
+          "tox_uv_bare-1.37.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/turbohtml",
@@ -7437,16 +7782,31 @@
         {
           "repository": "tox-dev/turbohtml",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "d2c7892c9330b01123b72784b19c0f74bf5279eb",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__turbohtml/prepare-release.yaml"
+          "sha": "d2c7892c9330b01123b72784b19c0f74bf5279eb"
         },
         {
           "repository": "tox-dev/turbohtml",
           "path": ".github/workflows/release.yaml",
-          "sha": "62e5f41a03cb517e295a51503eb87f587ecae5ae",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__turbohtml/release.yaml"
+          "sha": "62e5f41a03cb517e295a51503eb87f587ecae5ae"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": true,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.15.4",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes - 1.15.4",
+        "prek_first_run": "failed",
+        "package_build": "built",
+        "package_files": [
+          "turbohtml-1.15.4-cp315-cp315-linux_x86_64.whl",
+          "turbohtml-1.15.4.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     },
     {
       "repository": "tox-dev/xml-fmt",
@@ -7488,16 +7848,31 @@
         {
           "repository": "tox-dev/xml-fmt",
           "path": ".github/workflows/prepare-release.yaml",
-          "sha": "45b9c24522521ed0e62707fcd2102226057b3351",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__xml-fmt/prepare-release.yaml"
+          "sha": "45b9c24522521ed0e62707fcd2102226057b3351"
         },
         {
           "repository": "tox-dev/xml-fmt",
           "path": ".github/workflows/release.yaml",
-          "sha": "bd4b3499b4833cffb8fec31c3177f33dd5b23746",
-          "snapshot": "/tmp/oss-release-workflows-2026-10-19/tox-dev__xml-fmt/release.yaml"
+          "sha": "bd4b3499b4833cffb8fec31c3177f33dd5b23746"
         }
-      ]
+      ],
+      "prepare_workflow_has_prek": false,
+      "baseline_no_publish": {
+        "assembly": "assembled",
+        "candidate": "1.2.1",
+        "notes": "notes failed",
+        "notes_failure": "unknown changelog category: Bug fixes",
+        "prek_first_run": "passed",
+        "package_build": "built",
+        "package_files": [
+          "xml_fmt-1.2.1-py3-none-any.whl",
+          "xml_fmt-1.2.1.tar.gz"
+        ]
+      },
+      "candidate_format_probe": {
+        "status": "pass",
+        "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      }
     }
   ]
 }
