@@ -32,5 +32,6 @@
   "historical_body_review": "release-pypi-changes-body-review-2026-10-19.json",
   "historical_body_count": 18,
   "historical_body_changed_count": 4,
-  "runner_ci": "All checks passed in Actions run 39313590145, including Release without publishing and Required checks pass"
+  "runner_pr_head": "5d6f6e9b11aeeed013e6c1758f6dc6fb00e8bb6e",
+  "runner_ci": "All checks passed in Actions run 39314117917, including Release without publishing and Required checks pass; the only change after the local rehearsal added Dependabot to the metadata-only label workflow"
 }
