@@ -1,0 +1,158 @@
+{
+  "captured_at": "2026-10-19",
+  "method": "isolated local synthetic candidate; ref pushes, GitHub Release writes, and uploads disabled",
+  "release_creator_candidate": "f10eaa4",
+  "repositories": [
+    {
+      "repository": "pytest-dev/pytest-env",
+      "candidate_version": "1.8.2",
+      "assembly": "assembled",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+      "artifacts": [
+        {
+          "filename": "pytest_env-1.8.2-py3-none-any.whl",
+          "size": 10543,
+          "sha256": "9435e779c9f37fcb66a33f5ad62f60d25c17503adc2f2c3f4c028dbafdb6959c"
+        },
+        {
+          "filename": "pytest_env-1.8.2.tar.gz",
+          "size": 22185,
+          "sha256": "c9559a2c8e973621f131ffe9505e32eb7b008aae97e3aa181b851129af01a6c5"
+        }
+      ],
+      "runner_limit": null,
+      "candidate_tag": "1.8.2"
+    },
+    {
+      "repository": "pytest-dev/pytest-print",
+      "candidate_version": "1.4.1",
+      "assembly": "assembled",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+      "artifacts": [
+        {
+          "filename": "pytest_print-1.4.1-py3-none-any.whl",
+          "size": 7084,
+          "sha256": "8f238a91131ef664695d7dd773605845b7f37bee555fb0db6560e36049ed45ad"
+        },
+        {
+          "filename": "pytest_print-1.4.1.tar.gz",
+          "size": 16648,
+          "sha256": "f850511e747c7c2c869894ff904b72a80b866c03171f49a1365d2708c7db27f7"
+        }
+      ],
+      "runner_limit": null,
+      "candidate_tag": "1.4.1"
+    },
+    {
+      "repository": "tox-dev/action-pre-commit-uv",
+      "candidate_version": "1.1.1",
+      "assembly": "assembled",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+      "artifacts": [],
+      "runner_limit": null,
+      "candidate_tag": "v1.1.1"
+    },
+    {
+      "repository": "tox-dev/PyVenvManage",
+      "candidate_version": "2.4.7",
+      "assembly": "assembled",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+      "artifacts": [
+        {
+          "filename": "PyVenv Manage 2-2.4.7.zip",
+          "size": 82631,
+          "sha256": "30c0ce1fe425426e709b414fdda92af3d3814b186a3505635d1eb4b0d0255c36"
+        }
+      ],
+      "runner_limit": null,
+      "candidate_tag": "v2.4.7"
+    },
+    {
+      "repository": "tox-dev/jetbrains-fish",
+      "candidate_version": "0.1.11",
+      "assembly": "assembled",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+      "artifacts": [
+        {
+          "filename": "Fish Shell-0.1.11.zip",
+          "size": 146773,
+          "sha256": "b0a471dd4ebd30e9ac7022bff316ca7575be7f928e2b1e2b56ebfc497c38c13a"
+        }
+      ],
+      "runner_limit": null,
+      "candidate_tag": "v0.1.11"
+    },
+    {
+      "repository": "quotaline/quotaline",
+      "candidate_version": "0.1.8",
+      "assembly": "assembled",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+      "artifacts": [
+        {
+          "filename": "quotaline-gnome-linux-x86_64.tar.gz",
+          "size": 4120473,
+          "sha256": "3bd13c00f68e98fc60d006fcd5cedb0c3666d1fc3698682892930e40e06dc16a"
+        }
+      ],
+      "runner_limit": "macOS Direct, Homebrew, and App Store legs require a PR-head GitHub Actions run",
+      "candidate_tag": "v0.1.8"
+    },
+    {
+      "repository": "tox-dev/peryx",
+      "candidate_version": "2026.1019.0",
+      "assembly": "passed",
+      "prek": "passed",
+      "strict_note_render": "failed",
+      "note_error": "unknown changelog category: Fixes",
+      "artifacts": [],
+      "candidate_tag": "v2026.1019.0",
+      "dist_plan": {
+        "sha256": "7f0d83f1a1b98b206fda08fb6ffc116fccae9dd3736bca9945e3709624f0c0cc",
+        "artifact_count": 16
+      },
+      "content_issue": "Internal .changeset/release-changelog-policy.md appears in public Changes."
+    },
+    {
+      "repository": "tox-dev/toml-fmt",
+      "candidate_version": "tox-toml-fmt/1.11.2",
+      "assembly": "passed for both active packages",
+      "prek": "passed for both packages",
+      "strict_note_render": "failed",
+      "note_error": "release text outside an item: Fix the candidate release pipeline output.",
+      "artifacts": [
+        {
+          "filename": "pyproject_fmt-2.30.4-cp311-abi3-linux_x86_64.whl",
+          "size": 1597875,
+          "sha256": "42545a42db9744b80d4a3f88e1ffea470c700e9379983edc306ecd852cc78e9a"
+        },
+        {
+          "filename": "pyproject_fmt-2.30.4.tar.gz",
+          "size": 335264,
+          "sha256": "2522695755b93924ff26c7303ebfb93e31fee4679615c0fd579a5e20a5bc126f"
+        },
+        {
+          "filename": "tox_toml_fmt-1.11.2-cp311-abi3-linux_x86_64.whl",
+          "size": 1379154,
+          "sha256": "54d8f3163971451bf64dbc9948269eaffab4662312d7bd289a9e1411735ae858"
+        },
+        {
+          "filename": "tox_toml_fmt-1.11.2.tar.gz",
+          "size": 188325,
+          "sha256": "b7e252d8829943b9f19e379defaab7044638250b9957439316b32e2855324cb2"
+        }
+      ],
+      "candidate_tag": "tox-toml-fmt/1.11.2",
+      "candidate_versions": [
+        "pyproject-fmt/2.30.4",
+        "tox-toml-fmt/1.11.2"
+      ],
+      "approved_format_probe": "Both synthetic package sections rendered with --package after converting the generated prose to a Fixed bullet."
+    }
+  ]
+}
