@@ -1869,107 +1869,105 @@
   },
   {
     "repository": "tox-dev/PyVenvManage",
-    "passed": [],
+    "passed": [
+      "1.4.0"
+    ],
     "failures": [
       {
         "tag": "v2.4.6",
-        "reason": "expected one changelog section for v2.4.6, found 0"
+        "reason": "release text outside an item: PyVenv Manage 2 keeps its virtualenv icons working on PyCharm 2026.3 and refreshes build dependencies."
       },
       {
         "tag": "v2.4.5",
-        "reason": "expected one changelog section for v2.4.5, found 0"
+        "reason": "release text outside an item: PyVenv Manage 2 no longer touches internal platform API to resolve the Conda, Poetry, Hatch, uv, and Pipenv icons."
       },
       {
         "tag": "v2.4.4",
-        "reason": "expected one changelog section for v2.4.4, found 0"
+        "reason": "release item outside a category: - Bump version to `2.4.4-dev` by @gaborbernat in https://github.com/tox-dev/PyVenvManage/pull/246"
       },
       {
         "tag": "v2.4.3",
-        "reason": "expected one changelog section for v2.4.3, found 0"
+        "reason": "release item outside a category: - Bump version to `2.4.3-dev` by @gaborbernat in https://github.com/tox-dev/PyVenvManage/pull/222"
       },
       {
         "tag": "v2.4.2",
-        "reason": "expected one changelog section for v2.4.2, found 0"
+        "reason": "release item outside a category: - Show \u201cSet as Project Interpreter\u201d only for directories containing `pyvenv.cfg`"
       },
       {
         "tag": "v2.4.1",
-        "reason": "expected one changelog section for v2.4.1, found 0"
+        "reason": "release item outside a category: - Check for the Python plugin through the public `PluginManager.isPluginInstalled` API."
       },
       {
         "tag": "v2.4.0",
-        "reason": "expected one changelog section for v2.4.0, found 0"
+        "reason": "release item outside a category: - Support IntelliJ Platform 262 (2026.2) and require build 262 or newer. Update Python SDK paths, virtual environment"
       },
       {
         "tag": "v2.3.2",
-        "reason": "expected one changelog section for v2.3.2, found 0"
+        "reason": "release item outside a category: - Cap compatibility at IntelliJ Platform 261 (2026.1); support for build 262 starts with 2.4.0."
       },
       {
         "tag": "v2.3.1",
-        "reason": "expected one changelog section for v2.3.1, found 0"
+        "reason": "release item outside a category: - Keep plugin verification working with IntelliJ Platform Gradle plugin 2.16 while continuing to reject compatibility"
       },
       {
         "tag": "v2.3.0",
-        "reason": "expected one changelog section for v2.3.0, found 0"
+        "reason": "release item outside a category: - Show tool-specific icons for uv, Conda, Hatch, Poetry, and Pipenv virtual environments."
       },
       {
         "tag": "v2.2.7",
-        "reason": "expected one changelog section for v2.2.7, found 0"
+        "reason": "release item outside a category: - Split the release workflow so publication and post-release automation use separate credentials."
       },
       {
         "tag": "v2.2.6",
-        "reason": "expected one changelog section for v2.2.6, found 0"
+        "reason": "release item outside a category: - Bump version to `2.2.6-dev` by @gaborbernat in https://github.com/tox-dev/PyVenvManage/pull/127"
       },
       {
         "tag": "v2.2.5",
-        "reason": "expected one changelog section for v2.2.5, found 0"
+        "reason": "release item outside a category: - Replace deprecated PluginDescriptor.isEnabled API by @gaborbernat in https://github.com/tox-dev/PyVenvManage/pull/126"
       },
       {
         "tag": "v2.2.4",
-        "reason": "expected one changelog section for v2.2.4, found 0"
+        "reason": "release item outside a category: - Bump version to `2.2.4-dev` by @github-actions[bot] in https://github.com/tox-dev/PyVenvManage/pull/123"
       },
       {
         "tag": "v2.2.3",
-        "reason": "expected one changelog section for v2.2.3, found 0"
+        "reason": "release item outside a category: - Bump version to `2.2.3-dev` by @github-actions[bot] in https://github.com/tox-dev/PyVenvManage/pull/120"
       },
       {
         "tag": "v2.2.2",
-        "reason": "expected one changelog section for v2.2.2, found 0"
+        "reason": "release item outside a category: - Changelog update - `v2.2.1` by @github-actions[bot] in https://github.com/tox-dev/PyVenvManage/pull/111"
       },
       {
         "tag": "v2.2.1",
-        "reason": "expected one changelog section for v2.2.1, found 0"
+        "reason": "release item outside a category: - Changelog update - `v2.2.0` by @github-actions[bot] in https://github.com/tox-dev/PyVenvManage/pull/107"
       },
       {
         "tag": "v2.2.0",
-        "reason": "expected one changelog section for v2.2.0, found 0"
+        "reason": "release item outside a category: - Changelog update - `v2.1.2` by @github-actions[bot] in https://github.com/tox-dev/PyVenvManage/pull/78"
       },
       {
         "tag": "v2.1.2",
-        "reason": "expected one changelog section for v2.1.2, found 0"
+        "reason": "release item outside a category: - Fix python version display (#76) by @andrask in https://github.com/tox-dev/PyVenvManage/pull/77"
       },
       {
         "tag": "v2.1.1",
-        "reason": "expected one changelog section for v2.1.1, found 0"
+        "reason": "release item outside a category: - Fix a crash while showing the notification after changing the Python SDK"
       },
       {
         "tag": "v2.1.0",
-        "reason": "expected one changelog section for v2.1.0, found 0"
+        "reason": "release item outside a category: - Add support for showing python version in tree view by @andrask in https://github.com/tox-dev/PyVenvManage/pull/51"
       },
       {
         "tag": "v2.0.1",
-        "reason": "expected one changelog section for v2.0.1, found 0"
+        "reason": "release item outside a category: - Extend compatibility for PyCharm Professional"
       },
       {
         "tag": "v2.0.0",
-        "reason": "expected one changelog section for v2.0.0, found 0"
-      },
-      {
-        "tag": "1.4.0",
-        "reason": "expected one changelog section for 1.4.0, found 0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "1.3.10",
-        "reason": "expected one changelog section for 1.3.10, found 0"
+        "reason": "release item outside a category: - Support IntelliJ Platform 2023.1 and 2023.2, and remove the upper IDE version bound."
       }
     ]
   },
@@ -2051,11 +2049,11 @@
       },
       {
         "tag": "0.2",
-        "reason": "release item outside a category: - Drop 3.6 support and bump linters"
+        "reason": "expected one changelog section for 0.2, found 0"
       },
       {
         "tag": "0.1",
-        "reason": "release item outside a category: - First release"
+        "reason": "expected one changelog section for 0.1, found 0"
       }
     ]
   },
@@ -2623,51 +2621,46 @@
   },
   {
     "repository": "tox-dev/jetbrains-fish",
-    "passed": [],
+    "passed": [
+      "v0.1.1",
+      "v0.1.0"
+    ],
     "failures": [
       {
         "tag": "v0.1.10",
-        "reason": "expected one changelog section for v0.1.10, found 0"
+        "reason": "release item outside a category: - Migrate LSP support to the `LspIntegrationProvider` API ([#113](https://github.com/tox-dev/jetbrains-fish/pull/113))."
       },
       {
         "tag": "v0.1.9",
-        "reason": "expected one changelog section for v0.1.9, found 0"
+        "reason": "release item outside a category: - Build against IntelliJ Platform 2026.2 ([#108](https://github.com/tox-dev/jetbrains-fish/pull/108))."
       },
       {
         "tag": "v0.1.8",
-        "reason": "expected one changelog section for v0.1.8, found 0"
+        "reason": "release item outside a category: - Bump version to `0.1.8-dev` by @gaborbernat in https://github.com/tox-dev/jetbrains-fish/pull/22"
       },
       {
         "tag": "v0.1.7",
-        "reason": "expected one changelog section for v0.1.7, found 0"
+        "reason": "release item outside a category: - Bump version to `0.1.7-dev` by @github-actions[bot] in https://github.com/tox-dev/jetbrains-fish/pull/20"
       },
       {
         "tag": "v0.1.6",
-        "reason": "expected one changelog section for v0.1.6, found 0"
+        "reason": "release item outside a category: - Bump version to `0.1.6-dev` by @github-actions[bot] in https://github.com/tox-dev/jetbrains-fish/pull/18"
       },
       {
         "tag": "v0.1.5",
-        "reason": "expected one changelog section for v0.1.5, found 0"
+        "reason": "release item outside a category: - Bump version to `0.1.5-dev` by @github-actions[bot] in https://github.com/tox-dev/jetbrains-fish/pull/15"
       },
       {
         "tag": "v0.1.4",
-        "reason": "expected one changelog section for v0.1.4, found 0"
+        "reason": "release item outside a category: - Fix CI bugs, improve workflows, and fix flaky UI tests by @gaborbernat in"
       },
       {
         "tag": "v0.1.3",
-        "reason": "expected one changelog section for v0.1.3, found 0"
+        "reason": "release item outside a category: - Include the commit hash in development builds and simplify the release workflow"
       },
       {
         "tag": "v0.1.2",
-        "reason": "expected one changelog section for v0.1.2, found 0"
-      },
-      {
-        "tag": "v0.1.1",
-        "reason": "expected one changelog section for v0.1.1, found 0"
-      },
-      {
-        "tag": "v0.1.0",
-        "reason": "expected one changelog section for v0.1.0, found 0"
+        "reason": "release item outside a category: - Fix LSP4IJ compatibility and improve run configuration support"
       }
     ]
   },
@@ -2685,19 +2678,14 @@
   },
   {
     "repository": "tox-dev/peryx",
-    "passed": [],
+    "passed": [
+      "v2026.1010.0",
+      "v2026.927.0"
+    ],
     "failures": [
       {
-        "tag": "v2026.1010.0",
-        "reason": "expected one changelog section for v2026.1010.0, found 0"
-      },
-      {
-        "tag": "v2026.927.0",
-        "reason": "expected one changelog section for v2026.927.0, found 0"
-      },
-      {
         "tag": "v2026.925.0",
-        "reason": "expected one changelog section for v2026.925.0, found 0"
+        "reason": "unknown changelog category: Features"
       }
     ]
   },
@@ -4528,351 +4516,172 @@
   },
   {
     "repository": "tox-dev/toml-fmt",
-    "passed": [],
+    "passed": [
+      "tox-toml-fmt/1.11.1",
+      "pyproject-fmt/2.30.3",
+      "pyproject-fmt/2.30.2",
+      "pyproject-fmt/2.30.1",
+      "pyproject-fmt/2.29.4",
+      "tox-toml-fmt/1.10.3",
+      "pyproject-fmt/2.29.3",
+      "pyproject-fmt/2.28.2",
+      "pyproject-fmt/2.28.1",
+      "pyproject-fmt/2.28.0",
+      "pyproject-fmt/2.27.1",
+      "pyproject-fmt/2.27.0",
+      "pyproject-fmt/2.26.0",
+      "pyproject-fmt/2.25.4",
+      "pyproject-fmt/2.25.3",
+      "pyproject-fmt/2.25.2",
+      "pyproject-fmt/2.25.1",
+      "pyproject-fmt/2.25.0",
+      "pyproject-fmt/2.23.0",
+      "pyproject-fmt/2.22.0",
+      "toml-fmt-common/1.3.5",
+      "toml-fmt-common/1.3.4",
+      "tox-toml-fmt/1.9.3",
+      "pyproject-fmt/2.21.2",
+      "tox-toml-fmt/1.9.2",
+      "pyproject-fmt/2.21.1",
+      "pyproject-fmt/2.21.0",
+      "tox-toml-fmt/1.9.1",
+      "tox-toml-fmt/1.9.0",
+      "pyproject-fmt/2.18.1",
+      "pyproject-fmt/2.18.0",
+      "tox-toml-fmt/1.8.0",
+      "pyproject-fmt/2.17.0",
+      "pyproject-fmt/2.16.2",
+      "tox-toml-fmt/1.7.2",
+      "tox-toml-fmt/1.7.1",
+      "tox-toml-fmt/1.7.0",
+      "tox-toml-fmt/1.6.0",
+      "pyproject-fmt/2.16.0",
+      "tox-toml-fmt/1.5.4",
+      "pyproject-fmt/2.15.3",
+      "pyproject-fmt/2.15.2",
+      "pyproject-fmt/2.15.1",
+      "tox-toml-fmt/1.5.3",
+      "pyproject-fmt/2.15.0",
+      "pyproject-fmt/2.14.2",
+      "pyproject-fmt/2.14.1",
+      "tox-toml-fmt/1.5.1",
+      "pyproject-fmt/2.12.1",
+      "tox-toml-fmt/1.2.2",
+      "pyproject-fmt/2.11.1",
+      "tox-toml-fmt/1.2.1",
+      "pyproject-fmt/2.11.0",
+      "pyproject-fmt/2.10.0",
+      "tox-toml-fmt/1.2.0",
+      "pyproject-fmt/2.6.0",
+      "pyproject-fmt/2.5.1",
+      "tox-toml-fmt/1.0.0",
+      "pyproject-fmt/2.5.0",
+      "pyproject-fmt/2.4.3"
+    ],
     "failures": [
       {
-        "tag": "tox-toml-fmt/1.11.1",
-        "reason": "invalid release tag: tox-toml-fmt/1.11.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.30.3",
-        "reason": "invalid release tag: pyproject-fmt/2.30.3"
-      },
-      {
-        "tag": "pyproject-fmt/2.30.2",
-        "reason": "invalid release tag: pyproject-fmt/2.30.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.30.1",
-        "reason": "invalid release tag: pyproject-fmt/2.30.1"
-      },
-      {
         "tag": "tox-toml-fmt/1.11.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.11.0"
+        "reason": "release text outside an item: [Release history](https://github.com/tox-dev/toml-fmt/releases/tag/tox-toml-fmt/1.11.0)."
       },
       {
         "tag": "pyproject-fmt/2.30.0",
-        "reason": "invalid release tag: pyproject-fmt/2.30.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.29.4",
-        "reason": "invalid release tag: pyproject-fmt/2.29.4"
-      },
-      {
-        "tag": "tox-toml-fmt/1.10.3",
-        "reason": "invalid release tag: tox-toml-fmt/1.10.3"
-      },
-      {
-        "tag": "pyproject-fmt/2.29.3",
-        "reason": "invalid release tag: pyproject-fmt/2.29.3"
+        "reason": "release text outside an item: [Release history](https://github.com/tox-dev/toml-fmt/releases/tag/pyproject-fmt/2.30.0)."
       },
       {
         "tag": "tox-toml-fmt/1.10.2",
-        "reason": "invalid release tag: tox-toml-fmt/1.10.2"
+        "reason": "release text outside an item: The wheels held their vendored copy throughout, so an install that takes a wheel was never affected."
       },
       {
         "tag": "tox-toml-fmt/1.10.1",
-        "reason": "invalid release tag: tox-toml-fmt/1.10.1"
+        "reason": "unknown changelog category: Known issue"
       },
       {
         "tag": "tox-toml-fmt/1.10.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.10.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.29.2",
-        "reason": "invalid release tag: pyproject-fmt/2.29.2"
+        "reason": "release text outside an item: The wheels held their vendored copy throughout, so an install that takes a wheel was never affected."
       },
       {
         "tag": "pyproject-fmt/2.29.1",
-        "reason": "invalid release tag: pyproject-fmt/2.29.1"
+        "reason": "unknown changelog category: Known issue"
       },
       {
         "tag": "pyproject-fmt/2.29.0",
-        "reason": "invalid release tag: pyproject-fmt/2.29.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.28.2",
-        "reason": "invalid release tag: pyproject-fmt/2.28.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.28.1",
-        "reason": "invalid release tag: pyproject-fmt/2.28.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.28.0",
-        "reason": "invalid release tag: pyproject-fmt/2.28.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.27.1",
-        "reason": "invalid release tag: pyproject-fmt/2.27.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.27.0",
-        "reason": "invalid release tag: pyproject-fmt/2.27.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.26.0",
-        "reason": "invalid release tag: pyproject-fmt/2.26.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.25.4",
-        "reason": "invalid release tag: pyproject-fmt/2.25.4"
-      },
-      {
-        "tag": "pyproject-fmt/2.25.3",
-        "reason": "invalid release tag: pyproject-fmt/2.25.3"
-      },
-      {
-        "tag": "pyproject-fmt/2.25.2",
-        "reason": "invalid release tag: pyproject-fmt/2.25.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.25.1",
-        "reason": "invalid release tag: pyproject-fmt/2.25.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.25.0",
-        "reason": "invalid release tag: pyproject-fmt/2.25.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.24.1",
-        "reason": "invalid release tag: pyproject-fmt/2.24.1"
+        "reason": "release text outside an item: Maintenance release: dependency updates and internal changes only."
       },
       {
         "tag": "pyproject-fmt/2.24.0",
-        "reason": "invalid release tag: pyproject-fmt/2.24.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.23.0",
-        "reason": "invalid release tag: pyproject-fmt/2.23.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.22.0",
-        "reason": "invalid release tag: pyproject-fmt/2.22.0"
-      },
-      {
-        "tag": "toml-fmt-common/1.3.5",
-        "reason": "invalid release tag: toml-fmt-common/1.3.5"
-      },
-      {
-        "tag": "toml-fmt-common/1.3.4",
-        "reason": "invalid release tag: toml-fmt-common/1.3.4"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "toml-fmt-common/1.3.3",
-        "reason": "invalid release tag: toml-fmt-common/1.3.3"
-      },
-      {
-        "tag": "tox-toml-fmt/1.9.3",
-        "reason": "invalid release tag: tox-toml-fmt/1.9.3"
-      },
-      {
-        "tag": "pyproject-fmt/2.21.2",
-        "reason": "invalid release tag: pyproject-fmt/2.21.2"
-      },
-      {
-        "tag": "tox-toml-fmt/1.9.2",
-        "reason": "invalid release tag: tox-toml-fmt/1.9.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.21.1",
-        "reason": "invalid release tag: pyproject-fmt/2.21.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.21.0",
-        "reason": "invalid release tag: pyproject-fmt/2.21.0"
+        "reason": "release text outside an item: Maintenance release: dependency updates and internal changes only."
       },
       {
         "tag": "pyproject-fmt/2.20.0",
-        "reason": "invalid release tag: pyproject-fmt/2.20.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.19.0",
-        "reason": "invalid release tag: pyproject-fmt/2.19.0"
-      },
-      {
-        "tag": "tox-toml-fmt/1.9.1",
-        "reason": "invalid release tag: tox-toml-fmt/1.9.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.9.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.9.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.18.1",
-        "reason": "invalid release tag: pyproject-fmt/2.18.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.18.0",
-        "reason": "invalid release tag: pyproject-fmt/2.18.0"
-      },
-      {
-        "tag": "tox-toml-fmt/1.8.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.8.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.17.0",
-        "reason": "invalid release tag: pyproject-fmt/2.17.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.16.2",
-        "reason": "invalid release tag: pyproject-fmt/2.16.2"
-      },
-      {
-        "tag": "tox-toml-fmt/1.7.2",
-        "reason": "invalid release tag: tox-toml-fmt/1.7.2"
-      },
-      {
-        "tag": "tox-toml-fmt/1.7.1",
-        "reason": "invalid release tag: tox-toml-fmt/1.7.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.7.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.7.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.16.1",
-        "reason": "invalid release tag: pyproject-fmt/2.16.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.6.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.6.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.16.0",
-        "reason": "invalid release tag: pyproject-fmt/2.16.0"
-      },
-      {
-        "tag": "tox-toml-fmt/1.5.4",
-        "reason": "invalid release tag: tox-toml-fmt/1.5.4"
-      },
-      {
-        "tag": "pyproject-fmt/2.15.3",
-        "reason": "invalid release tag: pyproject-fmt/2.15.3"
-      },
-      {
-        "tag": "pyproject-fmt/2.15.2",
-        "reason": "invalid release tag: pyproject-fmt/2.15.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.15.1",
-        "reason": "invalid release tag: pyproject-fmt/2.15.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.5.3",
-        "reason": "invalid release tag: tox-toml-fmt/1.5.3"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "tox-toml-fmt/1.5.2",
-        "reason": "invalid release tag: tox-toml-fmt/1.5.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.15.0",
-        "reason": "invalid release tag: pyproject-fmt/2.15.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.14.2",
-        "reason": "invalid release tag: pyproject-fmt/2.14.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.14.1",
-        "reason": "invalid release tag: pyproject-fmt/2.14.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.5.1",
-        "reason": "invalid release tag: tox-toml-fmt/1.5.1"
+        "reason": "release text outside an item: Maintenance release: dependency updates and internal changes only."
       },
       {
         "tag": "tox-toml-fmt/1.5.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.5.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.14.0",
-        "reason": "invalid release tag: pyproject-fmt/2.14.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "tox-toml-fmt/1.3.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.3.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.12.1",
-        "reason": "invalid release tag: pyproject-fmt/2.12.1"
+        "reason": "release text outside an item: [Tag](https://github.com/tox-dev/toml-fmt/tree/tox-toml-fmt/1.3.0)."
       },
       {
         "tag": "pyproject-fmt/2.12.0",
-        "reason": "invalid release tag: pyproject-fmt/2.12.0"
-      },
-      {
-        "tag": "tox-toml-fmt/1.2.2",
-        "reason": "invalid release tag: tox-toml-fmt/1.2.2"
-      },
-      {
-        "tag": "pyproject-fmt/2.11.1",
-        "reason": "invalid release tag: pyproject-fmt/2.11.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.2.1",
-        "reason": "invalid release tag: tox-toml-fmt/1.2.1"
-      },
-      {
-        "tag": "pyproject-fmt/2.11.0",
-        "reason": "invalid release tag: pyproject-fmt/2.11.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.10.0",
-        "reason": "invalid release tag: pyproject-fmt/2.10.0"
-      },
-      {
-        "tag": "tox-toml-fmt/1.2.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.2.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.9.0",
-        "reason": "invalid release tag: pyproject-fmt/2.9.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.8.0",
-        "reason": "invalid release tag: pyproject-fmt/2.8.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "tox-toml-fmt/1.1.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.1.0"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.7.0",
-        "reason": "invalid release tag: pyproject-fmt/2.7.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.6.0",
-        "reason": "invalid release tag: pyproject-fmt/2.6.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.5.1",
-        "reason": "invalid release tag: pyproject-fmt/2.5.1"
-      },
-      {
-        "tag": "tox-toml-fmt/1.0.0",
-        "reason": "invalid release tag: tox-toml-fmt/1.0.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.5.0",
-        "reason": "invalid release tag: pyproject-fmt/2.5.0"
-      },
-      {
-        "tag": "pyproject-fmt/2.4.3",
-        "reason": "invalid release tag: pyproject-fmt/2.4.3"
+        "reason": "unknown changelog category: Changed"
       },
       {
         "tag": "pyproject-fmt/2.4.2",
-        "reason": "invalid release tag: pyproject-fmt/2.4.2"
+        "reason": "release text outside an item: Maintenance release: dependency updates and internal changes only."
       },
       {
         "tag": "pyproject-fmt/2.4.1",
-        "reason": "invalid release tag: pyproject-fmt/2.4.1"
+        "reason": "release text outside an item: [Tag](https://github.com/tox-dev/toml-fmt/tree/pyproject-fmt/2.4.1)."
       },
       {
         "tag": "pyproject-fmt/2.4.0",
-        "reason": "invalid release tag: pyproject-fmt/2.4.0"
+        "reason": "unknown changelog category: Changed"
       }
     ]
   },

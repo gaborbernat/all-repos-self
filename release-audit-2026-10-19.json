@@ -2215,7 +2215,14 @@
         "source_unreadable": 0
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 25
+      "strict_replay_failures": 25,
+      "custom_engine_probe": {
+        "candidate_tag": "1.8.2",
+        "assembly": "assembled",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+        "artifact_count": 2
+      }
     },
     {
       "repository": "pytest-dev/pytest-print",
@@ -2298,7 +2305,14 @@
         "source_unreadable": 0
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 19
+      "strict_replay_failures": 19,
+      "custom_engine_probe": {
+        "candidate_tag": "1.4.1",
+        "assembly": "assembled",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+        "artifact_count": 2
+      }
     },
     {
       "repository": "quotaline/quotaline",
@@ -2382,7 +2396,14 @@
         "source_unreadable": 0
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 0
+      "strict_replay_failures": 0,
+      "custom_engine_probe": {
+        "candidate_tag": "v0.1.8",
+        "assembly": "assembled",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+        "artifact_count": 1
+      }
     },
     {
       "repository": "tox-dev/PyVenvManage",
@@ -2572,14 +2593,21 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 0,
+        "rendered": 1,
         "changelog_missing": 0,
-        "render_failure": 25,
+        "render_failure": 24,
         "tag_missing": 0,
         "source_unreadable": 0
       },
-      "strict_replay_pass": 0,
-      "strict_replay_failures": 25
+      "strict_replay_pass": 1,
+      "strict_replay_failures": 24,
+      "custom_engine_probe": {
+        "candidate_tag": "v2.4.7",
+        "assembly": "assembled",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+        "artifact_count": 1
+      }
     },
     {
       "repository": "tox-dev/action-pre-commit-uv",
@@ -2661,7 +2689,14 @@
         "source_unreadable": 0
       },
       "strict_replay_pass": 0,
-      "strict_replay_failures": 7
+      "strict_replay_failures": 7,
+      "custom_engine_probe": {
+        "candidate_tag": "v1.1.1",
+        "assembly": "assembled",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+        "artifact_count": 0
+      }
     },
     {
       "repository": "tox-dev/devpi-process",
@@ -3561,14 +3596,21 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 0,
+        "rendered": 1,
         "changelog_missing": 0,
-        "render_failure": 11,
+        "render_failure": 10,
         "tag_missing": 0,
         "source_unreadable": 0
       },
-      "strict_replay_pass": 0,
-      "strict_replay_failures": 11
+      "strict_replay_pass": 2,
+      "strict_replay_failures": 9,
+      "custom_engine_probe": {
+        "candidate_tag": "v0.1.11",
+        "assembly": "assembled",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Verify the candidate release pipeline output.",
+        "artifact_count": 1
+      }
     },
     {
       "repository": "tox-dev/mdformat-zola",
@@ -3771,14 +3813,21 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 0,
+        "rendered": 2,
         "changelog_missing": 0,
-        "render_failure": 3,
+        "render_failure": 1,
         "tag_missing": 0,
         "source_unreadable": 0
       },
-      "strict_replay_pass": 0,
-      "strict_replay_failures": 3
+      "strict_replay_pass": 2,
+      "strict_replay_failures": 1,
+      "custom_engine_probe": {
+        "candidate_tag": "v2026.1019.0",
+        "assembly": "passed",
+        "strict_note_render": "failed",
+        "note_error": "unknown changelog category: Fixes",
+        "artifact_count": 0
+      }
     },
     {
       "repository": "tox-dev/pipdeptree",
@@ -6559,8 +6608,15 @@
         "tag_missing": 0,
         "source_unreadable": 0
       },
-      "strict_replay_pass": 0,
-      "strict_replay_failures": 86
+      "strict_replay_pass": 60,
+      "strict_replay_failures": 26,
+      "custom_engine_probe": {
+        "candidate_tag": "tox-toml-fmt/1.11.2",
+        "assembly": "passed for both active packages",
+        "strict_note_render": "failed",
+        "note_error": "release text outside an item: Fix the candidate release pipeline output.",
+        "artifact_count": 4
+      }
     },
     {
       "repository": "tox-dev/tox",

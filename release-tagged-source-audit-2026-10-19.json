@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-19T19:14:06.510036+00:00",
+  "captured_at": "2026-10-19T19:28:15.271053+00:00",
   "results": [
     {
       "repository": "gaborbernat/bump-deps-index",
@@ -3281,9 +3281,9 @@
     {
       "repository": "tox-dev/PyVenvManage",
       "tag": "1.4.0",
-      "status": "render_failure",
+      "status": "rendered",
       "path": "CHANGELOG.md",
-      "detail": "expected one changelog section for 1.4.0, found 0"
+      "notes_bytes": 117
     },
     {
       "repository": "tox-dev/PyVenvManage",
@@ -3402,7 +3402,7 @@
       "tag": "0.2",
       "status": "render_failure",
       "path": "CHANGELOG.md",
-      "detail": "release text outside an item: * Drop 3.6 support and bump linters"
+      "detail": "expected one changelog section for 0.2, found 0"
     },
     {
       "repository": "tox-dev/devpi-process",
@@ -4401,9 +4401,9 @@
     {
       "repository": "tox-dev/jetbrains-fish",
       "tag": "v0.1.0",
-      "status": "render_failure",
+      "status": "rendered",
       "path": "CHANGELOG.md",
-      "detail": "expected one changelog section for v0.1.0, found 0"
+      "notes_bytes": 138
     },
     {
       "repository": "tox-dev/mdformat-zola",
@@ -4420,23 +4420,23 @@
     {
       "repository": "tox-dev/peryx",
       "tag": "v2026.1010.0",
-      "status": "render_failure",
+      "status": "rendered",
       "path": "CHANGELOG.md",
-      "detail": "expected one changelog section for v2026.1010.0, found 0"
+      "notes_bytes": 489
     },
     {
       "repository": "tox-dev/peryx",
       "tag": "v2026.927.0",
-      "status": "render_failure",
+      "status": "rendered",
       "path": "CHANGELOG.md",
-      "detail": "expected one changelog section for v2026.927.0, found 0"
+      "notes_bytes": 662
     },
     {
       "repository": "tox-dev/peryx",
       "tag": "v2026.925.0",
       "status": "render_failure",
       "path": "CHANGELOG.md",
-      "detail": "expected one changelog section for v2026.925.0, found 0"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/pipdeptree",
