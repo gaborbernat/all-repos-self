@@ -1,0 +1,697 @@
+{
+  "captured_at": "2026-10-19 20:58 UTC",
+  "source": "GitHub Contents API, default branches; open PR heads excluded",
+  "repositories": [
+    {
+      "repository": "gaborbernat/bump-deps-index",
+      "changelog": "docs/changelog.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "e15b21b74141f9eec00018720da79f99c615c946875380487a53f1b545c75a66"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "258c8e86684ecb8372054fafd3338fac0f67b9df8197d60c3315d131a4ed1744"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "gaborbernat/mdformat-hugo",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "b4027cba670b22f9535ec14413e2f8435fc6e74c9aa5503e7b734f7d8081ba53"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "18ba12537621afc218c79a92cad5ea8c381429b465b4e712a449427e3baa9c88"
+        },
+        {
+          "path": ".github/workflows/upgrade-release-tools.yaml",
+          "sha256": "6fb9b817acc772e1b26a4e40934c89da8bd68729d109cec2b3c792899101bc5c"
+        },
+        {
+          "path": ".github/workflows/upgrade-release-tools.yaml",
+          "sha256": "6fb9b817acc772e1b26a4e40934c89da8bd68729d109cec2b3c792899101bc5c"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": true,
+      "tool_lock_on_default_branch": true,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "gaborbernat/pypi-changes",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "67bb11ae0364fc56e8d1dfa6695821ccd87fe7866048e30f549faab3ef1d1013"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "28b6ce4578442adb8a8034cbd196460478295443fe6383a23a6a0b412ac61164"
+        },
+        {
+          "path": ".github/workflows/upgrade-release-tools.yaml",
+          "sha256": "d258dded51feb6d402d39650b9e9f786fef4bf023ed14313e5c5c5d366b55a24"
+        },
+        {
+          "path": ".github/workflows/upgrade-release-tools.yaml",
+          "sha256": "d258dded51feb6d402d39650b9e9f786fef4bf023ed14313e5c5c5d366b55a24"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": true,
+      "tool_lock_on_default_branch": true,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "pypa/pipx",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/pre-release.yml",
+          "sha256": "71db3497f84c8d541cfb86efb16b0831d9e4ec726365b292567b7d90da8b1ba5"
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "sha256": "25cb7f910c9b6dfb1a68020204e537471994cca61902b9cfe3e9123def99a17d"
+        }
+      ],
+      "check_workflow_present": false,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "pypa/virtualenv",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier via repository release.py",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/pre-release.yaml",
+          "sha256": "ffe63adc6c4a5cec3b366fa9cead5e16fe75dab5d99290a40745a5f152a72033"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "3181f86d118e33eb2174fcff7dfba42c4473b66271fa836184253b003e9d077a"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "pytest-dev/pytest-env",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "3c8e1c972eed9ad7f42a70efc88e857f09c039d2320437cab7fa68c1e0e45f23"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "84ada1ab2587ae4729d7e769511271b786b0ea505aa2c6f950ab38985a8d0b38"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "pytest-dev/pytest-print",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "b2e0136694f9e5050bd517824c01cc22a65eb0651eb0efad61d2f16972e11dfd"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "24fb82c6c880f7a1bfb91ce13551793c27ddeaeb5dd76044b0bf373a8addf5cc"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "quotaline/quotaline",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yml",
+          "sha256": "9a04fff41cc268ebc6a48449e15402f0e8a5bc698280591e47e39dc3856e6396"
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "sha256": "dc31e79e90a50d057add1c164642aba2e043b44e66f20e1dc4b44900ae713500"
+        }
+      ],
+      "check_workflow_present": false,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": false,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": false,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/PyVenvManage",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "0253a650970011df6df2df4cad92c1f2ddd8d9d17edfa848883cb43e9c071af6"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "84c1436e4ae225b49b9791975aa4305cf275cffee592059549516f0e11bdd0c1"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": false,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/action-pre-commit-uv",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yml",
+          "sha256": "deeb39daadaf28f090a6493f53f9a88366c39cc086e8e8b2849e5bf4df3fe0f8"
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "sha256": "fa1a7088d1648db4a1d27d3693afde7b615ac788f261927e350311b0b0014fa1"
+        }
+      ],
+      "check_workflow_present": false,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": false,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/devpi-process",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "7ba73072a771243ef5d8b41c587d30860cea8303ad41f85afa96edb80401ce26"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/filelock",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "f9f443975a0dba06b981cee7d25f74ef4fb9d445098bedf208f67c69371d1676"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "63b40cb081e2ceb7faebf0e34202a9e18e7968d2629d2dc96e011c061bf0f12d"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/jetbrains-fish",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "5e33d3ed0b18ba8df3281ffe27978854933b1eb131750175c2df4162c6dc3b9e"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "09103618d31c67dbd78aeb38aac6f7dea130a233dfbbfe32675a99ddfc4150b7"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": false,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/mdformat-zola",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "af3309ea0187b690a8b6c6ac6996f695cce81016be90a9ca27141608cde69015"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/peryx",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yml",
+          "sha256": "37547b3265ba6d30fb2496c2028683919a06b14592c802c9271736e685ecc421"
+        },
+        {
+          "path": ".github/workflows/publish-pypi.yml",
+          "sha256": "b6a4eb71d1397b58aa0f766d33e735fd952028372fe2f59a0413b19dba4a0dca"
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "sha256": "2ab4a5e50db304975c76bef7b642db6e6e31870c2cb0b998b9e8eb6a50ea3d5d"
+        }
+      ],
+      "check_workflow_present": false,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": false,
+      "local_reusable_workflow_present": true,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/pipdeptree",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "4ec3121a2aef046c05d9c2298dbb8effaa5790da8d66542a7d73e8e4207a6838"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "0ccb26a65f7ff86d58c20c871644cfe07255a4aed355837132217445e4924253"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/platformdirs",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "68248303c1a422c8f03b194540192d05d379e60afd4090a2b0791d511e8689da"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "032860e3b15f465a28dc7d8f2d93dbc0896789a64a13878a8ecf034a679d4f53"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/pre-commit-uv",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "8d563494058a8be0e18fb21c5a0533becbdedf7f5cfa6f2ca48f36e8245860d2"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/pyproject-api",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "552521ac3a94e599b796d0bc77814dde5f66e8bea6b419b181cffb181cb6275c"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "2994d0fc84f4e9b1b28752d26c35714bbe8668f712d4c6f0ab90204a7033fb61"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/python-discovery",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "22062f45d55ecdd4df3b220ae7555f54c1e1e834b15ce48f4bb94afe56edd2e3"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "487eec2d0391bf5ee091a858d5aef64a927b2933a0107d07ef82b02336f569cf"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/sphinx-argparse-cli",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "2a115098220a347d1b422efbf18b728a7351d9735fcda4dd65012ad2909e1c51"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/sphinx-autodoc-typehints",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "cc1342e661b24ad70b37824b9ff3ff042af8e11e5b1341b3661e3672d784eeb5"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "98075de2965a3796f0a0d168acc44df321dee7007dc412204269a503fac82ee6"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/toml-fmt",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "custom",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "9d10d4c5b4ac2b405a840639f103b6bf17138c4fd1d4dd01e870d11a36d66d8a"
+        },
+        {
+          "path": ".github/workflows/pyproject_fmt_release.yaml",
+          "sha256": "1efe8d88413750ad1deb2eeaa2912d5d1b7c79bae25b7c64c2f181ffcb9e9789"
+        },
+        {
+          "path": ".github/workflows/tox_toml_fmt_release.yaml",
+          "sha256": "c38f9ff6e5e92c0bb32e779ffde1ca64c8db9f17cf9b13010c98c401473d70ee"
+        }
+      ],
+      "check_workflow_present": false,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": true,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/tox",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "adcae779377c6251bd131f6bb922d1ca4c12194ad24345eddbe5f9da72748e44"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "f404d80e92c7045ea11c649f4431d79b5c41ab941efeb2ebbe4f2690ac1817c7"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/tox-gh",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "4350acb15dc9d6b76ba035fd47fb19e0f27e7e99f99b8ce9e869e8f5aa243673"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/tox-ini-fmt",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "6c1645fe73854dde59538ca62a97c636ee00c2f1bac7653c4e9cf5cfbe99d4f4"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/tox-uv",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "8de224797d417951a30a96fb3bfc6acd5af5e71aaccb6b46ebe31075f422ab16"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "0baa1caaf20be6d78b9ab290a8ce6f0e97f3a52d3f0321fc94cf5d3f60ee072d"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/turbohtml",
+      "changelog": "docs/changelog.rst",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "123cfbeaae42c876f76d1fd85b1dd74458638c29af504f61026d65b816ca6aea"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "4b27f2ccefd33326712dc88715c08530f951390798ff06677a6c82ad8db5d370"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": true,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    },
+    {
+      "repository": "tox-dev/xml-fmt",
+      "changelog": "CHANGELOG.md",
+      "release_engine": "towncrier",
+      "release_workflows": [
+        {
+          "path": ".github/workflows/prepare-release.yaml",
+          "sha256": "c8006a82c654649ac2efed8b911c7a0734e6e2609a7fa50c3c34c65461f7e091"
+        },
+        {
+          "path": ".github/workflows/release.yaml",
+          "sha256": "1398bcd887d9e88d1d5c392975fd7940e2be3df830cfc2d4be9e1758fe63ca30"
+        }
+      ],
+      "check_workflow_present": true,
+      "app_token_workflow_present": true,
+      "generated_tree_prek_on_default_branch": false,
+      "tool_lock_on_default_branch": false,
+      "github_actions_dependabot": true,
+      "local_reusable_workflow_present": false,
+      "pyproject_present": true,
+      "prek_config_present": true
+    }
+  ]
+}
