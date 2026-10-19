@@ -354,6 +354,8 @@ The public PR #1 run on commit `74d15c6` passed every required check: changelog,
 
 The replacement Read the Docs PR build passed. PR #1 is green and mergeable at commit `4539a9a`.
 
+Documentation contract for every repository with a built site: a PR documentation build shows that branch's changelog fragments under an Unreleased/Draft section, including fragments from the PR before merge. The tracked Markdown or RST changelog receives those entries only during release preparation. Match tox's existing draft changelog behavior in Sphinx projects; use the equivalent build-time rendering for MkDocs or other generators. The release-creator PR #1 pilot reads its `changelog.d` fragments into the Sphinx changelog page at build time without editing `CHANGELOG.md`. Its local PR preview shows the current `Added` entry under `Unreleased`. Apply and verify this on each consumer PR with a documentation build, including PR previews.
+
 ### Python scope for release-creator
 
 The checked-out release workflows show three further pieces of release data logic worth sharing. `fragments collect` should own the category list, fragment ordering, author credit preservation, stable anchors, and Markdown/RST changelog output. This would replace each consumer's Towncrier category and template configuration without putting GitHub workflow orchestration in Python. Validate it against projects with existing RST changelogs and multiple distributions before replacing Towncrier in consumer PRs.
