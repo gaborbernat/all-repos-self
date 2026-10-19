@@ -1,70 +1,128 @@
 # Release attribution samples
 
 These are proposed formats for review. No changelog or GitHub Release has been backfilled from this sheet. Each linked
-PR was merged, and its author was checked against GitHub's PR API on 2026-10-18. The short examples show attribution
-syntax; the backfill must retain the original release text, categories, PR links, and contributor sections.
+PR was merged, and its author was checked against GitHub's PR API on 2026-10-18. The examples show the proposed format.
+The backfill must retain each release’s facts, PR links, contributor credits, and category meaning while changing its
+headings.
 
-## Complete examples
+## Category and anchor proposal
 
-Markdown changelog, using an existing pre-commit-uv change:
+Only user-visible changes get release notes. After format approval, apply these headings and stable anchors to every
+existing tracked changelog release and GitHub Release description in all 29 repositories. Preserve release facts, tags,
+assets, and ecosystem links. Each repository gets one PR with code, tracked changelog history, relevant contribution
+guidance, and an exact before/after report for its GitHub Release bodies. Bernát reviews and merges each PR; no
+auto-merge. Apply the reviewed GitHub Release body changes after merge. The tracked changelog and GitHub Release use
+these headings:
+
+| Tracked changelog | GitHub Release   | Use when                                         |
+| ----------------- | ---------------- | ------------------------------------------------ |
+| Added             | Features         | New capability                                   |
+| Changes           | Changes          | Compatible behavior change                       |
+| Fixed             | Bug fixes        | Behavior correction                              |
+| Documentation     | Documentation    | Reader-facing docs change                        |
+| Breaking changes  | Breaking changes | Incompatible behavior or dropped support         |
+| Security          | Security         | Security fix or action users need to take        |
+| Performance       | Performance      | Measurable performance change                    |
+| Deprecated        | Deprecations     | Support slated for removal                       |
+| Removed           | Removals         | Previously supported behavior removed            |
+| Packaging         | Packaging        | Installation or downstream compatibility changes |
+
+Omit empty sections. Internal maintenance, contributor workflow work, and packaging with no user impact use `skip news`.
+Replace user-facing `misc` fragments with a specific category; remove the `misc` types still defined by python-discovery
+and pipx. A distinct `change` fragment type keeps compatible changes separate from additions. Update contribution guides
+and PR templates when these rules affect their instructions; the current issue templates do not mention release-note
+rules.
+
+Put an explicit anchor before each version and section heading, leaving the visible heading unchanged. Use a stable
+release tag and category key in each anchor, such as `release-4-2-0-fixed`; do not derive it from the displayed title.
+RST uses `.. _release-4-2-0-fixed:` and Markdown uses `<a name="release-4-2-0-fixed"></a>`. GitHub Release sections use
+level-three headings. GitHub documents
+[custom Markdown anchors](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#custom-anchors).
+
+## Complete format examples
+
+These are complete one-change release formats. `NEXT_VERSION`, `DATE`, and tag names are placeholders. The linked PRs
+and authors are real; the historical backfill will retain every entry and fact from each tagged release. The
+[review website](https://oss-release-review-2026.neonmoss6.chatgpt.site) has a paired example for every repository.
+
+Markdown changelog, using a pre-commit-uv change:
 
 ```md
-### Bug fixes
+<a name="release-next-tag"></a>
+
+## NEXT_VERSION (DATE)
+
+<a name="release-next-tag-fixed"></a>
+
+### Fixed
 
 - Add Python 3.14 support ([#86](https://github.com/tox-dev/pre-commit-uv/pull/86)) by [@ssbarnea](https://github.com/ssbarnea).
 ```
 
-The matching GitHub Release body uses a mention and keeps the new-contributor credit:
+Matching GitHub Release body:
 
 ```md
+<a name="release-next-tag-fixed"></a>
+
 ### Bug fixes
 
 - Add Python 3.14 support ([#86](https://github.com/tox-dev/pre-commit-uv/pull/86)) by @ssbarnea.
+
+<a name="release-next-tag-new-contributors"></a>
 
 ### New Contributors
 
 - @ssbarnea made their first contribution in https://github.com/tox-dev/pre-commit-uv/pull/86
 
-[PyPI release](https://pypi.org/project/pre-commit-uv/4.2.0/)
+[PyPI release](https://pypi.org/project/pre-commit-uv/NEXT_VERSION/)
 
-**Full Changelog**: https://github.com/tox-dev/pre-commit-uv/compare/4.1.5...4.2.0
+**Full Changelog**: https://github.com/tox-dev/pre-commit-uv/compare/PREVIOUS_TAG...NEXT_TAG
 ```
 
 RST changelog, using the existing `:user:` role in python-discovery:
 
 ```rst
-Bug fixes - 1.6.2
-=================
+.. _release-next-tag:
 
-- Discard unusable interpreter cache entries - by :user:`darrenhuai`. (:issue:`141`)
+NEXT_VERSION (DATE)
+===================
+
+.. _release-next-tag-fixed:
+
+Fixed
+-----
+
+- Discard unusable interpreter cache entries (:issue:`141`) - by :user:`darrenhuai`.
 ```
 
-The GitHub body renders the RST roles as Markdown links and uses a mention:
+Matching GitHub Release body:
 
 ```md
+<a name="release-next-tag-fixed"></a>
+
 ### Bug fixes
 
 - Discard unusable interpreter cache entries ([#141](https://github.com/tox-dev/python-discovery/pull/141)) by @darrenhuai.
+
+[PyPI release](https://pypi.org/project/python-discovery/NEXT_VERSION/)
+
+**Full Changelog**: https://github.com/tox-dev/python-discovery/compare/PREVIOUS_TAG...NEXT_TAG
 ```
 
-Pipx has no configured `:user:` role. Its RST changelog uses a standard RST link:
+Pipx has no configured `:user:` role, so its RST changelog uses a standard RST link:
 
 ```rst
 - Accept absolute ``file:///`` URLs as package specs (:issue:`2150`) - by `@srijan2607 <https://github.com/srijan2607>`_.
 ```
 
-Pyproject-api combines two PRs in one tracked bullet. Its sample keeps both verified authors rather than assigning the
-whole change to one:
+A combined pyproject-api entry keeps both verified PR authors:
 
 ```rst
 - Validate in-tree backend paths and reject metadata directories containing the project root (:pull:`320`, :pull:`323`) - by :user:`blouirts123` and :user:`edsonsims`.
 ```
 
-```md
-### Bug fixes
-
-- Validate in-tree backend paths and reject metadata directories containing the project root ([#320](https://github.com/tox-dev/pyproject-api/pull/320), [#323](https://github.com/tox-dev/pyproject-api/pull/323)) by @blouirts123 and @edsonsims.
-```
+When one PR produces several user-visible changes, put each entry under its own heading with its verified PR and author.
+Keep existing `by` credits in the changelog. Mention a first-time contributor only once in the GitHub Release.
 
 ## Per-repository attribution sample
 
