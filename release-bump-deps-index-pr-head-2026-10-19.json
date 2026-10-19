@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-10-19",
+  "repository": "gaborbernat/bump-deps-index",
+  "pull_request": 274,
+  "pr_head": "ce7004dfcde88fa8e7e73432d2dd2dd89b353a18",
+  "candidate_version": "1.17.2",
+  "method": "exact local PR-head release-dry-run job; no ref push or publication",
+  "results": {
+    "synthetic_squash": "passed",
+    "author_lookup": "passed",
+    "changelog_assembly": "passed",
+    "first_prek": "passed",
+    "patch_reapply": "passed",
+    "second_prek": "passed",
+    "local_tag": "passed",
+    "sdist_and_wheel": "passed",
+    "github_note_render": "passed",
+    "historical_sections_rendered": 31,
+    "historical_bullets_before": 86,
+    "historical_bullets_after": 86,
+    "negative_no_fragment_without_label": "failed as required",
+    "negative_no_fragment_with_skip_news": "passed",
+    "negative_empty_fragment_with_skip_news": "failed as required",
+    "negative_unknown_category_with_skip_news": "failed as required"
+  },
+  "artifacts": [
+    {
+      "filename": "release.patch",
+      "size": 779,
+      "sha256": "19d4416e3ed8d1fa3705b82ceecf03808b920ac6ef7bf577e80acc1085a7ce90"
+    },
+    {
+      "filename": "release-notes.md",
+      "size": 329,
+      "sha256": "eeb31f84efb03134e0d17306c762aee12b17116162d3e6567cecf7528942b57c"
+    },
+    {
+      "filename": "changelog.md",
+      "size": 25100,
+      "sha256": "2b9c00caaf6718cda87dd658f6102c66992e3596e56d58c933967b8903d8dead"
+    },
+    {
+      "filename": "dist.sha256",
+      "size": 272,
+      "sha256": "c71db700483183e09d33c943db35bc4532f4eaaeac47b74dd3d25aa752fde361"
+    },
+    {
+      "filename": ".gitignore",
+      "size": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "filename": "bump_deps_index-1.17.2-py3-none-any.whl",
+      "size": 44153,
+      "sha256": "56bb6b324d3d306c42fe2763e16eac10a1a52c10fd4464a595f01cec32b9cb36"
+    },
+    {
+      "filename": "bump_deps_index-1.17.2.tar.gz",
+      "size": 76609,
+      "sha256": "7df846226f507fac52832eed3d8c93643ae4fb27f1352d72c88d44fad2662e83"
+    }
+  ],
+  "historical_body_review": "release-bump-deps-index-body-review-2026-10-19.json",
+  "historical_body_count": 31,
+  "runner_ci": "Release without publishing passed in Actions run 39312971286; other jobs running"
+}
