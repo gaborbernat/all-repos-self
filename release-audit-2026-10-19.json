@@ -148,7 +148,9 @@
         "notes_sha256": "def769b5b517764cf904bf7e5b8c295b8a42db19cf7d60be73760ccc3b4af888",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 20,
+      "strict_replay_failures": 11
     },
     {
       "repository": "gaborbernat/mdformat-hugo",
@@ -248,7 +250,9 @@
         "notes_sha256": "12fca83561c61284d3c9082038be1c865abfdab13218ec8a53374a86f151a0c6",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 6,
+      "strict_replay_failures": 0
     },
     {
       "repository": "gaborbernat/pypi-changes",
@@ -336,9 +340,9 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 6,
+        "rendered": 2,
         "changelog_missing": 9,
-        "render_failure": 3,
+        "render_failure": 7,
         "tag_missing": 0,
         "source_unreadable": 0
       },
@@ -349,7 +353,9 @@
         "notes_sha256": "8317e4c76945480b2e605b6a6bd6b6b442db70fb2c61e2cb55979b9394238f7b",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 18,
+      "strict_replay_failures": 0
     },
     {
       "repository": "pypa/pipx",
@@ -829,9 +835,9 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 5,
+        "rendered": 0,
         "changelog_missing": 2,
-        "render_failure": 90,
+        "render_failure": 95,
         "tag_missing": 0,
         "source_unreadable": 0
       },
@@ -842,7 +848,9 @@
         "notes_sha256": "44d0fe72000d4b1b55e874fe67e5285e8d7d6163af3c5a907b70df01315022e1",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 97
     },
     {
       "repository": "pypa/virtualenv",
@@ -2122,7 +2130,9 @@
         "notes_sha256": "fc3ae26b9b7dd3d3c4571c4dafd6714588b3c33dafcb92c9f32f58b0079e5b8a",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 292
     },
     {
       "repository": "pytest-dev/pytest-env",
@@ -2203,7 +2213,9 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 25
     },
     {
       "repository": "pytest-dev/pytest-print",
@@ -2284,7 +2296,9 @@
         "render_failure": 9,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 19
     },
     {
       "repository": "quotaline/quotaline",
@@ -2366,7 +2380,9 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 0
     },
     {
       "repository": "tox-dev/PyVenvManage",
@@ -2561,7 +2577,9 @@
         "render_failure": 25,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 25
     },
     {
       "repository": "tox-dev/action-pre-commit-uv",
@@ -2641,7 +2659,9 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 7
     },
     {
       "repository": "tox-dev/devpi-process",
@@ -2735,9 +2755,9 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 2,
+        "rendered": 1,
         "changelog_missing": 0,
-        "render_failure": 10,
+        "render_failure": 11,
         "tag_missing": 0,
         "source_unreadable": 0
       },
@@ -2748,7 +2768,9 @@
         "notes_sha256": "32e713ac678271eab2878789e43641133548450215d8fa5c3c1641f9e51e86e1",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 1,
+      "strict_replay_failures": 11
     },
     {
       "repository": "tox-dev/filelock",
@@ -3409,7 +3431,9 @@
         "notes_sha256": "53fd128bf82665792eda90a34d17b2f7ba65a62649a46e4ce8292f826f5aa81c",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 139
     },
     {
       "repository": "tox-dev/jetbrains-fish",
@@ -3542,7 +3566,9 @@
         "render_failure": 11,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 11
     },
     {
       "repository": "tox-dev/mdformat-zola",
@@ -3648,7 +3674,9 @@
         "notes_sha256": "2340d328621e6909b0be3294662145ea6af4f9c6f1e1e14e45eb92329de31979",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 1,
+      "strict_replay_failures": 1
     },
     {
       "repository": "tox-dev/peryx",
@@ -3748,7 +3776,9 @@
         "render_failure": 3,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 3
     },
     {
       "repository": "tox-dev/pipdeptree",
@@ -4240,7 +4270,9 @@
         "notes_sha256": "621689426c59b010cd2d473bdb606615b0ca62e6fc6162ec7877e967bc796890",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 97
     },
     {
       "repository": "tox-dev/platformdirs",
@@ -4719,7 +4751,9 @@
         "notes_sha256": "71b2f7787f1f106c4bad5c0f17f479633e274eb2b9d9c4a7ab5579de7a696544",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 2,
+      "strict_replay_failures": 91
     },
     {
       "repository": "tox-dev/pre-commit-uv",
@@ -4870,7 +4904,9 @@
         "notes_sha256": "a30857007a251d97c8d431f2472cd321b9e3e9ec0349ab29bd34dc1f154a6e66",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 15
     },
     {
       "repository": "tox-dev/pyproject-api",
@@ -5110,7 +5146,9 @@
         "notes_sha256": "85dd1c40aaacfd9973f06237bad78f17479a9d989a56ea5cf0bd8be1e971a15e",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 34
     },
     {
       "repository": "tox-dev/python-discovery",
@@ -5313,7 +5351,9 @@
         "notes_sha256": "2a2f92383d36fc848c011200ac92461d1dd1bf8ea6818ba0c528f84fb64d25f6",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 25
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -5402,9 +5442,9 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 11,
+        "rendered": 0,
         "changelog_missing": 0,
-        "render_failure": 29,
+        "render_failure": 40,
         "tag_missing": 0,
         "source_unreadable": 0
       },
@@ -5415,7 +5455,9 @@
         "notes_sha256": "5743492be1a335c1755f7baba538f68add8b4350f1da033b3522d17e78911261",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 40
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -6068,9 +6110,9 @@
         "release_auth_branches": null
       },
       "tagged_source_replay": {
-        "rendered": 24,
+        "rendered": 0,
         "changelog_missing": 78,
-        "render_failure": 41,
+        "render_failure": 65,
         "tag_missing": 0,
         "source_unreadable": 0
       },
@@ -6081,7 +6123,9 @@
         "notes_sha256": "be07ecef9631895bce117f146b8cbc2af514dc8b26338a7d3b9573bf184f1f70",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 143
     },
     {
       "repository": "tox-dev/toml-fmt",
@@ -6514,7 +6558,9 @@
         "render_failure": 0,
         "tag_missing": 0,
         "source_unreadable": 0
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 86
     },
     {
       "repository": "tox-dev/tox",
@@ -7955,7 +8001,9 @@
         "notes_sha256": "0851fc8d216ec7712a8e54d439b803ffb2e6dbbbd58dc8a03a4c566cf0173f6b",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 328
     },
     {
       "repository": "tox-dev/tox-gh",
@@ -8056,7 +8104,9 @@
         "notes_sha256": "4237eb8ebbd35fbad6f78ba17aedcdf986369c2c4a6ad4b29ac5b23a5a8cacc8",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 23
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
@@ -8145,9 +8195,9 @@
         ]
       },
       "tagged_source_replay": {
-        "rendered": 4,
+        "rendered": 0,
         "changelog_missing": 7,
-        "render_failure": 15,
+        "render_failure": 19,
         "tag_missing": 0,
         "source_unreadable": 0
       },
@@ -8158,7 +8208,9 @@
         "notes_sha256": "450e43156c4812d3bcd2199ded1462bd39e563587928b360a744faeea9340f2e",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 26
     },
     {
       "repository": "tox-dev/tox-uv",
@@ -8545,7 +8597,9 @@
         "notes_sha256": "82a6fd0db3365e25b7a7ac61be960a32a5ee830dd8c3825a30f9aa57b80f1cd5",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 3,
+      "strict_replay_failures": 72
     },
     {
       "repository": "tox-dev/turbohtml",
@@ -8774,7 +8828,9 @@
         "notes_sha256": "645f859cefe6e5cd0e0e8da53984a6137786d423bbb124b3fc858eda7b2da56b",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 29
     },
     {
       "repository": "tox-dev/xml-fmt",
@@ -8875,7 +8931,9 @@
         "notes_sha256": "56e126c085473bf1a1dd867f3576f9a0d8408f6e42c1ed31757f42430c25c278",
         "artifact_count": 2,
         "limitation": "synthetic standardized configuration, not exact PR head or all publisher jobs"
-      }
+      },
+      "strict_replay_pass": 0,
+      "strict_replay_failures": 5
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-19T18:55:57.893108+00:00",
+  "captured_at": "2026-10-19T19:14:06.510036+00:00",
   "results": [
     {
       "repository": "gaborbernat/bump-deps-index",
@@ -166,49 +166,49 @@
       "tag": "1.3.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * Do not update to pre release versions"
     },
     {
       "repository": "gaborbernat/bump-deps-index",
       "tag": "1.2.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * Support JS dependencies from NPM registry in pre-commit configuration files if pinned via the ``@`` character."
     },
     {
       "repository": "gaborbernat/bump-deps-index",
       "tag": "1.1.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * ``--files`` can now take multiple arguments and by default use all valid files found in the current working directory"
     },
     {
       "repository": "gaborbernat/bump-deps-index",
       "tag": "1.0.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * Do not pin build numbers for versions."
     },
     {
       "repository": "gaborbernat/bump-deps-index",
       "tag": "1.0.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * Support ``setup.cfg`` with missing fields."
     },
     {
       "repository": "gaborbernat/bump-deps-index",
       "tag": "1.0.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * Use ``lxml`` for HTML parsing to support wider range of HTML, and add missing dependency ``packaging``."
     },
     {
       "repository": "gaborbernat/bump-deps-index",
       "tag": "1.0.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: * First proof of concept version."
     },
     {
       "repository": "gaborbernat/mdformat-hugo",
@@ -329,30 +329,30 @@
     {
       "repository": "gaborbernat/pypi-changes",
       "tag": "1.1.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "docs/changelog.rst",
-      "notes_bytes": 78
+      "detail": "unexpected release text: * Add option to alphabetize results"
     },
     {
       "repository": "gaborbernat/pypi-changes",
       "tag": "1.0.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "docs/changelog.rst",
-      "notes_bytes": 78
+      "detail": "unexpected release text: * Better handling of private index servers (such as Artifactory)"
     },
     {
       "repository": "gaborbernat/pypi-changes",
       "tag": "1.0.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "docs/changelog.rst",
-      "notes_bytes": 78
+      "detail": "unexpected release text: * Improve the readme and add test (100% coverage)."
     },
     {
       "repository": "gaborbernat/pypi-changes",
       "tag": "1.0.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "docs/changelog.rst",
-      "notes_bytes": 78
+      "detail": "unexpected release text: * First version"
     },
     {
       "repository": "pypa/pipx",
@@ -710,37 +710,37 @@
     {
       "repository": "pypa/pipx",
       "tag": "1.3.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 111
+      "detail": "release item outside a category: - Fix combining of --editable and --force flag"
     },
     {
       "repository": "pypa/pipx",
       "tag": "1.3.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 1981
+      "detail": "release item outside a category: - Check whether pip module exists in shared lib before performing any actions, such as `reinstall-all`."
     },
     {
       "repository": "pypa/pipx",
       "tag": "1.2.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 223
+      "detail": "release item outside a category: - Fix compatibility to packaging 23.2+ by removing reliance on packaging's requirement validation logic and detecting a URL-based requirement in pipx. (#1070)"
     },
     {
       "repository": "pypa/pipx",
       "tag": "1.2.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 799
+      "detail": "release item outside a category: - Add test for pip module in `pipx reinstall` to fix an issue with `pipx reinstall-all` (#935)"
     },
     {
       "repository": "pypa/pipx",
       "tag": "1.1.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 961
+      "detail": "release item outside a category: - Fix encoding issue on Windows when pip fails to install a package"
     },
     {
       "repository": "pypa/pipx",
@@ -1461,525 +1461,525 @@
       "tag": "20.36.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.36.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.36.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.36.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.35.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.35.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.35.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.35.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.35.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.35.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.35.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.35.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.35.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.35.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.34.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.34.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.33.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.33.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.33.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.33.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.32.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.32.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.31.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unexpected release text: No significant changes."
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.31.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.31.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.31.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.31.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.30.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.30.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.29.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.29.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.29.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.29.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.29.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.29.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.29.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.29.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.28.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.28.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.28.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.28.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.27.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.27.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.27.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.27.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.27.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.27.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.6"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.5"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.26.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.26.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.25.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.25.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.25.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.25.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.25.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.25.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.25.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.25.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.7"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.6"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.5"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.24.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.24.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.24.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.23.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.23.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.23.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.23.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.22.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.22.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.21.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.21.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.21.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.21.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.20.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.20.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.19.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.19.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.18.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.18.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.17.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.17.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.17.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.17.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.16.7"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.16.6"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.16.5"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.16.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.16.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.16.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.16.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.16.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.16.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.15.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.15.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.15.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.15.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.14.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.14.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.14.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.14.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.13.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.13.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.13.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.13.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.13.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.13.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.13.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.13.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.13.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.13.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.12.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.12.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.12.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.12.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.11.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.11.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.11.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.11.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.11.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.11.0"
     },
     {
       "repository": "pypa/virtualenv",
@@ -2000,35 +2000,35 @@
       "tag": "20.8.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.8.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.8.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unexpected release text: * upgrade embedded setuptools to ``58.0.4`` from ``57.4.0`` and pip to ``21.2.4`` from ``21.2.3``"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.7.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.7.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.7.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.7.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.7.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.7.0"
     },
     {
       "repository": "pypa/virtualenv",
@@ -2045,322 +2045,322 @@
       "tag": "20.6.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.6.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.5.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.5.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.7"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.6"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.5"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.4.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.4.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.4.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.3.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.3.1"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.3.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.3.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.2.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.2.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.2.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unexpected release text: No significant changes."
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.2.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.2.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.1.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.1.0"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.35",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.35"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.34",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.34"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.33",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.33"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.32",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.32"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.31",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.31"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.30",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.30"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.29",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.29"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.28",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.28"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.27",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.27"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.26",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.26"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.25",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.25"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.24",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.0.24"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.23",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.23"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.22",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.22"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.21",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.0.21"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.20",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.20"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.19",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.19"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.18",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.18"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.17",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.0.17"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.16",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.16"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.15",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.0.15"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.14",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.0.14"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.13",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.13"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.12",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.12"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.11",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Features - 20.0.11"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.10",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ---------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.10"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.9",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.9"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.8",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.8"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.7"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.6"
     },
     {
       "repository": "pypa/virtualenv",
@@ -2372,35 +2372,35 @@
       "tag": "20.0.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.0.5"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.0.4"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 20.0.3"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.0.2"
     },
     {
       "repository": "pypa/virtualenv",
       "tag": "20.0.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 20.0.1"
     },
     {
       "repository": "pypa/virtualenv",
@@ -3400,9 +3400,9 @@
     {
       "repository": "tox-dev/devpi-process",
       "tag": "0.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 177
+      "detail": "release text outside an item: * Drop 3.6 support and bump linters"
     },
     {
       "repository": "tox-dev/devpi-process",
@@ -3787,56 +3787,56 @@
       "tag": "3.24.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix(soft): resolve Windows deadlock and test race condition :pr:`488`"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.24.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \u2728 feat(lock): add lifetime parameter for lock expiration (#68) :pr:`486`"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.23.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udcdd docs: move from Unlicense to MIT :pr:`479`"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.22.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix(soft): skip stale detection on Windows :pr:`477`"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.21.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix: catch ImportError for missing sqlite3 C library :pr:`475`"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.21.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix: gracefully handle missing `sqlite3` when importing `ReadWriteLock` :pr:`473` - by :user:`bayandin`"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.21.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix(ci): make release workflow robust"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.20.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix(ci): add contents permission to build job"
     },
     {
       "repository": "tox-dev/filelock",
@@ -4018,84 +4018,84 @@
       "tag": "3.12.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Make the thread local behaviour something the caller can enable/disable via a flag during the lock creation, it's on"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.11.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Make the lock thread local."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Use ``fchmod`` instead of ``chmod`` to work around bug in PyPy via Anaconda."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Enhance the robustness of the try/catch block in _soft.py. by :user:`jahrules`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Add explicit error check as certain UNIX filesystems do not support flock. by :user:`jahrules`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Update os.open to preserve mode= for certain edge cases. by :user:`jahrules`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Fix permission issue - by :user:`jahrules`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Bug fix for using filelock with threaded programs causing undesired file permissions - by :user:`jahrules`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "release item outside a category: - Handle pickle for :class:`filelock.Timeout` :pr:`203` - by :user:`TheMatt2`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.10.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Add support for explicit file modes for lockfiles :pr:`192 - by :user:`jahrules`."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.9.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Use ``time.perf_counter`` instead of ``time.monotonic`` for calculating timeouts."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.9.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Move build backend to ``hatchling`` :pr:`185 - by :user:`gaborbernat`."
     },
     {
       "repository": "tox-dev/filelock",
@@ -4109,7 +4109,7 @@
       "tag": "3.8.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Fix mypy does not accept ``filelock.FileLock`` as a valid type"
     },
     {
       "repository": "tox-dev/filelock",
@@ -4137,49 +4137,49 @@
       "tag": "3.6.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Fix pylint warning \"Abstract class :class:`WindowsFileLock <filelock.WindowsFileLock>` with abstract methods instantiated\""
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.5.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Use ``time.monotonic`` instead of ``time.time`` for calculating timeouts."
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.5.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Enable use as context decorator"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.4.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Drop support for python ``3.6``"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.4.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Add ``stacklevel`` to deprecation warnings for argument name change"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.4.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Add correct spelling of poll interval parameter for :meth:`acquire <filelock.BaseFileLock.acquire>` method, raise"
     },
     {
       "repository": "tox-dev/filelock",
       "tag": "3.3.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "release item outside a category: - Accept path types (like ``pathlib.Path`` and ``pathlib.PurePath``) in the constructor for ``FileLock`` objects."
     },
     {
       "repository": "tox-dev/filelock",
@@ -5179,35 +5179,35 @@
       "tag": "4.9.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ------------------"
+      "detail": "release item outside a category: - \ud83d\udcdd docs: enhance README, fix issues, and reorganize platforms.rst :pr:`445`"
     },
     {
       "repository": "tox-dev/platformdirs",
       "tag": "4.9.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ------------------"
+      "detail": "release item outside a category: - \ud83d\udcda docs: split usage guide into tutorial, how-to, and reference :pr:`441`"
     },
     {
       "repository": "tox-dev/platformdirs",
       "tag": "4.8.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ------------------"
+      "detail": "release item outside a category: - \ud83d\udcdd docs(usage): note that home dir is in stdlib :pr:`431`"
     },
     {
       "repository": "tox-dev/platformdirs",
       "tag": "4.7.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ------------------"
+      "detail": "release item outside a category: - \ud83d\udc1b fix(windows): avoid FileNotFoundError in sandboxed environments :pr:`422`"
     },
     {
       "repository": "tox-dev/platformdirs",
       "tag": "4.7.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: ------------------"
+      "detail": "release item outside a category: - \ud83d\udd27 build(release): adopt filelock-style automated workflow :pr:`420`"
     },
     {
       "repository": "tox-dev/platformdirs",
@@ -6166,23 +6166,23 @@
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.11.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 138
+      "detail": "release item outside a category: - Hatchling as backend and exclude sphinx 6.1 support."
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.10.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 175
+      "detail": "release item outside a category: - Add the option to override the generated `default` part of the CLI parameter description."
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.9.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 312
+      "detail": "release item outside a category: - Add the option to override the description using the `description` attribute of the directive"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -6194,16 +6194,16 @@
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.8.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 179
+      "detail": "release item outside a category: - Don't raise label clashing warnings for options which only differ between upper and lower case"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.8.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 240
+      "detail": "release item outside a category: - Fix reference clashing for options which only differ between upper and lower case"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -6222,9 +6222,9 @@
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.6.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 815
+      "detail": "release item outside a category: - Support for using the `ref` sphinx role to refer to all anchor-able objects generated by the tool"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -6243,30 +6243,30 @@
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.5.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 210
+      "detail": "release item outside a category: - Display the metavar (fallback to dest) if the action has more than one argument (this is inline with how usage is"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.4.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 170
+      "detail": "release item outside a category: - Command line arguments are now bold to highlight them even further from the help text"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.3.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 590
+      "detail": "release item outside a category: - Add support for changing the usage width via the `usage_width` option on the directive"
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.2.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 174
+      "detail": "release item outside a category: - Add support for changing (removing) the title via the `title` attribute of the directive."
     },
     {
       "repository": "tox-dev/sphinx-argparse-cli",
@@ -6278,9 +6278,9 @@
     {
       "repository": "tox-dev/sphinx-argparse-cli",
       "tag": "1.0.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 99
+      "detail": "release item outside a category: - First version."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -6761,23 +6761,23 @@
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.21.7",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 333
+      "detail": "release item outside a category: - Fixed a bug where if a class has an attribute and a constructor argument with the same name, the constructor argument"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.21.6",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 156
+      "detail": "release item outside a category: - Fix a `Field list ends without a blank line` warning (issue 305)."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.21.5",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 150
+      "detail": "release item outside a category: -  More robust determination of rtype location / fix issue 302"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -6796,16 +6796,16 @@
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.21.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 112
+      "detail": "release item outside a category: - Fix overloads support"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.21.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 135
+      "detail": "release item outside a category: - Fix spacing between `:rtype:` and directives"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -6824,9 +6824,9 @@
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.20.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 162
+      "detail": "release item outside a category: - Fixed default options not displaying for parameters without type hints."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -6859,128 +6859,128 @@
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.19.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 146
+      "detail": "release item outside a category: - Fix incorrect domain used for collections.abc.Callable."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.19.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 124
+      "detail": "release item outside a category: - Fix bug for recursive type alias."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.19.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 268
+      "detail": "release item outside a category: - Support for CPython 3.11, no longer adds `Optional` when the argument is default per"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.18.3",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 128
+      "detail": "release item outside a category: - Support and require `nptyping>=2.1.2`"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.18.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 128
+      "detail": "release item outside a category: - Support and require `nptyping>=2.1.1`"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.18.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 155
+      "detail": "release item outside a category: - Fix mocked module import not working when used as guarded import"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.18.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 145
+      "detail": "release item outside a category: - Support and require `nptyping>=2`"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.17.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 124
+      "detail": "release item outside a category: - Mark it as requiring `nptyping<2`"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.17.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 182
+      "detail": "release item outside a category: - Add `typehints_use_rtype` option"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.16.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 478
+      "detail": "release item outside a category: - Add support for type subscriptions with multiple elements, where one or more elements"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.15.3",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 154
+      "detail": "release item outside a category: - Prevents reaching inner blocks that contains `if TYPE_CHECKING`"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.15.2",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 323
+      "detail": "release item outside a category: - Log a warning instead of crashing when a type guard import fails to resolve"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.15.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 150
+      "detail": "release item outside a category: - Fix `fully_qualified` should be `typehints_fully_qualified`"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.15.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 386
+      "detail": "release item outside a category: - Resolve type guard imports before evaluating annotations for objects"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.14.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 446
+      "detail": "release item outside a category: - Fixed `normalize_source_lines()` messing with the indentation of methods with decorators that have parameters starting with `def`."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.14.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 185
+      "detail": "release item outside a category: - Added `document_defaults` config option allowing to automatically annotate parameter defaults."
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.13.1",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 164
+      "detail": "release item outside a category: - Fixed ``NewType`` inserts a reference as first argument instead of a string"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
       "tag": "1.13.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 218
+      "detail": "release item outside a category: - Dropped Python 3.6 support"
     },
     {
       "repository": "tox-dev/sphinx-autodoc-typehints",
@@ -8101,336 +8101,336 @@
       "tag": "4.35.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.35.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.34.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.34.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.34.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.34.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.33.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.33.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.32.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.32.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.31.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unexpected release text: No significant changes."
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.30.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.30.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.30.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.30.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.30.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.30.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.30.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.30.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.29.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.29.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.28.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.28.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.28.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unexpected release text: No significant changes."
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.28.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.28.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.28.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.28.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.28.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.28.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.27.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.27.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.26.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.26.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.25.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.25.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.24.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.24.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.24.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Misc - 4.24.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.24.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.24.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.23.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Misc - 4.23.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.23.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Improved Documentation - 4.23.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.23.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.23.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.22.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.22.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.21.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.21.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.21.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.21.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.21.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.21.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.20.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.20.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.19.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.19.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.18.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.18.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.18.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.17.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.17.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.17.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.17.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.17.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.16.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.16.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.15.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.15.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.15.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.15.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.14.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.14.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.14.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.14.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.14.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.14.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.13.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.13.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.12.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.12.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.12.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.12.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.11.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.11.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.11.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.11.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.11.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.11.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.11.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.11.1"
     },
     {
       "repository": "tox-dev/tox",
@@ -8444,70 +8444,70 @@
       "tag": "4.11.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.11.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.10.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.10.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.9.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.9.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.8.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.8.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.7.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.7.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.6.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.6.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.6.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.6.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.6.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.6.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.6.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unexpected release text: No significant changes."
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.6.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.6.0"
     },
     {
       "repository": "tox-dev/tox",
@@ -8528,42 +8528,42 @@
       "tag": "4.5.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.5.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.12",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.12"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.11",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.11"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.10",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.10"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.9",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.9"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.8",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.8"
     },
     {
       "repository": "tox-dev/tox",
@@ -8577,329 +8577,329 @@
       "tag": "4.4.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.6"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.5"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.4.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.4.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.4.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.3.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.3.5"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.3.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.3.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.3.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.3.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.3.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.3.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.3.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.3.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.3.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.3.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.8",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.8"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.7"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.6"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.5"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.2.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.2.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.2.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.1.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.1.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.1.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.1.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.1.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.1.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.1.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.1.0"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.19",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.19"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.18",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.18"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.17",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.0.17"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.16",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.16"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.15",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.15"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.14",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.14"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.13",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.13"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.12",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.12"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.11",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.0.11"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.10",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features - 4.0.10"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.28.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.9",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.0.9"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.8",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.8"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.7",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.7"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features - 4.0.6"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.5"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.4"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.3"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.2"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.1"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "4.0.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes - 4.0.0"
     },
     {
       "repository": "tox-dev/tox",
@@ -8941,28 +8941,28 @@
       "tag": "3.27.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.27.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.26.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.25.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
@@ -8976,7 +8976,7 @@
       "tag": "3.25.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
@@ -9067,14 +9067,14 @@
       "tag": "3.23.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.22.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
@@ -9088,14 +9088,14 @@
       "tag": "3.21.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.21.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
@@ -9109,7 +9109,7 @@
       "tag": "3.21.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
@@ -9130,7 +9130,7 @@
       "tag": "3.21.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
@@ -9144,301 +9144,301 @@
       "tag": "3.21.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.20.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.20.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.19.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.18.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.18.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Deprecations (removal in next major release)"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.17.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.17.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.16.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.16.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.15.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.15.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.15.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.14.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.13.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.13.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.13.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.12.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.12.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.11.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.11.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.10.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: --------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.9.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.6",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.5",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.4",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.8.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.7.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.6.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Features"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.6.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.5.3",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.5.2",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.5.1",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
       "tag": "3.5.0",
       "status": "render_failure",
       "path": "docs/changelog.rst",
-      "detail": "unexpected release text: -------------------"
+      "detail": "unknown changelog category: Bugfixes"
     },
     {
       "repository": "tox-dev/tox",
@@ -9961,9 +9961,9 @@
     {
       "repository": "tox-dev/tox-ini-fmt",
       "tag": "1.0.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 223
+      "detail": "release item outside a category: - Extend support for additional keys, support tox v4 aliases, and move pass_env/set_env just before commands."
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
@@ -9975,9 +9975,9 @@
     {
       "repository": "tox-dev/tox-ini-fmt",
       "tag": "0.6.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 304
+      "detail": "release item outside a category: - Support processing multiple `tox.ini` files at once ([#119](https://github.com/tox-dev/tox-ini-fmt/pull/119))"
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
@@ -10003,16 +10003,16 @@
     {
       "repository": "tox-dev/tox-ini-fmt",
       "tag": "0.4.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 541
+      "detail": "release item outside a category: - Substitutions for multi-line values go now to the beginning of the configuration (to allow overwriting inherited"
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
       "tag": "0.3.0",
-      "status": "rendered",
+      "status": "render_failure",
       "path": "CHANGELOG.md",
-      "notes_bytes": 863
+      "detail": "release item outside a category: - Changed indentation to four spaces ([#26](https://github.com/tox-dev/tox-ini-fmt/issues/26))"
     },
     {
       "repository": "tox-dev/tox-ini-fmt",
