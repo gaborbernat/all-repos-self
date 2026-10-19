@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "1.0.1",
+    "previous": "1.0.0",
+    "body_before": "\n### Documentation\n\n- Document the 1.0.0 release and require changelog entries for pull requests. (#36)\n\n\n\n[PyPI release](https://pypi.org/project/mdformat-zola/1.0.1/)\n\n**Full Changelog**: https://github.com/tox-dev/mdformat-zola/compare/1.0.0...1.0.1\n",
+    "body_after": "<a name=\"release-1-0-1-documentation\"></a>\n\n### Documentation\n\n- Document the 1.0.0 release and require changelog entries for pull requests ([#36](https://github.com/tox-dev/mdformat-zola/pull/36)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/mdformat-zola/1.0.1/)\n\n**Full Changelog**: https://github.com/tox-dev/mdformat-zola/compare/1.0.0...1.0.1\n",
+    "same": false
+  },
+  {
+    "tag": "1.0.0",
+    "previous": "",
+    "body_before": "### Features\n\n- Added a Zola-flavored Markdown formatter ([#2](https://github.com/tox-dev/mdformat-zola/pull/2)).\n\n[PyPI release](https://pypi.org/project/mdformat-zola/1.0.0/)\n\n**Full Changelog**: https://github.com/tox-dev/mdformat-zola/commits/1.0.0\n",
+    "body_after": "<a name=\"release-1-0-0-features\"></a> <a name=\"release-1-0-0-added\"></a>\n\n### Features\n\n- Added a Zola-flavored Markdown formatter ([#2](https://github.com/tox-dev/mdformat-zola/pull/2)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/mdformat-zola/1.0.0/)\n\n**Full Changelog**: https://github.com/tox-dev/mdformat-zola/commits/1.0.0\n",
+    "same": false
+  }
+]
