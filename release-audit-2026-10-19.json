@@ -111,6 +111,35 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr",
+          "docs/readthedocs.org:bump-deps-index"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 1,
+        "changelog_missing": 4,
+        "render_failure": 26,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -176,6 +205,33 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 3,
+        "changelog_missing": 3,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -241,6 +297,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 6,
+        "changelog_missing": 9,
+        "render_failure": 3,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -695,6 +779,37 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": false,
+        "app_tag_bypass": false,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr",
+          "docs/readthedocs.org:pipx",
+          "Run zizmor \ud83c\udf08",
+          "zizmor"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 5,
+        "changelog_missing": 2,
+        "render_failure": 90,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -1939,6 +2054,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "protect-release-tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "\u2705 all checks pass",
+          "\ud83d\udd0d dependency review",
+          "pre-commit.ci - pr",
+          "docs/readthedocs.org:virtualenv"
+        ],
+        "release_auth_branches": null
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 97,
+        "render_failure": 195,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -1992,6 +2135,34 @@
         "prek_first_run": "not assembled",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": false,
+        "app_tag_bypass": false,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 25,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -2045,6 +2216,34 @@
         "prek_first_run": "not assembled",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": false,
+        "app_tag_bypass": false,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 10,
+        "render_failure": 9,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -2097,6 +2296,36 @@
         "prek_first_run": "not assembled",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "required-checks",
+          "docs/readthedocs.org:quotaline",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main",
+          "v*"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 0,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -2263,6 +2492,35 @@
         "prek_first_run": "not assembled",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main",
+          "v*"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 0,
+        "render_failure": 25,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -2315,6 +2573,34 @@
         "prek_first_run": "not assembled",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass"
+        ],
+        "release_auth_branches": [
+          "main",
+          "v*"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 7,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -2386,6 +2672,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 2,
+        "changelog_missing": 0,
+        "render_failure": 10,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -3009,6 +3323,36 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "\u2705 Required checks pass",
+          "pre-commit.ci - pr",
+          "docs/readthedocs.org:py-filelock",
+          "\ud83d\udce6 build"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 28,
+        "render_failure": 111,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -3113,6 +3457,35 @@
         "prek_first_run": "not assembled",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main",
+          "v*"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 0,
+        "render_failure": 11,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -3184,6 +3557,33 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 1,
+        "changelog_missing": 1,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -3254,6 +3654,36 @@
         "prek_first_run": "passed",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "main"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": false,
+        "required_approvals": null,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "ci-gate",
+          "conformance-gate",
+          "codspeed-gate",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 0,
+        "render_failure": 3,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -3709,6 +4139,35 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "check",
+          "docs/readthedocs.org:pipdeptree",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 87,
+        "render_failure": 10,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -4150,6 +4609,36 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "docs/readthedocs.org:platformdirs",
+          "pre-commit.ci - pr",
+          "\ud83d\udce6 build"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 2,
+        "changelog_missing": 15,
+        "render_failure": 76,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -4265,6 +4754,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 15,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -4468,6 +4985,35 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "docs/readthedocs.org:pyproject-api",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 16,
+        "render_failure": 18,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -4635,6 +5181,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 9,
+        "render_failure": 16,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -4701,6 +5275,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 11,
+        "changelog_missing": 0,
+        "render_failure": 29,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -5333,6 +5935,32 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": null
+      },
+      "tagged_source_replay": {
+        "rendered": 24,
+        "changelog_missing": 78,
+        "render_failure": 41,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -5736,6 +6364,36 @@
         "prek_first_run": "passed for both packages",
         "package_build": "not exercised",
         "package_files": []
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr",
+          "docs/readthedocs.org:pyproject-fmt",
+          "docs/readthedocs.org:tox-toml-fmt"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 86,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -7140,6 +7798,35 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "docs/readthedocs.org:tox",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 59,
+        "render_failure": 269,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -7206,6 +7893,33 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 18,
+        "render_failure": 5,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -7272,6 +7986,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 4,
+        "changelog_missing": 7,
+        "render_failure": 15,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -7623,6 +8365,34 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": false,
+        "required_approvals": null,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 75,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -7806,6 +8576,44 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "main"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": false,
+        "required_approvals": null,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass",
+          "pre-commit.ci - pr",
+          "\ud83c\udfa1 wheels - Windows",
+          "\ud83c\udfa1 wheels - macOS",
+          "\ud83d\udce6 sdist",
+          "docs/readthedocs.org:turbohtml",
+          "\ud83d\ude80 CodSpeed",
+          "Source install - Windows ARM64",
+          "\ud83c\udfa1 wheels - Linux ARM manylinux",
+          "\ud83c\udfa1 wheels - Linux ARM musllinux",
+          "\ud83c\udfa1 wheels - Linux manylinux",
+          "\ud83c\udfa1 wheels - Linux musllinux"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 0,
+        "render_failure": 29,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     },
     {
@@ -7872,6 +8680,33 @@
       "candidate_format_probe": {
         "status": "pass",
         "note": "Disposable checkout with packaged Towncrier template and standardized category names; no PR-head pipeline run"
+      },
+      "protection_validation": {
+        "active_branch_rulesets": [
+          "default"
+        ],
+        "active_tag_rulesets": [
+          "release tags"
+        ],
+        "pull_request_rule": true,
+        "required_approvals": 0,
+        "admin_branch_bypass": true,
+        "app_branch_bypass": true,
+        "app_tag_bypass": true,
+        "tag_create_update_delete": true,
+        "required_checks": [
+          "Required checks pass"
+        ],
+        "release_auth_branches": [
+          "main"
+        ]
+      },
+      "tagged_source_replay": {
+        "rendered": 0,
+        "changelog_missing": 5,
+        "render_failure": 0,
+        "tag_missing": 0,
+        "source_unreadable": 0
       }
     }
   ]
