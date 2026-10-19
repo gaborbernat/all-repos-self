@@ -123,7 +123,8 @@ releases rather than a separate changelog.
    the source has no reliable category.
 1. Check that each candidate has the same release facts and at least the original contributor credits. Require a no-wrap
    GitHub Markdown parse, the repository's Markdown or RST formatter, its documentation build when applicable, `prek`,
-   and an idempotent second render. Reject a release if a credited author disappears or a link no longer resolves.
+   and an idempotent second render. Reject a release if a credited author disappears or a newly introduced link fails.
+   Keep an old unresolvable handle as text and record the exception.
 1. Review all per-tag diffs and unresolved mappings before writing historical files or GitHub bodies. Edit only a
    Release's body through the API, then read it back and compare its metadata and asset digests. Verify the App-authored
    release commit with `prek` before tagging and verify the first new release in each repository.
