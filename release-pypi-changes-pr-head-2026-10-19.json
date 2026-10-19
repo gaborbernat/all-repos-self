@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-10-19",
+  "repository": "gaborbernat/pypi-changes",
+  "pull_request": 276,
+  "pr_head": "b3adf2c79a0e795a6206c1016923c37129f28805",
+  "candidate_version": "1.7.4",
+  "method": "exact local PR-head release-dry-run job with all remote tags; no ref push or publication",
+  "results": {
+    "synthetic_squash": "passed",
+    "author_lookup": "passed",
+    "changelog_assembly": "passed",
+    "first_prek": "passed",
+    "patch_reapply": "passed",
+    "second_prek": "passed",
+    "local_tag": "passed",
+    "sdist_and_wheel": "passed",
+    "github_note_render": "passed",
+    "negative_no_fragment_without_label": "failed as required",
+    "negative_no_fragment_with_skip_news": "passed",
+    "negative_empty_fragment_with_skip_news": "failed as required",
+    "negative_unknown_category_with_skip_news": "failed as required",
+    "positive_valid_fragment_with_skip_news": "passed"
+  },
+  "artifacts": [
+    { "filename": "release.patch", "sha256": "9587702b894c589796c10454d5025a478f54aebde62174c230619010c7e736a0" },
+    { "filename": "release-notes.md", "sha256": "02be1ede6ce5351b4a96962fb04e8b24750de653f7873440c75de5e8f1336a24" },
+    { "filename": "changelog.md", "sha256": "32414ceb2d0ebc1bcc3757d527dffd6e6b3633c2204b81a233f7f8bb12f47674" },
+    { "filename": "dist.sha256", "sha256": "2a7813c6e2d0cedc559657e651a16d2aced320fd46ffe627daa209ab2baef8fb" },
+    { "filename": "pypi_changes-1.7.4-py3-none-any.whl", "sha256": "a13eefc40aef1ea3a6842c131671817325c8cb8e4c8aa3bd3f452427ea2ee2a7" },
+    { "filename": "pypi_changes-1.7.4.tar.gz", "sha256": "131807245c04e68983e8ab0e250def8f870bbc7ae283bf40bc8537f952ef4468" }
+  ],
+  "historical_body_review": "release-pypi-changes-body-review-2026-10-19.json",
+  "historical_body_count": 18,
+  "historical_body_changed_count": 4,
+  "runner_ci": "All checks passed in Actions run 39313590145, including Release without publishing and Required checks pass"
+}
