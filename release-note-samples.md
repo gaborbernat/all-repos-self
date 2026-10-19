@@ -1,9 +1,9 @@
 # Release attribution samples
 
-These are proposed formats for review. No changelog or GitHub Release has been backfilled from this sheet. Each linked
-PR was merged, and its author was checked against GitHub's PR API on 2026-10-18. The examples show the proposed format.
-The backfill must retain each release’s facts, PR links, contributor credits, and category meaning while changing its
-headings.
+Bernát approved this format on 2026-10-18. No changelog or GitHub Release has been backfilled from this sheet. Each
+linked PR was merged, and its author was checked against GitHub's PR API on 2026-10-18. The examples show the proposed
+format. The backfill must retain each release’s facts, PR links, contributor credits, and category meaning while
+changing its headings.
 
 ## Category and anchor proposal
 
@@ -122,7 +122,10 @@ A combined pyproject-api entry keeps both verified PR authors:
 ```
 
 When one PR produces several user-visible changes, put each entry under its own heading with its verified PR and author.
-Keep existing `by` credits in the changelog. Mention a first-time contributor only once in the GitHub Release.
+Keep existing `by` credits in the changelog. For several verified human authors of one change, use `by @x, @y and @z`,
+with each handle linked in the tracked changelog and mentioned on GitHub. Do not credit reviewers or bot accounts.
+Mention a first-time human contributor only once in the GitHub Release. A bot PR needs no news entry unless it supplies
+a user-facing fragment. Remove any automatic `skip news` label when it does; a bot-only entry has no `by` suffix.
 
 ## Per-repository attribution sample
 
