@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "1.0.0",
+    "previous": null,
+    "body_before": "- Publish the first version of the XML formatter.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.0.0/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/commits/1.0.0\n\n",
+    "body_after": "<a name=\"release-1-0-0-added\"></a>\n\n### Features\n\n- Publish the first version of the XML formatter ([#1](https://github.com/tox-dev/xml-fmt/pull/1)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.0.0/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/commits/1.0.0\n"
+  },
+  {
+    "tag": "1.0.1",
+    "previous": "1.0.0",
+    "body_before": "- Update the README.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.0.1/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.0.0...1.0.1\n\n",
+    "body_after": "<a name=\"release-1-0-1-documentation\"></a>\n\n### Documentation\n\n- Update the README by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.0.1/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.0.0...1.0.1\n"
+  },
+  {
+    "tag": "1.0.2",
+    "previous": "1.0.1",
+    "body_before": "- Fix the pre-commit hook file matching and tighten workflow permissions.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.0.2/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.0.1...1.0.2\n\n",
+    "body_after": "<a name=\"release-1-0-2-fixed\"></a>\n\n### Bug fixes\n\n- Fix the pre-commit hook file matching ([#9](https://github.com/tox-dev/xml-fmt/pull/9)) by @jevinskie.\n\n<a name=\"release-1-0-2-other-changes\"></a>\n\n### Other changes\n\n- Tighten workflow permissions ([#56](https://github.com/tox-dev/xml-fmt/pull/56)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.0.2/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.0.1...1.0.2\n"
+  },
+  {
+    "tag": "1.1.0",
+    "previous": "1.0.2",
+    "body_before": "- Add Python 3.14 and 3.15 support ([#117](https://github.com/tox-dev/xml-fmt/pull/117)).\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.1.0/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.0.2...1.1.0\n\n",
+    "body_after": "<a name=\"release-1-1-0-added\"></a>\n\n### Features\n\n- Add Python 3.14 and 3.15 support ([#117](https://github.com/tox-dev/xml-fmt/pull/117)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.1.0/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.0.2...1.1.0\n"
+  },
+  {
+    "tag": "1.2.0",
+    "previous": "1.1.0",
+    "body_before": "- Require Python 3.11 and use Python 3.15 by default.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.2.0/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.1.0...1.2.0\n\n",
+    "body_after": "<a name=\"release-1-2-0-added\"></a>\n\n### Features\n\n- Require Python 3.11 ([#120](https://github.com/tox-dev/xml-fmt/pull/120)) by @gaborbernat.\n\n<a name=\"release-1-2-0-changes\"></a>\n\n### Changes\n\n- Use Python 3.15 by default ([#120](https://github.com/tox-dev/xml-fmt/pull/120)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/xml-fmt/1.2.0/)\n\n**Full Changelog**: https://github.com/tox-dev/xml-fmt/compare/1.1.0...1.2.0\n"
+  }
+]
