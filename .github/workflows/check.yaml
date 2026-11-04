@@ -6,7 +6,7 @@ on:
     tags-ignore: ["**"]
   pull_request:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "47 10 * * *"
 concurrency:
   group: check-${{ github.ref }}
   cancel-in-progress: true
