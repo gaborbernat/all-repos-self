@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: "3.15"
           enable-cache: false
-          cache-dependency-glob: "tox.ini"
+          cache-dependency-glob: "tox.toml"
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install tox
         run: uv tool install --python-preference only-managed --python 3.15 tox --with tox-uv
