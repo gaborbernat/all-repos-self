@@ -21,3 +21,10 @@ lint.isort = { known-first-party = [], required-imports = [
   "from __future__ import annotations",
 ] }
 lint.preview = true
+
+[tool.pytest]
+addopts = [ "--import-mode=importlib" ]
+pythonpath = [ "." ]
+
+[tool.coverage]
+run.plugins = [ "covdefaults" ]
