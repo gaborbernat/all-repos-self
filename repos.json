@@ -20,6 +20,7 @@
   "bump-deps-index": "git@github.com:gaborbernat/bump-deps-index",
   "PyVenvManage": "git@github.com:tox-dev/PyVenvManage",
   "pypi-changes": "git@github.com:gaborbernat/pypi-changes",
+  "simplint": "git@github.com:gaborbernat/simplint",
   "bernat-tech": "git@github.com:gaborbernat/bernat-tech",
   "cv": "git@github.com:gaborbernat/cv",
   "gaborbernat": "git@github.com:gaborbernat/gaborbernat",
