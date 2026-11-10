@@ -6,16 +6,30 @@ lint.select = [
   "ALL",
 ]
 lint.ignore = [
-  "CPY",                                       # No copyright header
-  "D",                                         # No documentation
-  "implicit-namespace-package",                #  no package here
-  "incorrect-blank-line-before-class",         # one-blank-line-before-class conflicts with D211
-  "missing-trailing-comma",                    # conflict with formatter
-  "multi-line-summary-second-line",            # multi-line-summary-first-line conflicts with D212
-  "no-self-use",                               # no force static
-  "print",                                     # print is fine
-  "S",                                         # no security concerns
-  "single-line-implicit-string-concatenation", # conflict with formatter
+  "D1",                                # internal scripts have no API docstrings
+  "implicit-namespace-package",        # standalone scripts and tests
+  "incorrect-blank-line-before-class", # conflicts with D211
+  "missing-copyright-notice",          # no copyright headers
+  "missing-trailing-comma",            # conflicts with the formatter
+  "multi-line-summary-second-line",    # conflicts with D212
+  "no-self-use",                       # implementations match abstract methods
+]
+lint.per-file-ignores."tasks/helper.py" = [
+  "print",
+  "start-process-with-partial-path",
+  "subprocess-without-shell-equals-true",
+  "suspicious-subprocess-import",
+]
+lint.per-file-ignores."tasks/install_uv_python.py" = [
+  "start-process-with-partial-path",
+  "subprocess-without-shell-equals-true",
+  "suspicious-subprocess-import",
+]
+lint.per-file-ignores."tests/**" = [ "assert" ]
+lint.per-file-ignores."tests/transformers/conftest.py" = [
+  "start-process-with-partial-path",
+  "subprocess-without-shell-equals-true",
+  "suspicious-subprocess-import",
 ]
 lint.isort = { known-first-party = [], required-imports = [
   "from __future__ import annotations",
