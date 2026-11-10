@@ -54,9 +54,12 @@ def check_call(mocker: MockerFixture) -> MagicMock:
     return mocker.patch.object(helper.subprocess, "check_call")
 
 
+@pytest.mark.parametrize("command", ["pr", "p"])
 @pytest.mark.usefixtures("pull", "check_call")
-def test_pr_lists_open_pull_requests(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
-    monkeypatch.setattr("sys.argv", ["maintain", "pr"])
+def test_pr_lists_open_pull_requests(
+    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str], command: str
+) -> None:
+    monkeypatch.setattr("sys.argv", ["maintain", command])
 
     helper.main()
 
@@ -135,9 +138,10 @@ def test_pr_merge_green_bots(
     ) == expected
 
 
+@pytest.mark.parametrize("command", ["open", "o"])
 @pytest.mark.usefixtures("github")
-def test_open_launches_each_repository(monkeypatch: pytest.MonkeyPatch, check_call: MagicMock) -> None:
-    monkeypatch.setattr("sys.argv", ["maintain", "open", "issues"])
+def test_open_launches_each_repository(monkeypatch: pytest.MonkeyPatch, check_call: MagicMock, command: str) -> None:
+    monkeypatch.setattr("sys.argv", ["maintain", command, "issues"])
 
     helper.main()
 
