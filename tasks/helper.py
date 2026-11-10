@@ -59,8 +59,6 @@ class GH(Github):
 
 
 class CmdNamespace(Namespace):
-    """Options for tox-ini-fmt tool."""
-
     cmd_name: str
 
 
@@ -74,7 +72,6 @@ class BaseCmd[T: CmdNamespace](ABC):
         raise NotImplementedError
 
     def __init__(self, parser: ArgumentParser) -> None:
-        """Setup."""
         self.define_args(parser)
 
     @abstractmethod
@@ -182,24 +179,20 @@ def main() -> int:
     sub_parsers = parser.add_subparsers(title="commands", help="command to execute", dest="cmd_name")
     sub_parsers.required = True
 
-    commands: list[BaseCmd] = []
-    cmd_classes: list[type[BaseCmd]] = [
-        PRs,
-        Open,
-    ]
-    for cmd_class in cmd_classes:
+    commands: dict[str, BaseCmd] = {}
+    for cmd_class in (PRs, Open):
         name, alias, help_text = cmd_class.parser_name_alias_help()
         sub_parser = sub_parsers.add_parser(name, aliases=[alias], help=help_text, formatter_class=HelpFormatter)
-        commands.append(cmd_class(sub_parser))
+        command = cmd_class(sub_parser)
+        commands[name] = commands[alias] = command
 
     opts = CmdNamespace()
     parser.parse_args(namespace=opts)
 
-    to_run = next(c for c in commands if opts.cmd_name in c.parser_name_alias_help()[:2])  # pragma: no branch
     github = GH()
     user = github.get_user()
     print(f"Running with user {user.name} ({user.login})")
-    to_run.run(opts, github)
+    commands[opts.cmd_name].run(opts, github)
 
 
 if __name__ == "__main__":

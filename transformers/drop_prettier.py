@@ -6,7 +6,7 @@ import re
 import sys
 import tempfile
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, Final
+from typing import TYPE_CHECKING, Final
 from unittest.mock import patch
 
 from all_repos import autofix_lib
@@ -72,7 +72,7 @@ def apply_fix() -> None:
         autofix_lib.run(PC, "run", "--all-files", check=False)
 
 
-def check_fix(**kwargs: Any) -> None:  # ruff: ignore[unused-function-argument, any-type]
+def check_fix(**_kwargs: object) -> None:
     return None  # create the PR even when the reformat leaves the tree dirty
 
 
