@@ -33,6 +33,7 @@
   "jetbrains-fish": "git@github.com:tox-dev/jetbrains-fish",
   "all-repos-self": "git@github.com:gaborbernat/all-repos-self",
   "python-discovery": "git@github.com:tox-dev/python-discovery",
+  "python-sbom": "git@github.com:tox-dev/python-sbom",
   "get-virtualenv": "git@github.com:pypa/get-virtualenv",
   "build": "git@github.com:pypa/build",
   "pipx": "git@github.com:pypa/pipx",
