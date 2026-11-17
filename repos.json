@@ -20,6 +20,7 @@
   "bump-deps-index": "git@github.com:gaborbernat/bump-deps-index",
   "PyVenvManage": "git@github.com:tox-dev/PyVenvManage",
   "pypi-changes": "git@github.com:gaborbernat/pypi-changes",
+  "simplint": "git@github.com:gaborbernat/simplint",
   "bernat-tech": "git@github.com:gaborbernat/bernat-tech",
   "cv": "git@github.com:gaborbernat/cv",
   "gaborbernat": "git@github.com:gaborbernat/gaborbernat",
@@ -32,11 +33,11 @@
   "jetbrains-fish": "git@github.com:tox-dev/jetbrains-fish",
   "all-repos-self": "git@github.com:gaborbernat/all-repos-self",
   "python-discovery": "git@github.com:tox-dev/python-discovery",
+  "python-sbom": "git@github.com:tox-dev/python-sbom",
   "get-virtualenv": "git@github.com:pypa/get-virtualenv",
   "build": "git@github.com:pypa/build",
   "pipx": "git@github.com:pypa/pipx",
   "quotaline": "git@github.com:quotaline/quotaline",
-  "token-menu-bar-macos": "git@github.com:tox-dev/token-menu-bar-macos",
   "dotfiles": "git@github.com:gaborbernat/dotfiles",
   "ropi_jegyzet_latex": "git@github.com:gaborbernat/ropi_jegyzet_latex"
 }
