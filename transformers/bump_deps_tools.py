@@ -1,5 +1,14 @@
 from __future__ import annotations
 
+__lazy_modules__ = [
+    "all_repos",
+    "all_repos.grep",
+    "argparse",
+    "datetime",
+    "tempfile",
+    "unittest.mock",
+]
+
 import argparse
 import os
 import sys
