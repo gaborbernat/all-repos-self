@@ -29,6 +29,11 @@ repos:
       - id: ruff-format
       - id: ruff
         args: ["--fix", "--unsafe-fixes", "--exit-non-zero-on-fix"]
+  - repo: https://github.com/henryiii/flake8-lazy
+    rev: v0.11.0
+    hooks:
+      - id: flake8-lazy
+        files: ^tasks/helper\.py$
   - repo: https://github.com/google/yamlfmt
     rev: "v0.21.0"
     hooks:

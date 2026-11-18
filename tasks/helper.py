@@ -2,6 +2,17 @@
 
 from __future__ import annotations
 
+__lazy_modules__ = [
+    "concurrent.futures",
+    "contextlib",
+    "json",
+    "pathlib",
+    "rich.align",
+    "rich.console",
+    "rich.table",
+    "subprocess",
+]
+
 import contextlib
 import json
 import os
